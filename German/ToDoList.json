@@ -1,0 +1,312 @@
+[
+  { "a": "fast" },
+  { "a": "tspt" },
+  {
+    "a": "spt",
+    "t": "In diesem Video zeige ich Ihnen, wie Sie mit dem InfoRapid KnowledgeBase Builder eine ToDo-Liste als MindMap erstellen können. Ich beginne damit, eine ToDo-Liste als gegliederten Text in die MindMap zu importieren. Ich werde die Vorlage auf Github veröffentlichen und im Kommentarbereich des YouTube-Videos verlinken."
+  },
+  {
+    "a": "spt",
+    "t": "Ich öffne das \"Diagramm bearbeiten\" Menü und klicke auf die Schaltfläche \"Gegliederten Text\", um den \"Gegliederten Text einfügen\" Dialog zu öffnen."
+  },
+  { "m": "execInsertCommand", "p": [".id-outlinedtext"] },
+  {
+    "m": "waitUntilVisible",
+    "p": [".kbb-insert-outlinedtext-dialog .kbb-text-input"]
+  },
+  { "a": "spt", "t": "Dann füge ich die ToDo-Liste in das Textfeld ein" },
+  {
+    "a": "tt",
+    "i": ".kbb-insert-outlinedtext-dialog .kbb-text-input",
+    "t": "outlinedTextToDoList",
+    "pt": true
+  },
+  { "a": "spt", "t": "und drücke den Okay Knopf." },
+  {
+    "m": "clickButton",
+    "p": [".kbb-insert-outlinedtext-dialog + div>div>button:first-child"],
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "a": "spt",
+    "t": "Und das ist die MindMap, die der InfoRapid KnowledgeBase Builder aus der Gliederung erstellt hat. Sehen wir uns den importierten Text genauer an."
+  },
+  {
+    "a": "stp",
+    "t": "<plaintext>outlinedTextToDoList</plaintext>",
+    "wse": true
+  },
+  {
+    "a": "spt",
+    "t": "Das erste, das auffällt, sind die kleinen Symbole vor den Elementnamen. Dabei handelt es sich um Zeichen aus dem Unicode-Zeichensatz, die als Icons dargestellt werden und die überall im Text verwendet werden können. Eine vollständige Liste finden Sie, indem Sie nach Unicode Emoji googeln."
+  },
+  { "a": "st", "i": ".kbb-screenplay-text-panel", "t": "📋" },
+  { "a": "spt", "t": "Der Elementname kann als reiner Text" },
+  { "a": "st", "i": ".kbb-screenplay-text-panel", "t": "ToDo-Liste" },
+  { "a": "spt", "t": "oder HTML formatierter Text importiert werden." },
+  {
+    "a": "st",
+    "i": ".kbb-screenplay-text-panel",
+    "t": "<html><font size=\"7\">📋</font> Status</html>"
+  },
+  {
+    "a": "spt",
+    "t": "Ich verwende das HTML Format, um die Symbole vor den Elementnamen zu vergrößern."
+  },
+  {
+    "a": "spt",
+    "t": "Als nächstes fällt der Kategoriename auf, der durch zwei Doppelpunkte vom Elementnamen abgetrennt ist."
+  },
+  { "a": "st", "i": ".kbb-screenplay-text-panel", "t": "P:Status::" },
+  {
+    "a": "spt",
+    "t": "Einige der Kategorienamen haben ein vorangestelltes P gefolgt von einem Doppelpunkt, das sie als Eigenschaften Kategorie kennzeichnet."
+  },
+  { "a": "st", "i": ".kbb-screenplay-text-panel", "t": "P:" },
+  {
+    "a": "spt",
+    "t": "Eigenschaften Kategorien werden als Zelle einer Tabelle angezeigt und hier für Stati wie"
+  },
+  { "a": "spt", "t": "geplant" },
+  { "a": "st", "i": ".kbb-screenplay-text-panel", "t": "Geplant" },
+  { "a": "spt", "t": "gestartet" },
+  { "a": "st", "i": ".kbb-screenplay-text-panel", "t": "Gestartet" },
+  {
+    "a": "spt",
+    "t": "und so weiter verwendet. Die Anzeige als Tabellenzelle macht die MindMap übersichtlicher. Sie werden dies im Anschluss noch genauer sehen."
+  },
+  { "a": "htp", "wse": true },
+  {
+    "a": "spt",
+    "t": "Im ersten Schritt lasse ich mir die Kategorie Bezeichnungen im Diagramm anzeigen."
+  },
+  {
+    "a": "spt",
+    "t": "Dazu öffne ich das \"Ansicht einstellen\" Menü und wähle \"Kategorielabel anzeigen\" aus."
+  },
+  { "m": "setShowLabels", "p": [".id-show-categories"] },
+  {
+    "a": "spt",
+    "t": "Dann beginne ich damit, den Mitarbeitern Aufgaben zuzuweisen."
+  },
+  {
+    "a": "spt",
+    "t": "Ich beauftrage Frank mit der Aufgabe, einen Kunden anzurufen. Ich tue dies, indem ich eine Verbindungslinie zwischen Frank und der Aufgabe \"Kunde anrufen\" ziehe."
+  },
+  { "m": "newRelation", "p": [true, 9, -1, 17, -1] },
+  {
+    "a": "spt",
+    "t": "Um das Diagramm übersichtlicher zu gestalten stelle ich die Verbindungslinien zu Eigenschaften so ein, dass sie nur sichtbar sind, wenn einer der beiden Endpunkte das Wurzelelement des Diagramms ist."
+  },
+  { "m": "setRelationVisibleUpToLevel", "p": [-1, -1, 1, ".id-level-1"] },
+  {
+    "a": "spt",
+    "t": "Da alle Verbindungslinien zu einem Eigenschaften Element derselben Kategorie zugeordnet sind, wirkt diese Einstellung auf alle diese Linien."
+  },
+  {
+    "a": "spt",
+    "t": "Als nächstes lege ich fest dass Adrian den Brief schreiben soll"
+  },
+  { "m": "newRelation", "p": [true, 10, -1, 18, -1] },
+  { "a": "spt", "t": "und dass Jane die Sicherungskopie machen soll." },
+  { "m": "newRelation", "p": [true, 11, -1, 19, -1] },
+  { "a": "spt", "t": "Peter hilft ihr beim Erstellen der Sicherungskopie." },
+  { "m": "newRelation", "p": [true, 12, -1, 19, -1] },
+  { "a": "spt", "t": "Frank hat den Kunden bereits angerufen." },
+  { "m": "newRelation", "p": [true, 7, -1, 17, -1] },
+  { "a": "spt", "t": "Adrian hat vor, den Brief zu schreiben" },
+  { "m": "newRelation", "p": [true, 4, -1, 18, -1] },
+  { "a": "spt", "t": "und die Sicherungskopie ist in Arbeit." },
+  { "m": "newRelation", "p": [true, 6, -1, 19, -1] },
+  {
+    "a": "spt",
+    "t": "Wenn das Diagramm größer wird kann es schwierig werden, Verbindungslinien von einem Ende des Diagramms zum anderen zu ziehen. Aber es gibt einen Trick - Verbindungslinien können auch von Elementen in der Kategorien Leiste aus gezogen werden."
+  },
+  {
+    "a": "spt",
+    "t": "Ich öffne zunächst die Kategorien Leiste und pinne sie fest, damit sie nicht geschlossen wird."
+  },
+  { "m": "pinSideGallery", "p": [".id-items-in-category"] },
+  {
+    "a": "spt",
+    "t": "Dann wähle ich die Kategorie Mitarbeiter aus und weise Frank die Aufgabe zu, ein Buch zu lesen"
+  },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Mitarbeiter", "👨‍💻 Frank", 20, -1]
+  },
+  { "a": "spt", "t": "Adrian soll Tutorials auf YouTube ansehen" },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Mitarbeiter", "🤵 Adrian", 21, -1]
+  },
+  { "a": "spt", "t": "und Jane soll einen Weiterbildungskurs besuchen." },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Mitarbeiter", "👩‍🔬 Jane", 22, -1]
+  },
+  {
+    "a": "spt",
+    "t": "Peter kann denselben Kurs besuchen, was uns etwas Geld spart."
+  },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Mitarbeiter", "👨‍🔧 Peter", 22, -1]
+  },
+  { "a": "spt", "t": "Dann wechsle ich zur Kategorie Status" },
+  {
+    "a": "spt",
+    "t": "und setze den Status der Aufgabe \"Buch lesen\" auf geplant."
+  },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Status", "📝 Geplant", 20, -1]
+  },
+  {
+    "a": "spt",
+    "t": "Die Aufgabe, das Tutorial auf YouTube anzuschauen, setze ich auf Gestartet"
+  },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Status", "🛫 Gestartet", 21, -1]
+  },
+  {
+    "a": "spt",
+    "t": "und den Status für die Teilnahme am Weiterbildungskurs auf In Arbeit."
+  },
+  {
+    "m": "newRelationFromCategoryItemToDiagram",
+    "p": [true, "P:Status", "⌛ In Arbeit", 22, -1]
+  },
+  { "m": "closeSideGallery", "p": [".id-items-in-category"] },
+  { "a": "spt", "t": "Im Folgenden werde ich die Ansicht anpassen." },
+  {
+    "a": "spt",
+    "t": "Um schnell wieder zur aktuellen Ansicht zurückwechseln zu können speichere ich diese. Ich gebe ihr den Namen \"ToDo Liste Diagramm Ansicht\" und lege fest, dass das aktuelle Wurzelelement zusammen mit der Ansicht wiederhergestellt werden soll."
+  },
+  { "m": "saveView", "p": ["ToDo Liste - Diagramm Ansicht", true, false] },
+  {
+    "a": "spt",
+    "t": "Später ist das Erstellen der Sicherungskopie abgeschlossen und ich möchte den Status der Aufgabe ändern. Dazu muss ich die Aufgabe zunächst als neues Wurzel Element auswählen, damit die Verbindungslinie zum \"In Arbeit\" Status angezeigt wird."
+  },
+  { "a": "spt", "t": "Ich mache das indem ich auf die Aufgabe doppelklicke." },
+  { "a": "dcii", "ii": 19, "waudr": true },
+  {
+    "a": "spt",
+    "t": "Die Verbindungslinien sind relativ kurz, so dass sie teilweise von den Elementen verdeckt werden."
+  },
+  {
+    "a": "spt",
+    "t": "Ich kann das ändern indem ich den mittleren Abstand zwischen Elementen unter \"Ansicht einstellen\" vergrößere."
+  },
+  { "m": "setDistance", "p": ["30"] },
+  { "a": "spt", "t": "Anschließend wähle ich die Verbindungslinie aus" },
+  { "a": "spt", "t": "und ziehe ihren Startpunkt auf den Status Beendet." },
+  { "m": "editRelationEndPoint", "p": [0, 1, -1, -1, -1, 10, -1] },
+  {
+    "a": "spt",
+    "t": "Dasselbe mache ich bei der Aufgabe \"Brief schreiben\" und setze ihren Status von Geplant auf Gestartet."
+  },
+  { "a": "dcii", "ii": 9, "waudr": true },
+  { "m": "editRelationEndPoint", "p": [9, 12, -1, -1, -1, 13, -1] },
+  {
+    "a": "spt",
+    "t": "Danach wechsle ich zurück zum ursprünglichen Wurzelelement, indem ich die gespeicherte Ansicht wiederherstelle."
+  },
+  { "m": "restoreView", "p": ["0"] },
+  {
+    "a": "spt",
+    "t": "Das ist nur eine Möglichkeit, um den Status zu ändern, und wie Sie sich vielleicht gedacht haben geht es auch einfacher."
+  },
+  { "a": "spt", "t": "Wechseln Sie in die Tabellenansicht" },
+  { "m": "clickQuickAccessToolbar", "p": [".id-show-tableview"] },
+  { "a": "spt", "t": "und öffnen Sie die Spalte zum Element Status." },
+  { "m": "searchItemName", "p": ["Status"] },
+  { "a": "spt", "t": "Schließen Sie die ToDo Liste Spalte" },
+  { "m": "closeFirstTableViewColumn" },
+  { "a": "spt", "t": "und schalten Sie die Kategoriebeschriftungen ein." },
+  { "m": "setShowLabels", "p": [".id-show-categories"] },
+  {
+    "a": "spt",
+    "t": "Dann blenden Sie alle Elemente aus, die zur Wurzel Kategorie gehören"
+  },
+  { "m": "itemCategoryFilter", "p": ["6"] },
+  { "m": "closeSideGallery", "p": [".id-viewmode"] },
+  {
+    "a": "spt",
+    "t": "und öffnen alle Kindelemente in der Status Spalte in eigenen Spalten."
+  },
+  { "m": "openFirstTableViewColumnChilds" },
+  { "a": "spt", "t": "Schließen Sie dann die Status Spalte" },
+  { "m": "closeFirstTableViewColumn" },
+  {
+    "a": "spt",
+    "t": "und blenden Sie alle Elemente aus, die zur Thema Kategorie gehören."
+  },
+  { "m": "itemCategoryFilter", "p": ["4"] },
+  { "m": "closeSideGallery", "p": [".id-viewmode"] },
+  {
+    "a": "spt",
+    "t": "Die Ansicht zeigt jetzt jeden Status in einer eigenen Spalte zusammen mit den zugeordneten Aufgaben an."
+  },
+  {
+    "a": "spt",
+    "t": "Ich speichere diese Ansicht unter dem Namen Status - Tabellenansicht, damit ich sie später wiederherstellen kann."
+  },
+  { "m": "saveView", "p": ["Status - Tabellenansicht", true, false] },
+  {
+    "a": "spt",
+    "t": "Jetzt ist es einfach, einer Aufgabe einen neuen Status zuzuweisen – ich muss sie dazu nur von einer Spalte in eine andere ziehen."
+  },
+  {
+    "a": "spt",
+    "t": "Ich beginne mit der Aufgabe Buch lesen und verschiebe sie vom Status Geplant in den Status Gestartet."
+  },
+  {
+    "a": "dtvcft",
+    "colf": 0,
+    "rowf": 0,
+    "colt": 1,
+    "rowt": 1,
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "a": "spt",
+    "t": "Danach verschiebe ich die Aufgabe \"Brief schreiben\" von Gestartet auf In Arbeit."
+  },
+  {
+    "a": "dtvcft",
+    "colf": 1,
+    "rowf": 0,
+    "colt": 2,
+    "rowt": 0,
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "a": "spt",
+    "t": "Das ist viel einfacher als Verbindungslinien im Diagramm zu zeichnen. Und es ist total flexibel, es kann für jede Art von Verbindungslinie verwendet werden."
+  },
+  { "a": "spt", "t": "Zum Schluss stelle ich die Diagrammansicht wieder her" },
+  { "m": "restoreView", "p": ["1"] },
+  {
+    "a": "spt",
+    "t": "und wechsle in die 3D Ansicht. Sieht diese sich drehende 3D MindMap nicht cool aus?"
+  },
+  { "m": "clickQuickAccessToolbar", "p": [".id-show-3dview"] },
+  { "m": "clickQuickAccessToolbarDirect", "p": [".id-rotate"], "wa": 10000 },
+  { "m": "clickQuickAccessToolbarDirect", "p": [".id-stop"] },
+  {
+    "a": "spt",
+    "t": "Und nachdem Sie gelernt haben, wie Sie Ihre Ansichtseinstellungen speichern und wiederherstellen können, wechseln wir nochmals in die Tabellenansicht"
+  },
+  { "m": "restoreView", "p": ["0"] },
+  { "a": "spt", "t": "und zurück in die Diagrammansicht." },
+  { "m": "restoreView", "p": ["1"] },
+  {
+    "a": "spt",
+    "t": "Ich werde noch viele weitere Videos zum KnowledgeBase Builder erstellen, also bleiben Sie dran und ich freue mich natürlich, wenn Sie meinen Kanal abonnieren. Und falls Sie Fragen oder Ideen für neue Videos zum KnowledgeBase Builder haben, dann lassen Sie es mich bitte wissen."
+  }
+]
