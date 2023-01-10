@@ -1,0 +1,438 @@
+[
+	{
+		"a": "spt",
+		"t": "Diese Rundtour führt Sie durch die wichtigsten Funktionen des KnowledgeBase Builders."
+	},
+	{
+		"a": "spt",
+		"t": "Beginnen wir mit einer MindMap, die ich durch Einfügen von gegliedertem Text erstelle."
+	},
+	{
+		"m": "execInsertCommand",
+		"p": [
+			".id-outlinedtext"
+		]
+	},
+	{
+		"m": "waitUntilVisible",
+		"p": [
+			".kbb-text-input"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-example"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-outlinedtext-dialog + div>div>button:first-child"
+		],
+		"waudr": true,
+		"wa": 500
+	},
+	{
+		"a": "spt",
+		"t": "Aktuell wird das Diagramm mit einem kompakten MindMap Layout dargestellt. Besser geeignet ist in diesem Fall jedoch ein radiales MindMap Layout."
+	},
+	{
+		"a": "spt",
+		"t": "Sie können aber noch zwischen vielen anderen Layoutmöglichkeiten wie einem Flussdiagramm oder einem Netzwerk Layout wählen."
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-mindmap-circular-straight"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Im nächsten Schritt füge ich ein neues Element in das Diagramm ein. Wichtigster Teil eines Diagrammelements ist sein Name, der im Diagramm angezeigt wird. Der KnowledgeBase Builder verwendet HTML bei allen Texten. Zusätzlich können Sie noch eine Beschreibung, einen Hyperlink und eine Kategorie angeben. Der Beschreibungstext wird als Tooltip bei einem Klick auf das Diagrammelement angezeigt. Der Hyperlink wird als Icon in der linken oberen Ecke des Elements angezeigt und ermöglicht zum Beispiel das Aufrufen von Webseiten. Viele Befehle wirken auf alle Mitglieder einer Kategorie gleichzeitig, so werden alle Elemente einer Kategorie zum Beispiel immer gleichartig formatiert dargestellt."
+	},
+	{
+		"m": "newItem",
+		"p": [
+			true,
+			1,
+			-1,
+			"Elementname - wird im Diagramm angezeigt",
+			"2",
+			"",
+			"Name",
+			"Wert",
+			"Name",
+			"Wert",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Elementbeschreibung - wird bei einem Klick auf das Element als Tooltip angezeigt",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"http://www.buildyourmap.de",
+			"Kategoriename - das Element ist Mitglied dieser Kategorie"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Durch Aufklappen der Elemente kann der Beschreibungstext auch direkt im Diagramm angezeigt werden."
+	},
+	{
+		"m": "selectDiagramMode",
+		"p": [
+			".id-expand-items"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Eine Notiz im HTML-Format mit Bildern, Tabellen und allen Formatierungsmöglichkeiten, die HTML bietet, lässt sich zusammen mit jedem Element speichern. Der Elementname und die Elementbeschreibung werden übrigens ebenfalls im HTML-Format gespeichert und bieten dieselben Formatierungsmöglichkeiten wie Notizen."
+	},
+	{
+		"m": "setTextNote",
+		"p": [
+			5,
+			-1,
+			"Textnotiz im HTML-Format",
+			"2",
+			"",
+			"Name",
+			"Wert",
+			"Name",
+			"Wert",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Als Nächstes erstelle ich vier weitere Elemente und verbinde sie durch Linien."
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			2,
+			-1,
+			"📅 Elementname"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			3,
+			-1,
+			"🎓 Elementname"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			4,
+			-1,
+			"🛒 Elementname"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			5,
+			-1,
+			"🧰 Elementname"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Um eine neue Verbindungslinie zu erstellen, klicke ich zunächst auf das Element, bei dem die Linie starten soll, und ziehe anschließend den Selektor zu dem Element, bei dem die Linie enden soll."
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			0,
+			-1,
+			1
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			1,
+			-1,
+			2
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			2,
+			-1,
+			3
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			3,
+			-1,
+			4
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			4,
+			-1,
+			0
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Jetzt soll noch ein kurzer Text entlang der Verbindungslinie ausgegeben werden. Dazu wähle ich zunächst die Verbindungslinie aus und öffne dann den Verbindung Bearbeiten Dialog. Hier kann ich sowohl den Text für die Vorwärts- als auch für die Rückwärtsverbindung eingeben. Normalerweise genügt der Text für die Vorwärtsverbindung. Gebe ich beide Texte ein, so wird der Text für die Rückwärtsverbindung dann angezeigt, wenn das Endelement der Verbindung hierarchisch über dem Startelement liegt. Zusätzlich kann ich wie bei Elementen noch einen Beschreibungstext, der als Tooltip ausgegeben wird, und eine Kategorie eingeben."
+	},
+	{
+		"m": "editRelation",
+		"p": [
+			-1,
+			-1,
+			0,
+			"Verbindungsname",
+			"",
+			"Rückwärtsverbindungsname",
+			"",
+			"Verbindungsbeschreibung - wird bei einem Klick auf die Verbindung als Tooltip angezeigt",
+			"Kategoriename - die Verbindung ist Mitglied in dieser Kategorie"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Elemente und Verbindungen lassen sich auf vielfältige Weise formatieren. Dazu wähle ich zunächst das Element oder die Verbindung aus und ändere dann die Farbe, Schriftart und den Linienstil."
+	},
+	{
+		"m": "setItemColor",
+		"p": [
+			-1,
+			0,
+			"81"
+		]
+	},
+	{
+		"m": "setItemFontSize",
+		"p": [
+			-1,
+			0,
+			".id-very-large-font-size"
+		]
+	},
+	{
+		"m": "setRelationColor",
+		"p": [
+			-1,
+			-1,
+			0,
+			"51"
+		]
+	},
+	{
+		"m": "setRelationLineStyle",
+		"p": [
+			-1,
+			-1,
+			1,
+			".id-dotted-line"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Zusätzlich zur normalen Diagrammansicht bietet die Anwendung noch eine 3D Ansicht und eine Tabellenansicht."
+	},
+	{
+		"a": "spt",
+		"t": "Zunächst schalte ich in die 3D Ansicht um und lasse das Diagramm rotieren. Davon kann die Anwendung übrigens auch ein Video aufzeichnen und speichern."
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-3dview"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-rotate"
+		],
+		"wa": 3000
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-stop"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Anschließend schalte ich in die Tabellenansicht um und blättere die Kind Elemente durch."
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-tableview"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-browse-mode"
+		]
+	},
+	{
+		"a": "ctvc",
+		"col": 0,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 0,
+		"row": 1,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 1,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 2,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-edit-mode"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-diagramview"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Als nächstes erstelle ich ein Flussdiagramm durch Einfügen von Pseudocode und zeige, wie man vom horizontalen in das vertikale Layout wechselt."
+	},
+	{
+		"m": "execInsertCommand",
+		"p": [
+			".id-pseudocode"
+		]
+	},
+	{
+		"m": "waitUntilVisible",
+		"p": [
+			".kbb-text-input"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-example"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-pseudocode-dialog + div>div>button:first-child"
+		],
+		"waudr": true,
+		"wa": 500
+	},
+	{
+		"a": "si",
+		"ii": 30,
+		"wa": 2000
+	},
+	{
+		"a": "si",
+		"ii": 0,
+		"wa": 2000
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-flowchart-topbottom"
+		]
+	},
+	{
+		"a": "si",
+		"ii": 30,
+		"wa": 2000
+	},
+	{
+		"a": "si",
+		"ii": 0,
+		"wa": 2000
+	},
+	{
+		"a": "spt",
+		"t": "Zum Schluss gehe ich zum ersten Diagramm zurück, indem ich nach dem Namen seines Wurzel Elements suche. Außerdem stelle ich das Layout wieder auf das kompakte MindMap Layout um."
+	},
+	{
+		"m": "searchItemName",
+		"p": [
+			"Name 1"
+		]
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-mindmap-circular-straight"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Ich hoffe, diese kurze Einführung hat Ihr Interesse an meinem Programm geweckt. Falls Sie noch Fragen oder Verbesserungsvorschläge haben, so senden Sie diese bitte per E-Mail an info@inforapid.de. Und ich freue mich natürlich ganz besonders über jeden Nutzer, der meine Arbeit durch den Kauf der kostenpflichtigen Version unterstützt."
+	}
+]
