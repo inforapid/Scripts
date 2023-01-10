@@ -1,0 +1,438 @@
+[
+	{
+		"a": "spt",
+		"t": "This round trip will take you through the main features of the InfoRapid KnowledgeBase Builder."
+	},
+	{
+		"a": "spt",
+		"t": "Let's start with a MindMap I create by inserting outlined text."
+	},
+	{
+		"m": "execInsertCommand",
+		"p": [
+			".id-outlinedtext"
+		]
+	},
+	{
+		"m": "waitUntilVisible",
+		"p": [
+			".kbb-text-input"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-example"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-outlinedtext-dialog + div>div>button:first-child"
+		],
+		"waudr": true,
+		"wa": 500
+	},
+	{
+		"a": "spt",
+		"t": "Currently, the diagram is displayed with a compact Mind Map layout. In this case, however, a radial Mind Map layout is more suitable."
+	},
+	{
+		"a": "spt",
+		"t": "You can also choose between many other layout options like a Flowchart or a Network layout."
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-mindmap-circular-straight"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "In the next step I will insert a new item into the diagram. The most important part of a diagram item is its name, which is displayed in the diagram. The KnowledgeBase Builder uses HTML for all texts. So item names can include tables as well. Additionally, you can specify a description, a hyperlink and a category. The description text is displayed as a tooltip when you click on the diagram item. The hyperlink is displayed as an icon in the top left corner of the item and allows to link web pages. Many commands affect all members of a category at the same time, so that, for example, all items in a category are displayed identically formatted."
+	},
+	{
+		"m": "newItem",
+		"p": [
+			true,
+			1,
+			-1,
+			"Item Name - is displayed in the diagram",
+			"2",
+			"",
+			"Name",
+			"Value",
+			"Name",
+			"Value",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Item Description - will be displayed as a tooltip when you click on the item",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"http://www.buildyourmap.com",
+			"Category Name - the item is a member of this category"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Expanding items will show the description text directly in the diagram."
+	},
+	{
+		"m": "selectDiagramMode",
+		"p": [
+			".id-expand-items"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "A note in HTML format with images, tables and all formatting options that HTML provides can be saved together with each item. Item names and descriptions are also saved in HTML format and offer the same formatting options as notes."
+	},
+	{
+		"m": "setTextNote",
+		"p": [
+			5,
+			-1,
+			"Text Note in HTML format",
+			"2",
+			"",
+			"Name",
+			"Value",
+			"Name",
+			"Value",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Next, I create four more items and connect them by relation lines."
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			2,
+			-1,
+			"📅 Item Name"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			3,
+			-1,
+			"🎓 Item Name"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			4,
+			-1,
+			"🛒 Item Name"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			5,
+			-1,
+			"🧰 Item Name"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "To create a new relation line first click on the item where the line should start and drag the selector to the item where the line should end."
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			0,
+			-1,
+			1
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			1,
+			-1,
+			2
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			2,
+			-1,
+			3
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			3,
+			-1,
+			4
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			4,
+			-1,
+			0
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Now let's display a short text along the relation line. First I select the line and then I open the edit relation dialog. Here I can enter both the text for the forward and the backward relation. Normally the text for the forward relation is sufficient. If I enter both texts, the text for the backward relation is displayed for the case that the end item of the relation is hierarchically above the start item. Additionally, as with items, I can enter a description text which is displayed in a tooltip and a category."
+	},
+	{
+		"m": "editRelation",
+		"p": [
+			-1,
+			-1,
+			0,
+			"Relation Name",
+			"",
+			"Backward Relation Name",
+			"",
+			"Relation Description - will be displayed as a tooltip when you click on the relation",
+			"Category Name - the relation is a member of this category"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Items and relations can be formatted in many ways. First, I select the item or relation and then I change the color, font and line style."
+	},
+	{
+		"m": "setItemColor",
+		"p": [
+			-1,
+			0,
+			"81"
+		]
+	},
+	{
+		"m": "setItemFontSize",
+		"p": [
+			-1,
+			0,
+			".id-very-large-font-size"
+		]
+	},
+	{
+		"m": "setRelationColor",
+		"p": [
+			-1,
+			-1,
+			0,
+			"51"
+		]
+	},
+	{
+		"m": "setRelationLineStyle",
+		"p": [
+			-1,
+			-1,
+			1,
+			".id-dotted-line"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "In addition to the regular diagram view, the application also offers a 3D view and a table view."
+	},
+	{
+		"a": "spt",
+		"t": "First I switch to the 3D view and make the diagram rotate. By the way, the application can also record and save a video of the rotating diagram."
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-3dview"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-rotate"
+		],
+		"wa": 3000
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-stop"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "In the next step I switch to the table view and browse through the child elements."
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-tableview"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-browse-mode"
+		]
+	},
+	{
+		"a": "ctvc",
+		"col": 0,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 0,
+		"row": 1,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 1,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 2,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-edit-mode"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-diagramview"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Next, I create a flowchart by inserting pseudocode and show you how to switch from horizontal to vertical layout."
+	},
+	{
+		"m": "execInsertCommand",
+		"p": [
+			".id-pseudocode"
+		]
+	},
+	{
+		"m": "waitUntilVisible",
+		"p": [
+			".kbb-text-input"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-example"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-pseudocode-dialog + div>div>button:first-child"
+		],
+		"waudr": true,
+		"wa": 500
+	},
+	{
+		"a": "si",
+		"ii": 30,
+		"wa": 2000
+	},
+	{
+		"a": "si",
+		"ii": 0,
+		"wa": 2000
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-flowchart-topbottom"
+		]
+	},
+	{
+		"a": "si",
+		"ii": 30,
+		"wa": 2000
+	},
+	{
+		"a": "si",
+		"ii": 0,
+		"wa": 2000
+	},
+	{
+		"a": "spt",
+		"t": "Finally, I browse back to the first diagram by searching for the name of its root item. I also switch the layout back to the compact Mind Map layout."
+	},
+	{
+		"m": "searchItemName",
+		"p": [
+			"Name 1"
+		]
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-mindmap-circular-straight"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "I hope this short introduction has aroused your interest in our program. If you have any questions or suggestions for improvements, please contact me by e-mail at info@inforapid.de. And of course, I'm happy about every user who supports my work by purchasing the paid version."
+	}
+]
