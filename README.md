@@ -5,3 +5,4 @@ The KnowledgeBase Builder can be automated by running screenplay scripts. You ca
 
 I use the following voices:
  - English: Microsoft Michelle Online (Natural)
+ - Deutsch: Microsoft Conrad Online (Natural)
