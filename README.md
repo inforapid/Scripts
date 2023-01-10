@@ -1,8 +1,4 @@
-# Scripts
-Screenplay scripts for InfoRapid KnowledgeBase Builder
+# Screenplay Scripts for the InfoRapid KnowledgeBase Builder
+The KnowledgeBase Builder can be automated by running screenplay scripts. You can start them by choosing "Run Script" in the "Edit Diagram" panel.
 
-## SPARQL and the InfoRapid KnowledgeBase Builder
-
-![3D rotating MindMap of SPARQL query result](images/runscript.png?raw=true "Example")
-
-### The following prefixes must be used for SPARQL variables in the KnowledgeBase Builder SELECT statement:
+![Running scripts](images/runscript.png?raw=true "Running Scripts")
