@@ -1,0 +1,145 @@
+[
+    {
+        "a": "spt",
+        "t": "In diesem Video zeige ich Ihnen die neuen Funktionen im InfoRapid KnowledgeBase Builder."
+    },
+    {
+        "a": "spt",
+        "t": "In der neuen Programmversion können Sie mehrere Elemente in einem Arbeitsgang erstellen, ohne den \"Element einfügen\" Dialog schließen zu müssen. Als Beispiel erstelle ich eine Mindmap, die zeigt, wie man einen Essay schreibt, und beginne dabei mit dem Wurzel-Element sowie den Elementen der ersten Ebene. Alle neuen Elemente haben dasselbe Elternelement."
+    },
+    {
+        "a": "sit",
+        "it": true
+    },
+    {
+        "a": "ci",
+        "i": ".newfirstitembtn",
+        "et": "mousedown",
+        "wa": 500
+    },
+    {
+        "m": "createNewSimpleItem",
+        "pa": [
+            [
+                "📝 Schreiben eines Essays",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Einleitung",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Hauptteil",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Schluss",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Bearbeiten und Überarbeiten",
+                "",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Um ein anderes Elternelement zu verwenden müssen Sie den Einfügen-Dialog schließen und erneut öffnen."
+    },
+    {
+        "m": "closeNewItemDialog",
+        "wse": true
+    },
+    {
+        "a": "sit",
+        "it": true
+    },
+    {
+        "a": "spt",
+        "t": "Dazu wählen Sie das gewünschte Elternelement aus und klicken erneut auf den \"Neues Element\" Knopf in der Symbolleiste."
+    },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            true,
+            1,
+            -1,
+            [
+                [
+                    "🔍 Sammeln Sie alle relevanten Informationen und Materialien zum Essay-Thema",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "💡 Entwickeln Sie eine aussagekräftige These",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "📝 Verfassen Sie die Einleitung",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "🖥️ Abonnieren Sie meinen YouTube-Kanal und bleiben Sie immer auf dem Laufenden",
+                    "",
+                    "",
+                    ""
+                ]
+            ]
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Falls Sie den KnowledgeBase Builder bereits verwendet haben, so haben Sie vielleicht das neue dunkle Farbschema für die Benutzeroberfläche bemerkt, das jetzt standardmäßig aktiviert ist. Sie können jederzeit auf das alte blaue Farbschema zurückschalten,"
+    },
+    {
+        "a": "spt",
+        "t": "indem Sie auf die \"Ansicht anpassen\" Schaltfläche klicken"
+    },
+    {
+        "m": "showSideGallery",
+        "p": [
+            ".id-viewmode"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "und blau aus der Benutzeroberfläche Combobox auswählen."
+    },
+    {
+        "a": "ci",
+        "i": ".id-userinterface-scheme>a",
+        "mbh": ".id-userinterface-scheme>div",
+        "wa": 500
+    },
+    {
+        "a": "ci",
+        "i": ".kbb-gallery-item.b",
+        "waudr": true,
+        "wto": 1500,
+        "wa": 2000
+    },
+    {
+        "a": "csg",
+        "sg": ".id-viewmode-gallery",
+        "wse": true
+    },
+    {
+        "a": "spt",
+        "t": "Sie können die neuesten Funktionen des InfoRapid KnowledgeBase Builders in der Online-Version unter https://inforapid.org testen. Ich starte einen neuen YouTube-Kanal mit den am häufigsten gestellten Fragen und Antworten der letzten Jahre zum InfoRapid KnowledgeBase Builder. Bleiben Sie also gespannt und abonnieren Sie meinen Kanal um immer auf dem neuesten Stand zu bleiben."
+    }
+]
