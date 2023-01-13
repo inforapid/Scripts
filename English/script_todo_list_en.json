@@ -1,0 +1,671 @@
+[
+    {
+        "a": "spt",
+        "t": "In this video I'm going to show you how you can create a ToDo list as a MindMap with the InfoRapid KnowledgeBase Builder. I start by importing a text outline of the ToDo list into the MindMap. I will publish the template on Github and link it in the comments section of the YouTube video."
+    },
+    {
+        "a": "spt",
+        "t": "I open the \"Edit Diagram\" menu and click on the \"Outlined Text\" button in order to open the Insert Outlined Text dialog."
+    },
+    {
+        "m": "execInsertCommand",
+        "p": [
+            ".id-outlinedtext"
+        ]
+    },
+    {
+        "m": "waitUntilVisible",
+        "p": [
+            ".kbb-insert-outlinedtext-dialog .kbb-text-input"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Then I paste the outlined ToDo list into the text field"
+    },
+    {
+        "a": "tt",
+        "i": ".kbb-insert-outlinedtext-dialog .kbb-text-input",
+        "t": "Root::ToDo-List\n\tTopic::<html><font size=\"7\">📋</font> Statuses</html>\n\t\tStatus::Status[Status]>>P:Status::📝 Planned\n\t\tStatus::Status[Status]>>P:Status::🛫 Started\n\t\tStatus::Status[Status]>>P:Status::⌛ In progress\n\t\tStatus::Status[Status]>>P:Status::✅ Finished\n\t\tStatus::Status[Status]>>P:Status::🚫 Canceled\n\tTopic::🧑‍🤝‍🧑 Employees\n\t\tEmployee::Worker[Worker]>>P:Worker::👨‍💻 Frank\n\t\tEmployee::Worker[Worker]>>P:Worker::🤵 Adrian\n\t\tEmployee::Worker[Worker]>>P:Worker::👩‍🔬 Jane\n\t\tEmployee::Worker[Worker]>>P:Worker::👨‍🔧 Peter\n\tTopic::📋 Tasks\n\t\tTaskCategory::🧑‍💼 Working\n\t\t\tTask::📞 Call customer\n\t\t\tTask::💻 Write letter\n\t\t\tTask::💾 Make backup\n\t\tTaskCategory::🦉 Learning\n\t\t\tTask::📚 Read Book\n\t\t\tTask::📺 Watch tutorial on YouTube\n\t\t\tTask::🎓 Attend course\n\t\tTaskCategory::🏃 Body Workouts\n\t\t\tTask::💪 Weight training\n\t\t\tTask::🏌 Play golf\n\t\t\tTask::🏊 Go swimming\n\t\tTaskCategory::🛒 Shopping\n\t\t\tTask::🍲 Breakfast\n\t\t\t\tSubtask::🍞 Bread\n\t\t\t\tSubtask::🥐 Croissant\n\t\t\t\tSubtask::🥨 Brezel\n\t\t\tTask::🍲 Dinner\n\t\t\t\tSubtask::🥩 Meat\n\t\t\t\tSubtask::🥪 Sandwich\n\t\t\t\tSubtask::🍔 Hamburger",
+        "pt": true
+    },
+    {
+        "a": "spt",
+        "t": "and press the OK button."
+    },
+    {
+        "m": "clickButton",
+        "p": [
+            ".kbb-insert-outlinedtext-dialog + div>div>button:first-child"
+        ],
+        "waudr": true,
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "And that's the MindMap that InfoRapid KnowledgeBase Builder generates from the outline. Let us look at the imported text in more detail."
+    },
+    {
+        "a": "stp",
+        "t": "<plaintext>Root::ToDo-List\n\tTopic::<html><font size=\"7\">📋</font> Statuses</html>\n\t\tStatus::Status[Status]>>P:Status::📝 Planned\n\t\tStatus::Status[Status]>>P:Status::🛫 Started\n\t\tStatus::Status[Status]>>P:Status::⌛ In progress\n\t\tStatus::Status[Status]>>P:Status::✅ Finished\n\t\tStatus::Status[Status]>>P:Status::🚫 Canceled\n\tTopic::🧑‍🤝‍🧑 Employees\n\t\tEmployee::Worker[Worker]>>P:Worker::👨‍💻 Frank\n\t\tEmployee::Worker[Worker]>>P:Worker::🤵 Adrian\n\t\tEmployee::Worker[Worker]>>P:Worker::👩‍🔬 Jane\n\t\tEmployee::Worker[Worker]>>P:Worker::👨‍🔧 Peter\n\tTopic::📋 Tasks\n\t\tTaskCategory::🧑‍💼 Working\n\t\t\tTask::📞 Call customer\n\t\t\tTask::💻 Write letter\n\t\t\tTask::💾 Make backup\n\t\tTaskCategory::🦉 Learning\n\t\t\tTask::📚 Read Book\n\t\t\tTask::📺 Watch tutorial on YouTube\n\t\t\tTask::🎓 Attend course\n\t\tTaskCategory::🏃 Body Workouts\n\t\t\tTask::💪 Weight training\n\t\t\tTask::🏌 Play golf\n\t\t\tTask::🏊 Go swimming\n\t\tTaskCategory::🛒 Shopping\n\t\t\tTask::🍲 Breakfast\n\t\t\t\tSubtask::🍞 Bread\n\t\t\t\tSubtask::🥐 Croissant\n\t\t\t\tSubtask::🥨 Brezel\n\t\t\tTask::🍲 Dinner\n\t\t\t\tSubtask::🥩 Meat\n\t\t\t\tSubtask::🥪 Sandwich\n\t\t\t\tSubtask::🍔 Hamburger</plaintext>",
+        "wse": true
+    },
+    {
+        "a": "spt",
+        "t": "The first thing you notice are the small icons preceding the item names. These are special unicode characters which are displayed as icons and which can be used everywhere in the text. You can find a full list of them if you google for unicode emoji."
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "📋"
+    },
+    {
+        "a": "spt",
+        "t": "The item name can be pure text"
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "ToDo-List"
+    },
+    {
+        "a": "spt",
+        "t": "or html formatted text."
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "<html><font size=\"7\">📋</font> Statuses</html>"
+    },
+    {
+        "a": "spt",
+        "t": "The next thing you will notice is the category name separated with two colons from the item name."
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "P:Status::"
+    },
+    {
+        "a": "spt",
+        "t": "Some of the category names have a preceding P colon which marks them as a special property category."
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "P:"
+    },
+    {
+        "a": "spt",
+        "t": "Property categories are displayed as table cells and can be used here for statuses like"
+    },
+    {
+        "a": "spt",
+        "t": "planned"
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "Planned"
+    },
+    {
+        "a": "spt",
+        "t": "started"
+    },
+    {
+        "a": "st",
+        "i": ".kbb-screenplay-text-panel",
+        "t": "Started"
+    },
+    {
+        "a": "spt",
+        "t": "and so on. This shows them as table cells which makes the MindMap more clear. You will see this in more detail right afterwards."
+    },
+    {
+        "a": "htp",
+        "wse": true
+    },
+    {
+        "a": "spt",
+        "t": "In a first step I will show the category labels in the diagram."
+    },
+    {
+        "a": "spt",
+        "t": "To do so I open the \"Adjust View\" panel and select \"Show Category Labels\"."
+    },
+    {
+        "m": "setShowLabels",
+        "p": [
+            ".id-show-categories"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Then I start assigning employees to the tasks that they have to do."
+    },
+    {
+        "a": "spt",
+        "t": "I assign Frank the task call a customer. I do so by drawing a relation line between Frank and the call customer task."
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            9,
+            -1,
+            17,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "To clear up the diagram, I set this property relation lines to be visible only if one of both end points is the root item of the diagram."
+    },
+    {
+        "m": "setRelationVisibleUpToLevel",
+        "p": [
+            -1,
+            -1,
+            1,
+            ".id-level-1"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Since all property relation lines are a member of the same category, this setting applies to all of them."
+    },
+    {
+        "a": "spt",
+        "t": "Next I decide that Adrian has to write the letter"
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            10,
+            -1,
+            18,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and that Jane has to make the backup."
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            11,
+            -1,
+            19,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Peter assists her with the backup."
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            12,
+            -1,
+            19,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Frank already finished calling the customer."
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            7,
+            -1,
+            17,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Adrian planned to write the letter"
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            4,
+            -1,
+            18,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and the backup is in progress."
+    },
+    {
+        "m": "newRelation",
+        "p": [
+            true,
+            6,
+            -1,
+            19,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "If the diagram gets larger, it may become difficult to draw relation lines from one end of the diagram to the other. But there is a trick - relation lines can also be drawn from items in the category panel."
+    },
+    {
+        "a": "spt",
+        "t": "I start by opening the category panel and pin it so that it doesn't closes."
+    },
+    {
+        "m": "pinSideGallery",
+        "p": [
+            ".id-items-in-category"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Then I select the worker category and assign Frank the task to read a book"
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Worker",
+            "👨‍💻 Frank",
+            20,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Adrian the task to watch tutorials on YouTube"
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Worker",
+            "🤵 Adrian",
+            21,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and Jane the task to attend a course."
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Worker",
+            "👩‍🔬 Jane",
+            22,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Peter can attend the same course which saves us some money."
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Worker",
+            "👨‍🔧 Peter",
+            22,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Then I switch to the status category"
+    },
+    {
+        "a": "spt",
+        "t": "and set the status of the read book task to planned."
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Status",
+            "📝 Planned",
+            20,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "the status of the watch tutorial on YouTube task to started."
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Status",
+            "🛫 Started",
+            21,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and the status of the attend course task to in progress."
+    },
+    {
+        "m": "newRelationFromCategoryItemToDiagram",
+        "p": [
+            true,
+            "P:Status",
+            "⌛ In progress",
+            22,
+            -1
+        ]
+    },
+    {
+        "m": "closeSideGallery",
+        "p": [
+            ".id-items-in-category"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "In the following, I will change some view settings."
+    },
+    {
+        "a": "spt",
+        "t": "To get back easily I save the current view. I give it the name ToDo list diagram view and choose to restore the current root item when together with the view settings."
+    },
+    {
+        "m": "saveView",
+        "p": [
+            "ToDo List - Diagram View",
+            true,
+            false
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Later on, the backup task has finished and I want to change its state. In order to achieve this I first have to select the backup task as new root item in order to see the relation between the backup task and the in progress state."
+    },
+    {
+        "a": "spt",
+        "t": "I do so by double clicking on the backup task."
+    },
+    {
+        "a": "dcii",
+        "ii": 19,
+        "waudr": true
+    },
+    {
+        "a": "spt",
+        "t": "The relation lines are a little bit short so that some of them are hidden by items."
+    },
+    {
+        "a": "spt",
+        "t": "I can change this by increasing the mean distance between items in the adjust view panel."
+    },
+    {
+        "m": "setDistance",
+        "p": [
+            "30"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Now I select the relation line"
+    },
+    {
+        "a": "spt",
+        "t": "and drag its starting point to the finished status."
+    },
+    {
+        "m": "editRelationEndPoint",
+        "p": [
+            0,
+            1,
+            -1,
+            -1,
+            -1,
+            10,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "I do the same for the write letter task and set its status from planned to started."
+    },
+    {
+        "a": "dcii",
+        "ii": 9,
+        "waudr": true
+    },
+    {
+        "m": "editRelationEndPoint",
+        "p": [
+            9,
+            12,
+            -1,
+            -1,
+            -1,
+            13,
+            -1
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "After that's finished I go back to the original root item by restoring the saved view."
+    },
+    {
+        "m": "restoreView",
+        "p": [
+            "0"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "That's only one way how you can change the status and as you might have thought it can be done easier."
+    },
+    {
+        "a": "spt",
+        "t": "Switch to the table view"
+    },
+    {
+        "m": "clickQuickAccessToolbar",
+        "p": [
+            ".id-show-tableview"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and open the column with the statuses topic."
+    },
+    {
+        "m": "searchItemName",
+        "p": [
+            "Statuses"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Close the ToDo list column"
+    },
+    {
+        "m": "closeFirstTableViewColumn"
+    },
+    {
+        "a": "spt",
+        "t": "and switch the category labels on."
+    },
+    {
+        "m": "setShowLabels",
+        "p": [
+            ".id-show-categories"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Then hide all items that are part of the root category"
+    },
+    {
+        "m": "itemCategoryFilter",
+        "p": [
+            "2"
+        ]
+    },
+    {
+        "m": "closeSideGallery",
+        "p": [
+            ".id-viewmode"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and open all items in the statuses column in separate columns."
+    },
+    {
+        "m": "openFirstTableViewColumnChilds"
+    },
+    {
+        "a": "spt",
+        "t": "Then close the statuses column"
+    },
+    {
+        "m": "closeFirstTableViewColumn"
+    },
+    {
+        "a": "spt",
+        "t": "and hide all items that are part of the topic category."
+    },
+    {
+        "m": "itemCategoryFilter",
+        "p": [
+            "6"
+        ]
+    },
+    {
+        "m": "closeSideGallery",
+        "p": [
+            ".id-viewmode"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Now I have a view with a column for each status and all asigned tasks listed below."
+    },
+    {
+        "a": "spt",
+        "t": "I save this view with the name statuses table view so that I can restore it later."
+    },
+    {
+        "m": "saveView",
+        "p": [
+            "Statuses - Table View",
+            true,
+            false
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "Now it's easy to assign a task to a new status - I just have to drag it from one column to another."
+    },
+    {
+        "a": "spt",
+        "t": "I start by moving the task read book from the status planned to the status started."
+    },
+    {
+        "a": "dtvcft",
+        "colf": 0,
+        "rowf": 0,
+        "colt": 1,
+        "rowt": 1,
+        "waudr": true,
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Then I move the write letter task from started to in progress."
+    },
+    {
+        "a": "dtvcft",
+        "colf": 1,
+        "rowf": 0,
+        "colt": 2,
+        "rowt": 0,
+        "waudr": true,
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Isn't that much easier than dragging relation lines in the diagram? And it's totally flexible, it can be used for any kind of item."
+    },
+    {
+        "a": "spt",
+        "t": "To the end I restore the diagram view"
+    },
+    {
+        "m": "restoreView",
+        "p": [
+            "1"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and switch to 3D mode. Doesn't it look pretty when rotating?"
+    },
+    {
+        "m": "clickQuickAccessToolbar",
+        "p": [
+            ".id-show-3dview"
+        ]
+    },
+    {
+        "m": "clickQuickAccessToolbarDirect",
+        "p": [
+            ".id-rotate"
+        ],
+        "wa": 10000
+    },
+    {
+        "m": "clickQuickAccessToolbarDirect",
+        "p": [
+            ".id-stop"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "And after you've understood how to save and restore your view settings it's easy to switch back to table view mode"
+    },
+    {
+        "m": "restoreView",
+        "p": [
+            "0"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and to diagram mode."
+    },
+    {
+        "m": "restoreView",
+        "p": [
+            "1"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "There are many videos to come, so stay tuned and subscribe my channel. And if you have questions or ideas for new videos about the KnowledgeBase Builder, then please let me know."
+    }
+]
