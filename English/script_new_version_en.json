@@ -1,0 +1,145 @@
+[
+    {
+        "a": "spt",
+        "t": "In this video, I am going to show you the new features in the InfoRapid KnowledgeBase Builder."
+    },
+    {
+        "a": "spt",
+        "t": "The latest version of the app allows you to create multiple items in a single session without having to repeatedly close the \"Insert Item\" dialog. As an example, I am creating a mind map to demonstrate how to write an essay, starting with the root item and the items on the first level. As you can see all new items are created as child items of the same parent item."
+    },
+    {
+        "a": "sit",
+        "it": true
+    },
+    {
+        "a": "ci",
+        "i": ".newfirstitembtn",
+        "et": "mousedown",
+        "wa": 500
+    },
+    {
+        "m": "createNewSimpleItem",
+        "pa": [
+            [
+                "📝 Writing an Essay",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Introduction",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Body",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Conclusion",
+                "",
+                "",
+                ""
+            ],
+            [
+                "➡️ Editing and Revising",
+                "",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "If you want to use a different parent item, you need to close and re-open the new item dialog."
+    },
+    {
+        "m": "closeNewItemDialog",
+        "wse": true
+    },
+    {
+        "a": "sit",
+        "it": true
+    },
+    {
+        "a": "spt",
+        "t": "To do so select the new parent item and press the \"New Item\" toolbar button again."
+    },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            true,
+            1,
+            -1,
+            [
+                [
+                    "🔍 Gather information and materials relevant to the essay topic",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "💡 Develop a thesis statement",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "📝 Write the introduction",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "🖥️ Subscribe my YouTube channel and be the first to watch my upcoming Q&A videos regarding the KnowledgeBase Builder",
+                    "",
+                    "",
+                    ""
+                ]
+            ]
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "If you are familiar with the KnowledgeBase Builder, you may have noticed the new default dark user interface color theme. You can switch back to the previous blue color theme by"
+    },
+    {
+        "a": "spt",
+        "t": "clicking on the \"Adjust View\" button"
+    },
+    {
+        "m": "showSideGallery",
+        "p": [
+            ".id-viewmode"
+        ]
+    },
+    {
+        "a": "spt",
+        "t": "and selecting blue from the User Interface combo box."
+    },
+    {
+        "a": "ci",
+        "i": ".id-userinterface-scheme>a",
+        "mbh": ".id-userinterface-scheme>div",
+        "wa": 500
+    },
+    {
+        "a": "ci",
+        "i": ".kbb-gallery-item.b",
+        "waudr": true,
+        "wto": 1500,
+        "wa": 2000
+    },
+    {
+        "a": "csg",
+        "sg": ".id-viewmode-gallery",
+        "wse": true
+    },
+    {
+        "a": "spt",
+        "t": "You can test the latest features of the InfoRapid KnowledgeBase Builder in the online version available at https://inforapid.org. I'm launching a new YouTube channel with the most common asked Questions and Answers of the last years regarding the KnowledgeBase Builder. So stay tuned and subscribe my channel for the latest updates."
+    }
+]
