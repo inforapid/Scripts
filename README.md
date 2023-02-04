@@ -7,3 +7,4 @@ I use the following voices:
  - English: Microsoft Michelle Online (Natural)
  - Deutsch: Microsoft Conrad Online (Natural)
  - Spanish: Microsoft Victor Online (Natural) - Spanish (Puerto Rico)
+ - French: Microsoft Ariane Online (Natural) - French (Switzerland)
