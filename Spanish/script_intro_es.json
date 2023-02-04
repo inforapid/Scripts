@@ -1,1 +1,438 @@
-
+[
+	{
+		"a": "spt",
+		"t": "Este viaje de ida y vuelta lo llevará a través de las funciones principales de InfoRapid KnowledgeBase Builder."
+	},
+	{
+		"a": "spt",
+		"t": "Comencemos con un MindMap que creo insertando texto delineado."
+	},
+	{
+		"m": "execInsertCommand",
+		"p": [
+			".id-outlinedtext"
+		]
+	},
+	{
+		"m": "waitUntilVisible",
+		"p": [
+			".kbb-text-input"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-example"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-outlinedtext-dialog + div>div>button:first-child"
+		],
+		"waudr": true,
+		"wa": 500
+	},
+	{
+		"a": "spt",
+		"t": "Actualmente, el diagrama se muestra con un diseño de mapa mental compacto. En este caso, sin embargo, un diseño de mapa mental radial es más adecuado."
+	},
+	{
+		"a": "spt",
+		"t": "También puede elegir entre muchas otras opciones de diseño, como un diagrama de flujo o un diseño de red."
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-mindmap-circular-straight"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "En el siguiente paso, insertaré un nuevo elemento en el diagrama. La parte más importante de un elemento de diagrama es su nombre, que se muestra en el diagrama. KnowledgeBase Builder utiliza HTML para todos los textos. Por lo tanto, los nombres de los elementos también pueden incluir tablas. Además, puede especificar una descripción, un hipervínculo y una categoría. El texto de la descripción se muestra como información sobre herramientas al hacer clic en el elemento del diagrama. El hipervínculo se muestra como un icono en la esquina superior izquierda del elemento y permite vincular páginas web. Muchos comandos afectan a todos los miembros de una categoría al mismo tiempo, de modo que, por ejemplo, todos los elementos de una categoría se muestran con el mismo formato."
+	},
+	{
+		"m": "newItem",
+		"p": [
+			true,
+			1,
+			-1,
+			"Nombre del elemento: se muestra en el diagrama",
+			"2",
+			"",
+			"Nombre",
+			"Valor",
+			"Nombre",
+			"Valor",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Descripción del elemento: se mostrará como información sobre herramientas cuando haga clic en el elemento",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"http://www.buildyourmap.com",
+			"Nombre de categoría: el elemento es miembro de esta categoría"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Los elementos desplegables mostrarán el texto de la descripción directamente en el diagrama."
+	},
+	{
+		"m": "selectDiagramMode",
+		"p": [
+			".id-expand-items"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Junto con cada elemento, se puede guardar una nota en formato HTML con imágenes, tablas y todas las opciones de formato que proporciona HTML. Los nombres y las descripciones de los elementos también se guardan en formato HTML y ofrecen las mismas opciones de formato que las notas."
+	},
+	{
+		"m": "setTextNote",
+		"p": [
+			5,
+			-1,
+			"Nota de texto en formato HTML",
+			"2",
+			"",
+			"Nombre",
+			"Valor",
+			"Nombre",
+			"Valor",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"a": "spt",
+		"t": "A continuación, creo cuatro elementos más y los conecto mediante líneas de relación."
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			2,
+			-1,
+			"📅 Nombre de elemento"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			3,
+			-1,
+			"🎓 Nombre de elemento"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			4,
+			-1,
+			"🛒 Nombre de elemento"
+		]
+	},
+	{
+		"m": "newItemName",
+		"p": [
+			true,
+			5,
+			-1,
+			"🧰 Nombre de elemento"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Para crear una nueva línea de relación, primero haga clic en el elemento donde debe comenzar la línea y arrastre el selector hasta el elemento donde debe terminar la línea."
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			0,
+			-1,
+			1
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			1,
+			-1,
+			2
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			2,
+			-1,
+			3
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			3,
+			-1,
+			4
+		]
+	},
+	{
+		"m": "newRelation",
+		"p": [
+			true,
+			-1,
+			4,
+			-1,
+			0
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Ahora mostremos un texto corto a lo largo de la línea de relación. Primero selecciono la línea y luego abro el cuadro de diálogo editar relación. Aquí puedo ingresar tanto el texto para la relación hacia adelante como hacia atrás. Normalmente, el texto de la relación directa es suficiente. Si ingreso ambos textos, el texto de la relación hacia atrás se muestra en el caso de que el elemento final de la relación esté jerárquicamente por encima del elemento inicial. Además, al igual que con los elementos, puedo ingresar un texto de descripción que se muestra en una información sobre herramientas y una categoría."
+	},
+	{
+		"m": "editRelation",
+		"p": [
+			-1,
+			-1,
+			0,
+			"Nombre de la relación",
+			"",
+			"Nombre de relación hacia atrás",
+			"",
+			"Descripción de la relación: se mostrará como información sobre herramientas cuando haga clic en la relación",
+			"Nombre de categoría: la relación es miembro de esta categoría"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Los elementos y las relaciones se pueden formatear de muchas maneras. Primero, selecciono el elemento o relación y luego cambio el color, la fuente y el estilo de línea."
+	},
+	{
+		"m": "setItemColor",
+		"p": [
+			-1,
+			0,
+			"81"
+		]
+	},
+	{
+		"m": "setItemFontSize",
+		"p": [
+			-1,
+			0,
+			".id-very-large-font-size"
+		]
+	},
+	{
+		"m": "setRelationColor",
+		"p": [
+			-1,
+			-1,
+			0,
+			"51"
+		]
+	},
+	{
+		"m": "setRelationLineStyle",
+		"p": [
+			-1,
+			-1,
+			1,
+			".id-dotted-line"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Además de la vista de diagrama regular, la aplicación también ofrece una vista 3D y una vista de tabla."
+	},
+	{
+		"a": "spt",
+		"t": "Primero cambio a la vista 3D y hago girar el diagrama. Por cierto, la aplicación también puede grabar y guardar un video del diagrama giratorio."
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-3dview"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-rotate"
+		],
+		"wa": 3000
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-stop"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "En el siguiente paso, cambio a la vista de tabla y navego por los elementos secundarios."
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-tableview"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-browse-mode"
+		]
+	},
+	{
+		"a": "ctvc",
+		"col": 0,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 0,
+		"row": 1,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 1,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"a": "ctvc",
+		"col": 2,
+		"row": 0,
+		"wa": 500
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "closeLastTableViewColumn"
+	},
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-edit-mode"
+		]
+	},
+	{
+		"m": "clickQuickAccessToolbar",
+		"p": [
+			".id-show-diagramview"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "A continuación, creo un diagrama de flujo insertando un pseudocódigo y le muestro cómo cambiar de un diseño horizontal a uno vertical."
+	},
+	{
+		"m": "execInsertCommand",
+		"p": [
+			".id-pseudocode"
+		]
+	},
+	{
+		"m": "waitUntilVisible",
+		"p": [
+			".kbb-text-input"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-example"
+		]
+	},
+	{
+		"m": "clickButton",
+		"p": [
+			".kbb-insert-pseudocode-dialog + div>div>button:first-child"
+		],
+		"waudr": true,
+		"wa": 500
+	},
+	{
+		"a": "si",
+		"ii": 30,
+		"wa": 2000
+	},
+	{
+		"a": "si",
+		"ii": 0,
+		"wa": 2000
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-flowchart-topbottom"
+		]
+	},
+	{
+		"a": "si",
+		"ii": 30,
+		"wa": 2000
+	},
+	{
+		"a": "si",
+		"ii": 0,
+		"wa": 2000
+	},
+	{
+		"a": "spt",
+		"t": "Finalmente, vuelvo al primer diagrama buscando el nombre de su elemento raíz. También vuelvo a cambiar el diseño al diseño compacto de mapa mental."
+	},
+	{
+		"m": "searchItemName",
+		"p": [
+			"Name 1"
+		]
+	},
+	{
+		"m": "setLayoutMode",
+		"p": [
+			".id-mindmap-circular-straight"
+		]
+	},
+	{
+		"a": "spt",
+		"t": "Espero que esta breve introducción haya despertado su interés en nuestro programa. Si tiene alguna pregunta o sugerencia de mejora, comuníquese conmigo por correo electrónico a info@inforapid.de. Y, por supuesto, estoy feliz con todos los usuarios que apoyan mi trabajo comprando la versión paga."
+	}
+]
