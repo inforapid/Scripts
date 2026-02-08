@@ -145,7 +145,7 @@ Makros sind Abkürzungen für eine Kette von Aktionen. Sie werden über den Schl
 | `setItemFontSize` | Setzt die Schriftgröße eines Items. |1) Item-Index des zu formatierenden Items.<br>2) Stack-Index des zu formatierenden Items.<br>3) Selektor für die gewünschte Schriftgröße (z.B. `.id-font-size-small`, `.id-font-size-medium`, `.id-font-size-large`). |
 | `setTextNote` | Fügt einem Item eine Textnotiz hinzu oder bearbeitet sie. |1) Item-Index des Items, zu dem die Notiz gehört.<br>2) Stack-Index des Items, zu dem die Notiz gehört.<br>3) Textinhalt der Notiz (HTML- oder Klartext). |
 
-## 5. Control Properties
+## 5. Steuerungs-Eigenschaften
 
 Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausführung zu steuern.
 
