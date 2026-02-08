@@ -43,12 +43,20 @@ Elemente (Items, Relationen, UI-Buttons) können auf verschiedene Weisen adressi
 
 - **CSS-Selektor (`i`):** Der häufigste Weg, um UI-Elemente zu adressieren.
   - `{"a": "ci", "i": ".id-ok-button"}`
-- **Index (`ii`, `if`, `it`):** Um Items oder Relationen im Diagramm direkt über ihren numerischen Index anzusprechen (das Root-Item hat den Index `0`).
+- **Item-Index (`ii`, `if`, `it`):** Um Items oder Relationen im Diagramm direkt über ihren numerischen Index anzusprechen. Das Root-Item hat den Index `0`. Dieser Index wird basierend auf einer **Breitensuche (BFS)**-Durchquerung der Mindmap zugewiesen: zuerst das Root-Item (`ii=0`), dann alle seine Kinder (z.B. `ii=1`, `ii=2` usw., typischerweise in der Erstellungsreihenfolge), dann alle Kinder von `ii=1`, dann die Kinder von `ii=2` usw., Ebene für Ebene. Dies macht `ii` zu einem **vorhersehbaren, absoluten** Index, der stabil bleibt, es sei denn, das Item wird gelöscht oder die Diagrammstruktur grundlegend geändert. Es ist eine sehr zuverlässige Methode, um Items zu referenzieren, wenn die Erstellungsreihenfolge und Struktur bekannt sind.
   - `{"a": "cii", "ii": 0}` (Klickt das Root-Item)
 - **Name (`in`):** Adressiert ein Item über seinen angezeigten Namen.
   - `{"a": "pi", "in": "Einleitung"}`
-- **Stack (`bi`):** Aktionen können Items/Relationen auf einen internen "Stack" legen (`uis`, `urs`). Spätere Aktionen können diese Elemente dann über ihren Index auf dem Stack wiederverwenden (`bi`, "back index"). Dies ist nützlich, wenn Elemente dynamisch erstellt und dann direkt weiterverwendet werden sollen.
-  - `{"a": "csi", "bi": 0}` (Klickt das zuletzt auf den Stack gelegte Item)
+- **Stack (`bi` - Back Index):** Aktionen können Items/Relationen auf einen internen "Stack" legen (`uis`, `urs`). `bi` ist ein **relativer** Index, der vom *Ende* dieses Stacks zählt. `bi=0` bezieht sich immer auf das *zuletzt* auf den Stack gelegte Item. Dies ist nützlich, wenn Elemente dynamisch erstellt und dann direkt wiederverwendet werden sollen.
+
+    **Wichtige Stack-Dynamik:**
+    *   Die Aktion `uis` (Update Item Stack) legt das *aktuell selektierte Item* oben auf den Stack, wodurch es zu `bi=0` wird. Folglich **erhöht sich der `bi`-Wert aller anderen Items, die sich bereits auf dem Stack befinden, um eins.**
+    *   Makros wie `newItemName` und `newSimpleItems` verwenden intern `uis` für jedes von ihnen erstellte Item. Dies bedeutet, dass diese Makros den Stack verändern, indem sie neue Items auf `bi=0` legen, wodurch sich folglich **die `bi`-Werte zuvor gestapelter Items für jedes hinzugefügte Item um eins erhöhen.**
+    *   **Robuste Strategie für die Item-Referenzierung:** Beim Erstellen von Kind-Items für ein bestimmtes Elternteil ist es **im Allgemeinen robuster, `parentII` zu verwenden, wenn der Item-Index (`ii`) des Elternteils bekannt und stabil ist.** Dies vermeidet die Komplexität dynamisch verschiebender `bi`-Werte. Falls `parentBI` erforderlich ist (z.B. wenn `ii` nicht direkt vorhersehbar ist oder für komplexe dynamische Stack-Manipulationen), ist es entscheidend sicherzustellen, dass das beabsichtigte Eltern-Item *direkt vor der Kindererstellung* auf `bi=0` positioniert ist. Dies kann erreicht werden durch:
+        1.  Ermittlung des aktuellen `bi` des Elternteils (unter Berücksichtigung aller Items, die seit dem letzten Push des Elternteils auf den Stack gelegt wurden).
+        2.  Selektieren des Elternteils mit `{"a": "si", "bi": <aktueller_bi_des_elternteils>}`.
+        3.  Direkt danach Ausführen von `{"a": "uis"}` um das selektierte Elternteil an die Spitze des Stacks zu legen, wodurch es zu `bi=0` wird.
+        4.  Anschließend den Aufruf von `newItemName` oder `newSimpleItems` mit `parentII=-1` (um `ii` explizit zu ignorieren) und `parentBI=0`.
 
 ## 3. Aktions-Referenz (Schlüssel "a")
 
@@ -109,8 +117,8 @@ Makros sind Abkürzungen für eine Kette von Aktionen. Sie werden über den Schl
 | `selectCategory` | Wählt eine Kategorie in einem Dropdown-Menü aus. |1) Name der Kategorie. |
 | `showCategoryItems`| Zeigt die Galerie mit Items einer bestimmten Kategorie. |1) Name der Kategorie. |
 | `clickItemToolbar` | Klickt einen Button in der Toolbar eines Items. |1) Item-Index des Items.<br>2) Stack-Index des Items (vom Ende gezählt, z.B. `0` für das zuletzt selektierte Item).<br>3) Selektor des Toolbar-Buttons (z.B. `.id-edit-item`). |
-| `newSimpleItems` | Erstellt mehrere einfache Items nacheinander. |1) (Boolean) `ignoreTemplates` – legt fest, ob Templates ignoriert werden sollen.<br>2) Item-Index des Eltern-Items.<br>3) Stack-Index des Eltern-Items.<br>4) Array von Item-Arrays, wobei jedes Item-Array `[Name, Beschreibung, Hyperlink, Kategorie]` enthält. |
-| `newItemName` | Erstellt ein neues Item mit nur einem Namen. |1) (Boolean) `ignoreTemplates` – legt fest, ob Templates ignoriert werden sollen.<br>2) Item-Index des Eltern-Items.<br>3) Stack-Index des Eltern-Items.<br>4) Name des neuen Items. |
+| `newSimpleItems` | Erstellt mehrere einfache Items nacheinander. **Hinweis:** Dieses Makro verwendet implizit `uis` für *jedes erstellte Kind*, wodurch diese der Reihe nach auf den Stack gelegt werden und sich folglich der `bi`-Wert anderer Items auf dem Stack erhöht. **Bevorzugen Sie `parentII`, wenn der Item-Index des Elternteils vorhersehbar ist.** Wenn Sie `parentBI` verwenden, stellen Sie sicher, dass es zum Zeitpunkt der Ausführung korrekt auf das beabsichtigte Elternteil verweist, möglicherweise unter Verwendung der `si`- und `uis`-Strategie, wie in Abschnitt 2.3 beschrieben. |1) (Boolean) `ignoreTemplates` – legt fest, ob Templates ignoriert werden sollen.<br>2) Item-Index des Eltern-Items (verwenden Sie `-1`, wenn Sie über `parentBI` adressieren).<br>3) Stack-Index des Eltern-Items (verwenden Sie `0`, wenn das Elternteil gerade mit `uis` auf den Stack gelegt wurde).<br>4) Array von Item-Arrays, wobei jedes Item-Array `[Name, Beschreibung, Hyperlink, Kategorie]` enthält. Alle vier Parameter für jedes Item-Array müssen angegeben werden, verwenden Sie leere Zeichenketten für ungenutzte Werte. |
+| `newItemName` | Erstellt ein neues Item mit nur einem Namen. **Hinweis:** Dieses Makro verwendet implizit `uis` für das neu erstellte Item, wodurch es auf `bi=0` auf den Stack gelegt und sich folglich der `bi`-Wert anderer Items auf dem Stack um eins erhöht. **Bevorzugen Sie `parentII`, wenn der Item-Index des Elternteils vorhersehbar ist.** Wenn Sie `parentBI` verwenden, stellen Sie sicher, dass es zum Zeitpunkt der Ausführung korrekt auf das beabsichtigte Elternteil verweist, möglicherweise unter Verwendung der `si`- und `uis`-Strategie, wie in Abschnitt 2.3 beschrieben. |1) (Boolean) `ignoreTemplates` – legt fest, ob Templates ignoriert werden sollen.<br>2) Item-Index des Eltern-Items (verwenden Sie `-1`, wenn Sie über `parentBI` adressieren).<br>3) Stack-Index des Eltern-Items (verwenden Sie `0`, wenn das Elternteil gerade mit `uis` auf den Stack gelegt wurde).<br>4) Name des neuen Items. Alle vier Parameter für das Makro müssen angegeben werden, verwenden Sie leere Zeichenketten für ungenutzte Werte im internen `newItem`-Aufruf. |
 | `newRelation` | Erstellt eine neue Relation zwischen zwei Items. |1) (Boolean) `ignoreTemplates` – legt fest, ob Templates ignoriert werden sollen.<br>2) Item-Index des Start-Items.<br>3) Stack-Index des Start-Items.<br>4) Item-Index des Ziel-Items.<br>5) Stack-Index des Ziel-Items. |
 | `editRelation` | Bearbeitet die Eigenschaften einer Relation. |1) Item-Index des Start-Items der Relation.<br>2) Item-Index des Ziel-Items der Relation.<br>3) Stack-Index der Relation (vom Ende gezählt).<br>4) Name der Relation.<br>5) (Boolean) Steuerung der Sichtbarkeit der Relation (entspricht der Checkbox 'Als Tabelle anzeigen' im Dialog).<br>6) Name der Rück-Relation (Back-Relation Name).<br>7) (Boolean) Steuerung der Sichtbarkeit der Rück-Relation (entspricht der Checkbox 'Als Tabelle anzeigen' im Dialog).<br>8) Beschreibung der Relation.<br>9) Kategorie der Relation. |
 | `setZoom` | Stellt den Zoom-Faktor ein. |1) Wert für die Verschiebung des Zoom-Reglers (relativ, z.B. `50` für eine halbe Verschiebung nach rechts). |
@@ -119,7 +127,7 @@ Makros sind Abkürzungen für eine Kette von Aktionen. Sie werden über den Schl
 | `setPerspective` | Stellt die Perspektive ein (3D). |1) Wert für die Verschiebung des Perspektiv-Reglers (relativ, z.B. `50`). |
 | `saveView` | Speichert die aktuelle Ansicht als Lesezeichen. |1) Name des Lesezeichens.<br>2) (Boolean) `true`, um das Root-Item zu speichern; `false` sonst.<br>3) (Boolean) `true`, um die Ansicht als initiale Ansicht festzulegen; `false` sonst. |
 | `restoreView` | Stellt eine gespeicherte Ansicht wieder her. |1) ID des Lesezeichens. |
-| `setItemColor` | Setzt die Farbe eines Items. |1) Item-Index des zu formatierenden Items.<br>2) Stack-Index des zu formatierenden Items.<br>3) Index der Farbe in der Farbpalette (0-basiert, z.B. `0` für die erste Farbe). |
+| `setItemColor` | Setzt die Farbe eines Items. |1) Item-Index des zu formatierenden Items (verwenden Sie `-1`, wenn Sie über `stackIndex` adressieren).<br>2) Stack-Index des zu formatierenden Items (verwenden Sie `0`, wenn das Item gerade mit `uis` auf den Stack gelegt wurde).<br>3) Index der Farbe in der Farbpalette (0-basiert, z.B. `0` für die erste Farbe). |
 | `setItemFontSize` | Setzt die Schriftgröße eines Items. |1) Item-Index des zu formatierenden Items.<br>2) Stack-Index des zu formatierenden Items.<br>3) Selektor für die gewünschte Schriftgröße (z.B. `.id-font-size-small`, `.id-font-size-medium`, `.id-font-size-large`). |
 | `setTextNote` | Fügt einem Item eine Textnotiz hinzu oder bearbeitet sie. |1) Item-Index des Items, zu dem die Notiz gehört.<br>2) Stack-Index des Items, zu dem die Notiz gehört.<br>3) Textinhalt der Notiz (HTML- oder Klartext). |
 
@@ -139,6 +147,16 @@ Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausf
 | `mnbs` | **Must Not Be Selected**: Die Aktion wird nur ausgeführt, wenn der Button/Item *nicht* selektiert ist. | `{"a": "ci", "i": ".toggle-btn", "mnbs": ".toggle-btn"}` |
 | `eine` | **Execute If Not Empty**: Die Aktion wird nur ausgeführt, wenn der Wert dieses Schlüssels nicht leer ist. Nützlich in Makros, um optionale Aktionen zu steuern. | `{"a": "tt", "t": "Optionaler Text", "eine": "Optionaler Text"}` |
 
+### 5.1 Debugging Hilfen
+
+Für schnelleres Debugging und Entwicklung können Sie die folgenden Aktionen am Anfang Ihres Skripts einfügen:
+```json
+{ "a": "fast" },
+{ "a": "tspt" }
+```
+- `{"a": "fast"}`: Stellt die globale Skriptausführungsgeschwindigkeit auf schnell ein, wodurch Verzögerungen minimiert werden.
+- `{"a": "tspt"}`: Schaltet die Sprachausgabe aus, wodurch das Skript keinen Text spricht.
+
 ## 6. Beispiele
 
 ### Beispiel 1: Zwei Items erstellen und verbinden
@@ -147,17 +165,11 @@ Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausf
 [
   {
     "m": "newItemName",
-    "p": ["-1", "0", ".id-new-item", "Erstes Item"]
-  },
-  {
-    "a": "uis"
+    "p": [false, -1, 0, "Erstes Item"]
   },
   {
     "m": "newItemName",
-    "p": ["-1", "0", ".id-new-item", "Zweites Item"]
-  },
-  {
-    "a": "uis"
+    "p": [false, -1, 0, "Zweites Item"]
   },
   {
     "m": "newRelation",
@@ -166,11 +178,9 @@ Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausf
 ]
 ```
 **Erklärung:**
-1. Erstellt ein neues Item mit dem Namen "Erstes Item" als Kind des Root-Items (`-1` ist der Index für das Root-Item in diesem Kontext, `0` ist der Stack-Index).
-2. Legt das neu erstellte Item auf den Stack (`uis`).
-3. Erstellt ein zweites Item mit dem Namen "Zweites Item".
-4. Legt auch dieses auf den Stack.
-5. Erstellt eine Relation zwischen dem zweiten (`bi`: 0) und dem ersten (`bi`: 1) Item auf dem Stack.
+1. Erstellt ein neues Item mit dem Namen "Erstes Item" als Kind des Root-Items (standardmäßig, wenn kein Elternteil mit `parentII` angegeben ist) und legt es implizit auf den Stack (`uis`), wodurch es zu `bi=0` wird.
+2. Erstellt ein zweites Item mit dem Namen "Zweites Item" (ebenfalls standardmäßig, wenn kein Elternteil mit `parentII` angegeben ist) und legt es implizit auf den Stack (`uis`), wodurch es zu `bi=0` wird. Der `bi`-Wert des "Ersten Items" erhöht sich dadurch auf `1`.
+3. Erstellt eine Relation zwischen dem "Zweiten Item" (`bi`: 0) und dem "Ersten Item" (`bi`: 1) auf dem Stack.
 
 ### Beispiel 2: Formatierung ändern
 
@@ -192,6 +202,6 @@ Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausf
 ]
 ```
 **Erklärung:**
-1. Setzt die Farbe des Root-Items (`ii`: 0) auf die 5. Farbe (`eq(4)`) in der Palette.
+1. Selektiert das Root-Item (`ii`: 0) und setzt seine Farbe auf die 5. Farbe (`eq(4)`) in der Palette. Hinweis: Bei Verwendung von `setItemColor` kann `stackIndex` (Parameter 2) `-1` sein, wenn `itemIndex` (Parameter 1) verwendet wird, oder `0`, wenn sich das Item an der Spitze des Stacks befindet.
 2. Zoomt in die Ansicht hinein.
-3. Stellt eine zuvor gespeicherte Ansicht (Kamerposition, Zoom etc.) wieder her und wartet, bis das Diagramm neu gezeichnet wurde.
+3. Stellt eine zuvor gespeicherte Ansicht (Kameraposition, Zoom etc.) wieder her und wartet, bis das Diagramm neu gezeichnet wurde.
