@@ -58,6 +58,17 @@ Elemente (Items, Relationen, UI-Buttons) können auf verschiedene Weisen adressi
         3.  Direkt danach Ausführen von `{"a": "uis"}` um das selektierte Elternteil an die Spitze des Stacks zu legen, wodurch es zu `bi=0` wird.
         4.  Anschließend den Aufruf von `newItemName` oder `newSimpleItems` mit `parentII=-1` (um `ii` explizit zu ignorieren) und `parentBI=0`.
 
+### 2.4. Mehrfachauswahl
+
+Die Skriptlogik unterstützt die Auswahl mehrerer Items, um Gruppenaktionen durchzuführen. Dies erfordert die Aktivierung eines speziellen Modus.
+
+- **Arbeitsablauf:**
+    1.  Aktivieren Sie den Modus mit dem Makro `{"m": "enableMultiSelect"}`.
+    2.  Wählen Sie mehrere Items aus, indem Sie ein **Array von Indizes** an den `ii`- oder `bi`-Parameter einer Aktion wie `si` übergeben.
+    3.  Führen Sie beliebige Gruppenaktionen durch (z.B. Formatierung).
+    4.  Heben Sie die Auswahl mit `{"a": "dsi"}` auf oder deaktivieren Sie den Modus mit `{"m": "disableMultiSelect"}`.
+- **Wichtig:** Wenn der Mehrfachauswahlmodus nicht aktiviert ist, wird bei der Auswahl eines neuen Items die Auswahl eines zuvor ausgewählten Items aufgehoben.
+
 ## 3. Aktions-Referenz (Schlüssel "a")
 
 Die folgende Tabelle beschreibt die atomaren Aktionen, die über den Schlüssel `"a"` gesteuert werden.
@@ -67,18 +78,19 @@ Die folgende Tabelle beschreibt die atomaren Aktionen, die über den Schlüssel 
 | `atp` | **Append Text to Panel**: Fügt HTML-Text zum Textpanel hinzu. | `t`: Der HTML-Text. |
 | `blur` | **Blur**: Löst das `blur`-Event auf einem Element aus. | `i`: CSS-Selektor des Elements. |
 | `ci` | **Click Item**: Klickt auf ein UI-Element. | `i`: CSS-Selektor. `iifs`: (Optional) Selektor für einen iFrame, in dem das Element liegt. `et`: (Optional) Event-Typ (z.B. "mousedown"). |
-| `cii` | **Click Item by Index**: Klickt auf ein Item im Diagramm anhand seines Index. | `ii`: Index des Items. |
-| `ciis` | **Click Item Selector by Index**: Klickt auf den *Selektor* eines Items anhand seines Index. | `ii`: Index des Items. |
+| `cii` | **Click Item by Index**: Klickt auf ein Item im Diagramm anhand seines Index. | `ii`: Index (oder Array von Indizes) des Items. |
+| `ciis` | **Click Item Selector by Index**: Klickt auf den *Selektor* eines Items anhand seines Index. | `ii`: Index (oder Array von Indizes) des Items. |
 | `cri` | **Click Relation by Index**: Klickt auf eine Relation anhand der Indizes von Start- und End-Item. | `if`: Index des Start-Items. `it`: Index des End-Items. |
 | `csg` | **Close Side Gallery**: Schließt eine angegebene Side Gallery. | `sg`: CSS-Selektor der Side Gallery. |
-| `csi` | **Click Stack Item**: Klickt auf ein Item vom Stack. | `bi`: Index vom Ende des Stacks (0 = letztes). |
-| `csis` | **Click Stack Item Selector**: Klickt auf den Selektor eines Items vom Stack. | `bi`: Index vom Ende des Stacks. |
-| `csr` | **Click Stack Relation**: Klickt auf eine Relation vom Stack. | `bi`: Index vom Ende des Stacks. |
+| `csi` | **Click Stack Item**: Klickt auf ein Item vom Stack. | `bi`: Index (oder Array von Indizes) vom Ende des Stacks (0 = letztes). |
+| `csis` | **Click Stack Item Selector**: Klickt auf den Selektor eines Items vom Stack. | `bi`: Index (oder Array von Indizes) vom Ende des Stacks. |
+| `csr` | **Click Stack Relation**: Klickt auf eine Relation vom Stack. | `bi`: Index (oder Array von Indizes) vom Ende des Stacks. |
 | `ctvc` | **Click Table View Cell**: Klickt auf eine Zelle in der Tabellenansicht. | `col`: Spaltenindex. `row`: Zeilenindex. |
 | `dcii` | **Double Click Item by Index**: Doppelklick auf ein Item anhand seines Index. | `ii`: Index des Items. |
 | `dcsi` | **Double Click Stack Item**: Doppelklick auf ein Item vom Stack. | `bi`: Index vom Ende des Stacks. |
 | `dib` | **Drag Item By**: Zieht ein Element um ein gegebenes Delta. | `i`: Selektor des Elements. `dx`: Pixel in X-Richtung. `dy`: Pixel in Y-Richtung. |
 | `dift` | **Drag Item From To**: Zieht ein Diagramm-Item zu einem anderen. | `iif`/`bif`: Index/Stack-Index des Start-Items. `iit`/`bit`: Index/Stack-Index des Ziel-Items. |
+| `dsi` | **Deselect All Items**: Hebt die gesamte aktuelle Auswahl im Diagramm auf. | |
 | `...` | *Diverse weitere Drag-Aktionen für spezielle Kontexte (z.B. `difctd`, `diftvtc`)* | Siehe `screenplay.js` für Details. |
 | `focus` | **Focus**: Löst das `focus`-Event auf einem Element aus. | `i`: CSS-Selektor des Elements. |
 | `htp` | **Hide Text Panel**: Versteckt das Textpanel. | |
@@ -87,7 +99,7 @@ Die folgende Tabelle beschreibt die atomaren Aktionen, die über den Schlüssel 
 | `oit` | **Open Item Toolbar**: Öffnet die Toolbar eines Items (durch Klick). | `ii`/`bi`: Index/Stack-Index des Items. |
 | `ort` | **Open Relation Toolbar**: Öffnet die Toolbar einer Relation. | `if`, `it` / `bi`: Indizes der Items oder Stack-Index der Relation. |
 | `pi` | **Present Item**: Zoomt und zentriert die Ansicht auf ein Item. | `in`: Name des Items. `hi`: (Optional) Hit-Index, falls mehrere Items denselben Namen haben. `spt`: (Optional) `true`, um den Item-Text danach zu sprechen. |
-| `si` | **Select Item**: Selektiert ein Item, ohne es zu klicken. | `ii`/`bi`: Index/Stack-Index des Items. |
+| `si` | **Select Item**: Selektiert ein Item, ohne es zu klicken. | `ii`/`bi`: Index (oder Array von Indizes) des Items. |
 | `sit` | **Set Ignore Templates**: Legt fest, ob Templates ignoriert werden sollen. | `it`: Boolean-Wert. |
 | `spt` | **Speak Text**: Liest einen Text über die Sprachausgabe vor. | `t`: Der zu sprechende Text. |
 | `st` | **Select Text**: Markiert Text in einem Eingabefeld. | `i`: Selektor des Feldes. `iifs`: (Optional) iFrame-Selektor. `t`: Der zu markierende Text. |
@@ -109,6 +121,8 @@ Makros sind Abkürzungen für eine Kette von Aktionen. Sie werden über den Schl
 | `showSidebar` | Zeigt die Haupt-Seitenleiste an. | - |
 | `showSideGallery` | Öffnet eine bestimmte Galerie in der Seitenleiste. |1) CSS-Selektor der zu öffnenden Galerie. |
 | `closeSideGallery` | Schließt eine bestimmte Galerie. |1) CSS-Selektor der zu schließenden Galerie. |
+| `disableMultiSelect` | Deaktiviert den Mehrfachauswahl-Modus und kehrt zum Einzelauswahl-Verhalten zurück. | - |
+| `enableMultiSelect` | Aktiviert den Mehrfachauswahl-Modus. Muss aufgerufen werden, bevor versucht wird, mehrere Items auszuwählen. | - |
 | `execItemCommand` | Führt einen Befehl im "Item bearbeiten"-Menü aus. |1) Selektor des Befehls (z.B. `.id-new-item`). |
 | `execInsertCommand` | Führt einen Befehl im "Einfügen"-Menü aus. |1) Selektor des Befehls (z.B. `.id-insert-textnote`). |
 | `setLayoutMode` | Setzt den Layout-Modus des Diagramms. |1) Selektor für den gewünschten Modus (z.B. `.id-diagram-layout-free`). |
@@ -131,7 +145,7 @@ Makros sind Abkürzungen für eine Kette von Aktionen. Sie werden über den Schl
 | `setItemFontSize` | Setzt die Schriftgröße eines Items. |1) Item-Index des zu formatierenden Items.<br>2) Stack-Index des zu formatierenden Items.<br>3) Selektor für die gewünschte Schriftgröße (z.B. `.id-font-size-small`, `.id-font-size-medium`, `.id-font-size-large`). |
 | `setTextNote` | Fügt einem Item eine Textnotiz hinzu oder bearbeitet sie. |1) Item-Index des Items, zu dem die Notiz gehört.<br>2) Stack-Index des Items, zu dem die Notiz gehört.<br>3) Textinhalt der Notiz (HTML- oder Klartext). |
 
-## 5. Steuerungs-Eigenschaften
+## 5. Control Properties
 
 Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausführung zu steuern.
 
@@ -205,3 +219,23 @@ Für schnelleres Debugging und Entwicklung können Sie die folgenden Aktionen am
 1. Selektiert das Root-Item (`ii`: 0) und setzt seine Farbe auf die 5. Farbe (`eq(4)`) in der Palette. Hinweis: Bei Verwendung von `setItemColor` kann `stackIndex` (Parameter 2) `-1` sein, wenn `itemIndex` (Parameter 1) verwendet wird, oder `0`, wenn sich das Item an der Spitze des Stacks befindet.
 2. Zoomt in die Ansicht hinein.
 3. Stellt eine zuvor gespeicherte Ansicht (Kameraposition, Zoom etc.) wieder her und wartet, bis das Diagramm neu gezeichnet wurde.
+
+### Beispiel 3: Mehrfachauswahl
+
+```json
+[
+  { "a": "spt", "t": "Zuerst erstelle ich drei Items." },
+  { "m": "newItemName", "p": [false, -1, 0, "Item A"] },
+  { "m": "newItemName", "p": [false, -1, 0, "Item B"] },
+  { "m": "newItemName", "p": [false, -1, 0, "Item C"] },
+  { "a": "spt", "t": "Jetzt aktiviere ich die Mehrfachauswahl." },
+  { "m": "enableMultiSelect" },
+  { "a": "spt", "t": "Ich wähle alle drei Items über ein Array von Back-Indizes aus." },
+  { "a": "si", "bi": [0, 1, 2] },
+  { "a": "wa", "wa": 1000 },
+  { "a": "spt", "t": "Jetzt könnte ich eine Gruppenaktion durchführen. Vorerst hebe ich die Auswahl einfach wieder auf." },
+  { "a": "dsi" },
+  { "a": "spt", "t": "Zuletzt deaktiviere ich den Mehrfachauswahl-Modus." },
+  { "m": "disableMultiSelect" }
+]
+```

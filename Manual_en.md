@@ -58,6 +58,17 @@ Elements (items, relations, UI buttons) can be addressed in various ways:
         3.  Immediately executing `{"a": "uis"}` to push the selected parent to the top of the stack, making it `bi=0`.
         4.  Then, calling `newItemName` or `newSimpleItems` with `parentII=-1` (to explicitly ignore `ii`) and `parentBI=0`.
 
+### 2.4. Multi-Selection
+
+The screenplay logic supports selecting multiple items to perform group actions. This requires enabling a special mode.
+
+- **Workflow:**
+    1.  Enable the mode using the `{"m": "enableMultiSelect"}` macro.
+    2.  Select multiple items by providing an **array of indices** to the `ii` or `bi` parameter of an action like `si`.
+    3.  Perform any desired group actions (e.g., formatting).
+    4.  Clear the selection using `{"a": "dsi"}` or disable the mode with `{"m": "disableMultiSelect"}`.
+- **Important:** If multi-select mode is not enabled, selecting a new item will deselect any previously selected item.
+
 ## 3. Action Reference (Key "a")
 
 The following table describes the atomic actions controlled by the `"a"` key.
@@ -67,18 +78,19 @@ The following table describes the atomic actions controlled by the `"a"` key.
 | `atp` | **Append Text to Panel**: Appends HTML text to the text panel. | `t`: The HTML text. |
 | `blur` | **Blur**: Triggers the `blur` event on an element. | `i`: CSS selector of the element. |
 | `ci` | **Click Item**: Clicks a UI element. | `i`: CSS selector. `iifs`: (Optional) Selector for an iFrame containing the element. `et`: (Optional) Event type (e.g., "mousedown"). |
-| `cii` | **Click Item by Index**: Clicks an item in the diagram by its index. | `ii`: Index of the item. |
-| `ciis` | **Click Item Selector by Index**: Clicks the *selector* of an item by its index. | `ii`: Index of the item. |
+| `cii` | **Click Item by Index**: Clicks an item in the diagram by its index. | `ii`: Index (or array of indices) of the item. |
+| `ciis` | **Click Item Selector by Index**: Clicks the *selector* of an item by its index. | `ii`: Index (or array of indices) of the item. |
 | `cri` | **Click Relation by Index**: Clicks a relation by the indices of start and end items. | `if`: Index of the start item. `it`: Index of the end item. |
 | `csg` | **Close Side Gallery**: Closes a specified side gallery. | `sg`: CSS selector of the side gallery. |
-| `csi` | **Click Stack Item**: Clicks an item from the stack. | `bi`: Index from the end of the stack (0 = last). |
-| `csis` | **Click Stack Item Selector**: Clicks the selector of an item from the stack. | `bi`: Index from the end of the stack. |
-| `csr` | **Click Stack Relation**: Clicks a relation from the stack. | `bi`: Index from the end of the stack. |
+| `csi` | **Click Stack Item**: Clicks an item from the stack. | `bi`: Index (or array of indices) from the end of the stack (0 = last). |
+| `csis` | **Click Stack Item Selector**: Clicks the selector of an item from the stack. | `bi`: Index (or array of indices) from the end of the stack. |
+| `csr` | **Click Stack Relation**: Clicks a relation from the stack. | `bi`: Index (or array of indices) from the end of the stack. |
 | `ctvc` | **Click Table View Cell**: Clicks a cell in the table view. | `col`: Column index. `row`: Row index. |
 | `dcii` | **Double Click Item by Index**: Double-clicks an item by its index. | `ii`: Index of the item. |
 | `dcsi` | **Double Click Stack Item**: Double-clicks an item from the stack. | `bi`: Index from the end of the stack. |
 | `dib` | **Drag Item By**: Drags an element by a given delta. | `i`: Selector of the element. `dx`: Pixels in X direction. `dy`: Pixels in Y direction. |
 | `dift` | **Drag Item From To**: Drags a diagram item to another. | `iif`/`bif`: Index/Stack index of the start item. `iit`/`bit`: Index/Stack index of the target item. |
+| `dsi` | **Deselect All Items**: Clears all current selections in the diagram. | |
 | `...` | *Various other drag actions for specific contexts (e.g., `difctd`, `diftvtc`)* | See `screenplay.js` for details. |
 | `focus` | **Focus**: Triggers the `focus` event on an element. | `i`: CSS selector of the element. |
 | `htp` | **Hide Text Panel**: Hides the text panel. | |
@@ -109,6 +121,8 @@ Macros are shortcuts for a chain of actions. They are invoked via the `"m"` key.
 | `showSidebar` | Displays the main sidebar. | - |
 | `showSideGallery` | Opens a specific gallery in the sidebar. |1) CSS selector of the gallery to open. |
 | `closeSideGallery` | Closes a specific gallery. |1) CSS selector of the gallery to close. |
+| `disableMultiSelect` | Disables multi-selection mode, returning to single-selection behavior. | - |
+| `enableMultiSelect` | Enables multi-selection mode. This must be called before attempting to select multiple items. | - |
 | `execItemCommand` | Executes a command in the "Edit Item" menu. |1) Selector of the command (e.g., `.id-new-item`). |
 | `execInsertCommand` | Executes a command in the "Insert" menu. |1) Selector of the command (e.g., `.id-insert-textnote`). |
 | `setLayoutMode` | Sets the layout mode of the diagram. |1) Selector for the desired mode (e.g., `.id-diagram-layout-free`). |
@@ -205,3 +219,23 @@ For faster debugging and development, you can add the following actions at the b
 1. Selects the root item (`ii`: 0) and sets its color to the 5th color (`eq(4)`) in the palette. Note: when using `setItemColor`, `stackIndex` (parameter 2) can be `-1` if `itemIndex` (parameter 1) is used, or `0` if the item is at the top of the stack.
 2. Zooms in the view.
 3. Restores a previously saved view (camera position, zoom etc.) and waits until the diagram has been redrawn.
+
+### Example 3: Multi-Selection
+
+```json
+[
+  { "a": "spt", "t": "First, I will create three items." },
+  { "m": "newItemName", "p": [false, -1, 0, "Item A"] },
+  { "m": "newItemName", "p": [false, -1, 0, "Item B"] },
+  { "m": "newItemName", "p": [false, -1, 0, "Item C"] },
+  { "a": "spt", "t": "Now, I will enable multi-selection." },
+  { "m": "enableMultiSelect" },
+  { "a": "spt", "t": "I will select all three items using an array of back-indices." },
+  { "a": "si", "bi": [0, 1, 2] },
+  { "a": "wa", "wa": 1000 },
+  { "a": "spt", "t": "Now I could perform a group action. For now, I will just deselect them." },
+  { "a": "dsi" },
+  { "a": "spt", "t": "Finally, I will disable multi-selection mode." },
+  { "m": "disableMultiSelect" }
+]
+```
