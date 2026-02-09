@@ -160,6 +160,7 @@ These properties can be added to any action object to control its execution.
 | `mbs` | **Must Be Selected**: The action is only executed if the button/item is selected. | `{"a": "ci", "i": ".other-btn", "mbs": ".toggle-btn"}` |
 | `mnbs` | **Must Not Be Selected**: The action is only executed if the button/item is *not* selected. | `{"a": "ci", "i": ".toggle-btn", "mnbs": ".toggle-btn"}` |
 | `eine` | **Execute If Not Empty**: The action is only executed if the value of this key is not empty. Useful in macros to control optional actions. | `{"a": "tt", "t": "Optional Text", "eine": "Optional Text"}` |
+| `wse` | **Wait Speech End**: Waits for the previous speech output to finish before executing the next action. This is useful when an `spt` action is running in the background. | `{"a": "dsi", "wse": true}` |
 
 ### 5.1 Debugging Aids
 
@@ -232,7 +233,7 @@ For faster debugging and development, you can add the following actions at the b
   { "m": "enableMultiSelect" },
   { "a": "spt", "t": "I will select all three items using an array of back-indices." },
   { "a": "si", "bi": [0, 1, 2] },
-  { "a": "wa", "wa": 1000 },
+  { "wa": 1000 },
   { "a": "spt", "t": "Now I could perform a group action. For now, I will just deselect them." },
   { "a": "dsi" },
   { "a": "spt", "t": "Finally, I will disable multi-selection mode." },

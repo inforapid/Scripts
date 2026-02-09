@@ -160,6 +160,7 @@ Diese Eigenschaften können jedem Aktionsobjekt hinzugefügt werden, um die Ausf
 | `mbs` | **Must Be Selected**: Die Aktion wird nur ausgeführt, wenn der Button/Item selektiert ist. | `{"a": "ci", "i": ".other-btn", "mbs": ".toggle-btn"}` |
 | `mnbs` | **Must Not Be Selected**: Die Aktion wird nur ausgeführt, wenn der Button/Item *nicht* selektiert ist. | `{"a": "ci", "i": ".toggle-btn", "mnbs": ".toggle-btn"}` |
 | `eine` | **Execute If Not Empty**: Die Aktion wird nur ausgeführt, wenn der Wert dieses Schlüssels nicht leer ist. Nützlich in Makros, um optionale Aktionen zu steuern. | `{"a": "tt", "t": "Optionaler Text", "eine": "Optionaler Text"}` |
+| `wse` | **Wait Speech End**: Wartet, bis die vorhergehende Sprachausgabe beendet ist, bevor die nächste Aktion ausgeführt wird. Dies ist nützlich, wenn eine `spt`-Aktion im Hintergrund läuft. | `{"a": "dsi", "wse": true}` |
 
 ### 5.1 Debugging Hilfen
 
@@ -232,7 +233,7 @@ Für schnelleres Debugging und Entwicklung können Sie die folgenden Aktionen am
   { "m": "enableMultiSelect" },
   { "a": "spt", "t": "Ich wähle alle drei Items über ein Array von Back-Indizes aus." },
   { "a": "si", "bi": [0, 1, 2] },
-  { "a": "wa", "wa": 1000 },
+  { "wa": 1000 },
   { "a": "spt", "t": "Jetzt könnte ich eine Gruppenaktion durchführen. Vorerst hebe ich die Auswahl einfach wieder auf." },
   { "a": "dsi" },
   { "a": "spt", "t": "Zuletzt deaktiviere ich den Mehrfachauswahl-Modus." },
