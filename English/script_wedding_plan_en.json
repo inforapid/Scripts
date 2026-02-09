@@ -77,6 +77,10 @@
 		]
 	},
 	{
+		"a": "siiv",
+		"ii": 1
+	},
+	{
 		"wa": 1000
 	},
 	{
@@ -103,6 +107,10 @@
 				["📝 Seating Chart", "", "", ""]
 			]
 		]
+	},
+	{
+		"a": "siiv",
+		"ii": 2
 	},
 	{
 		"wa": 1000
@@ -132,6 +140,10 @@
 		]
 	},
 	{
+		"a": "siiv",
+		"ii": 3
+	},
+	{
 		"wa": 1000
 	},
 	{
@@ -156,6 +168,10 @@
 				["💃 First Dance Song", "", "", ""]
 			]
 		]
+	},
+	{
+		"a": "siiv",
+		"ii": 4
 	},
 	{
 		"wa": 1000
@@ -185,6 +201,10 @@
 		]
 	},
 	{
+		"a": "siiv",
+		"ii": 5
+	},
+	{
 		"wa": 1000
 	},
 	{
@@ -210,11 +230,26 @@
 		]
 	},
 	{
+		"a": "siiv",
+		"ii": 6
+	},
+	{
 		"wa": 1500
 	},
 	{
 		"a": "spt",
 		"t": "And there we have it! A clear, organized, and truly beautiful wedding plan, dynamically built and intelligently color-coded in minutes. Let's zoom out for the final, impressive overview of your entire dream wedding coming to life on screen!"
+	},
+	{
+		"a": "siiv",
+		"ii": 0
+	},
+	{
+		"m": "setZoom",
+		"p": [-45]
+	},
+	{
+		"wa": 1000
 	},
 	{
 		"a": "spt",
