@@ -1,197 +1,223 @@
 [
-  {
-    "a": "spt",
-    "t": "Hello and welcome! Planning a wedding can be overwhelming, but with the right tools, it becomes a creative and joyful process. Today, I'll show you how to build a beautiful and comprehensive wedding plan from scratch, right here in the InfoRapid KnowledgeBase Builder. Watch how effortlessly you can organize every single detail of your special day, transforming complexity into clarity!"
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "Every great plan starts with a central idea, a core node from which everything else will branch. Let's create ours now: 'Our Wedding Plan'. This will be the absolute heart of our entire project, the anchor for all our forthcoming ideas and tasks."
-  },
-  {
-    "m": "newItemName",
-    "p": [false, 0, -1, "💖 Our Wedding Plan"]
-  },
-  {
-    "wa": 750
-  },
-  { "a": "fast" },
-  {
-    "a": "spt",
-    "t": "Perfect! Now, let's branch out with the main categories that form the backbone of any wedding. We'll meticulously add the all-important Budget to track our finances. Next, our cherished Guest List, detailing everyone who will share our joy. The beautiful Ceremony, outlining every sacred moment. The fun-filled Reception, planning the celebration. Our trusted Vendors, listing all the professionals who will bring our vision to life. And finally, the stunning Attire, ensuring we both look our absolute best. The mind map instantly shows how each piece connects to your big day, making planning incredibly intuitive and visually appealing as these key sections take shape before your eyes."
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 0, -1, [["💰 Budget", "", "", ""], ["👥 Guest List", "", "", ""], ["💍 Ceremony", "", "", ""], ["🎉 Reception", "", "", ""], ["🤝 Vendors & Suppliers", "", "", ""], ["👗 Attire & Rings", "", "", ""]]]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "With our main pillars firmly in place, it's time to flesh them out with all the crucial details that make a wedding truly special. We'll use the predictable item indices to add children reliably to each category. First up, the budget – the financial heart of our wedding, where every dollar needs careful consideration. We begin by defining the overall budget for our entire wedding journey. Then, we meticulously allocate a significant portion to our venue costs, often the largest single expense. After that, we account for all catering and bar expenses, ensuring our guests are well-fed and refreshed. A crucial investment is in photography and video, capturing every fleeting memory. We must carefully consider the attire and accessories for both the bride and groom. And let's not forget the all-important wedding rings, symbols of eternal commitment. Finally, and this is a pro tip, we'll add a contingency fund, typically 10 to 15 percent, to cover any unexpected surprises that may arise, guaranteeing peace of mind. This detailed breakdown in InfoRapid is perfect for keeping our finances in check and preventing any last-minute stress."
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 1, -1, [
-      ["📈 Overall Budget", "", "", ""],
-      ["💒 Venue Costs", "", "", ""],
-      ["🍽️ Catering & Bar", "", "", ""],
-      ["📸 Photography & Video", "", "", ""],
-      ["👗 Attire & Accessories", "", "", ""],
-      ["💍 Rings", "", "", ""],
-      ["🚨 Contingency Fund (15%)", "", "", ""]
-    ]]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "Next, for the heart of your celebration: your Guest List! This is where we break down who's invited, track communications, and manage important details for every single attendee, ensuring no one is forgotten. We'll meticulously list the bride's family members, capturing all their details. Then, we will do the same for the groom's family, ensuring fairness and completeness. After that, we'll add all of our dear friends, the cherished companions who will share our joy. We can also track when the 'Save the Dates' have been thoughtfully sent out to everyone. Next, we will log the precise dates when the formal invitations are mailed to our guests. It's so satisfying to see the RSVPs as they enthusiastically come in, building anticipation. And finally, we can use all this invaluable information to meticulously craft our seating chart, ensuring a comfortable and wonderful dining experience for everyone present."
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 2, -1, [
-      ["👨‍👩‍👧‍👦 Bride's Family", "", "", ""],
-      ["👨‍👩‍👦‍👦 Groom's Family", "", "", ""],
-      ["👫 Friends", "", "", ""],
-      ["🗓️ Save the Dates Sent", "", "", ""],
-      ["📧 Invitations Sent", "", "", ""],
-      ["✅ RSVPs Received", "", "", ""],
-      ["📝 Seating Chart", "", "", ""]
-    ]]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "Now for the Ceremony, the most magical moment where two lives become one. We'll begin by scouting and selecting the perfect venue that truly reflects our vision and dreams. Then, it's time to find and book our officiant, the person who will guide us through this sacred union. A deeply personal and crucial part is taking the time for writing our personal vows, expressing our heartfelt promises. We'll also need to carefully select the music for the procession, recessional, and any interludes, setting the perfect mood. Let's not forget the beautiful floral decor and aisle runners that will adorn our ceremony space. And finally, we will choose who will do the special readings and speeches during the service, adding a personal touch to our day."
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 3, -1, [
-      ["💒 Ceremony Venue Selection", "", "", ""],
-      ["🙏 Officiant Booking", "", "", ""],
-      ["📜 Vows (Writing & Practice)", "", "", ""],
-      ["🎶 Music Selection", "", "", ""],
-      ["🌸 Floral Decor", "", "", ""],
-      ["📚 Readings & Speakers", "", "", ""]
-    ]]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "After the 'I dos', it's party time! Our Reception plan covers all the joyous details, ensuring a seamless and unforgettable celebration for everyone. We must first decide on the ideal reception venue layout and table plan, optimizing guest comfort. Then comes the delicious part: meticulously crafting the perfect menu and drinks selection that tantalizes every palate. After that, we will collaborate to design a stunning and equally tasty wedding cake, a sweet centerpiece for our celebration. We also need to create our comprehensive entertainment playlist for the DJ or band, ensuring the dance floor stays lively. And, of course, we must choose that unforgettable first dance song, marking our official debut as a married couple."
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 4, -1, [
-      ["🥂 Reception Venue & Layout", "", "", ""],
-      ["🍽️ Menu & Beverage Selection", "", "", ""],
-      ["🍰 Wedding Cake Design", "", "", ""],
-      ["🎶 Entertainment & Playlist", "", "", ""],
-      ["💃 First Dance Song", "", "", ""]
-    ]]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "A great wedding needs a fantastic team of dedicated professionals. In our Vendors and Suppliers section, we'll meticulously list our photographer, crucial for capturing every precious moment of our day. Then, our videographer, who will create a beautiful cinematic film to cherish forever. We'll add our caterer, essential for the delicious food and impeccable service our guests will enjoy. We must not forget the florist, who will transform our venue with breathtaking beauty. Next comes the baker, for our amazing and delicious wedding cake. And finally, the indispensable DJ or band, who will keep the party going with fantastic music and energy all night long, ensuring everyone has a memorable time!"
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 5, -1, [
-      ["📸 Photographer", "", "", ""],
-      ["🎬 Videographer", "", "", ""],
-      ["🍽️ Caterer", "", "", ""],
-      ["💐 Florist", "", "", ""],
-      ["🍰 Baker", "", "", ""],
-      ["🎶 DJ / Band", "", "", ""]
-    ]]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "And finally, what everyone will be wearing! This section ensures every detail of our look, from the dream dress and sharp suit to all the accessories and the all-important rings, is meticulously planned and perfectly ready for our grand entrance and lifelong commitment. We'll track the wedding dress selection and all the intricate fittings to ensure perfection. We'll do the same for the groom's dapper suit, making sure he looks his absolute best. Then come the all-important wedding rings, including their purchase and personalized engraving, symbols of our eternal bond. And finally, we will select the perfect shoes and other exquisite accessories to complete both the bride's and groom's elegant ensembles."
-  },
-  {
-    "m": "newSimpleItems",
-    "p": [false, 6, -1, [
-      ["👰 Wedding Dress (Fittings)", "", "", ""],
-      ["🤵 Groom's Suit", "", "", ""],
-      ["💍 Wedding Rings (Engraving)", "", "", ""],
-      ["👠 Shoes & Accessories", "", "", ""]
-    ]]
-  },
-  {
-    "wa": 1500
-  },
-  {
-    "a": "spt",
-    "t": "Now, let's make our mind map truly pop! We can use color-coding to instantly differentiate categories, making our complex plan visually digestible at a glance. To do this efficiently, I'll enable multi-selection, a powerful feature allowing me to pick multiple main categories at once for group actions."
-  },
-  {
-    "m": "enableMultiSelect"
-  },
-  {
-    "a": "si",
-    "ii": [1, 2, 3, 4, 5, 6]
-  },
-  {
-    "wa": 750
-  },
-  {
-    "a": "spt",
-    "t": "With all main categories perfectly selected, let's give them a beautiful, unifying shade of light blue. This consistent visual cue immediately helps to distinguish these foundational elements from their children. It's so quick and easy with multi-select!"
-  },
-  {
-    "m": "setItemColor",
-    "p": [-1, 0, 10]
-  },
-  {
-    "a": "wa",
-    "wa": 500
-  },
-  {
-    "a": "spt",
-    "t": "Now, we can clear our selection with a single click, ensuring a clean workspace. Then, we disable multi-select, returning to our default single-selection mode. This seamless transition keeps our workflow efficient."
-  },
-  {
-    "a": "dsi"
-  },
-  {
-    "m": "disableMultiSelect"
-  },
-  {
-    "wa": 1500
-  },
-  {
-    "a": "spt",
-    "t": "And there we have it! A clear, organized, and truly beautiful wedding plan, dynamically built and intelligently color-coded in minutes. Let's zoom out for the final, impressive overview of your entire dream wedding coming to life on screen!"
-  },
-  {
-    "a": "pi",
-    "in": "💖 Our Wedding Plan"
-  },
-  {
-    "m": "setZoom",
-    "p": [-45]
-  },
-  {
-    "wa": 1000
-  },
-  {
-    "a": "spt",
-    "t": "From here, you can effortlessly continue to add even more intricate details, attach documents, embed inspiring images, and link to essential resources for every single item. Planning your dream wedding has truly never been this intuitive, visual, and incredibly easy with the InfoRapid KnowledgeBase Builder. Thank you so much for watching, and happy planning!"
-  }
+	{
+		"a": "spt",
+		"t": "Hello and welcome! Planning a wedding can be overwhelming, but with the right tools, it becomes a creative and joyful process. Today, I'll show you how to build a beautiful and comprehensive wedding plan from scratch, right here in the InfoRapid KnowledgeBase Builder. Watch how effortlessly you can organize every single detail of your special day, transforming complexity into clarity!"
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "Every great plan starts with a central idea, a core node from which everything else will branch. Let's create ours now: 'Our Wedding Plan'."
+	},
+	{
+		"a": "spt",
+		"t": "This will be the absolute heart of our entire project, the anchor for all our forthcoming ideas and tasks."
+	},
+	{
+		"m": "newItemName",
+		"p": [false, 0, -1, "💖 Our Wedding Plan"]
+	},
+	{
+		"wa": 750
+	},
+	{
+		"a": "fast"
+	},
+	{
+		"a": "spt",
+		"t": "Perfect! Now, let's branch out with the main categories that form the backbone of any wedding."
+	},
+	{
+		"a": "spt",
+		"t": "We'll meticulously add the all-important Budget to track our finances. Next, our cherished Guest List, detailing everyone who will share our joy. The beautiful Ceremony, outlining every sacred moment. The fun-filled Reception, planning the celebration. Our trusted Vendors, listing all the professionals who will bring our vision to life. And finally, the stunning Attire, ensuring we both look our absolute best. The mind map instantly shows how each piece connects to your big day, making planning incredibly intuitive and visually appealing as these key sections take shape before your eyes."
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			0,
+			-1,
+			[
+				["💰 Budget", "", "", ""],
+				["👥 Guest List", "", "", ""],
+				["💍 Ceremony", "", "", ""],
+				["🎉 Reception", "", "", ""],
+				["🤝 Vendors & Suppliers", "", "", ""],
+				["👗 Attire & Rings", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "With our main pillars firmly in place, it's time to flesh them out with all the crucial details that make a wedding truly special. First up, the budget – the financial heart of our wedding, where every dollar needs careful consideration."
+	},
+	{
+		"a": "spt",
+		"t": "We begin by defining the overall budget for our entire wedding journey. Then, we meticulously allocate a significant portion to our venue costs, often the largest single expense. After that, we account for all catering and bar expenses, ensuring our guests are well-fed and refreshed. A crucial investment is in photography and video, capturing every fleeting memory. We must carefully consider the attire and accessories for both the bride and groom. And let's not forget the all-important wedding rings, symbols of eternal commitment. Finally, and this is a pro tip, we'll add a contingency fund, typically 10 to 15 percent, to cover any unexpected surprises that may arise, guaranteeing peace of mind. This detailed breakdown in InfoRapid is perfect for keeping our finances in check and preventing any last-minute stress."
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			1,
+			-1,
+			[
+				["📈 Overall Budget", "", "", ""],
+				["💒 Venue Costs", "", "", ""],
+				["🍽️ Catering & Bar", "", "", ""],
+				["📸 Photography & Video", "", "", ""],
+				["👗 Attire & Accessories", "", "", ""],
+				["💍 Rings", "", "", ""],
+				["🚨 Contingency Fund (15%)", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "Next, for the heart of your celebration: your Guest List! This is where we break down who's invited, track communications, and manage important details for every single attendee, ensuring no one is forgotten."
+	},
+	{
+		"a": "spt",
+		"t": "We'll meticulously list the bride's family members, capturing all their details. Then, we will do the same for the groom's family, ensuring fairness and completeness. After that, we'll add all of our dear friends, the cherished companions who will share our joy. We can also track when the 'Save the Dates' have been thoughtfully sent out to everyone. Next, we will log the precise dates when the formal invitations are mailed to our guests. It's so satisfying to see the RSVPs as they enthusiastically come in, building anticipation. And finally, we can use all this invaluable information to meticulously craft our seating chart, ensuring a comfortable and wonderful dining experience for everyone present."
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			2,
+			-1,
+			[
+				["👨‍👩‍👧‍👦 Bride's Family", "", "", ""],
+				["👨‍👩‍👦‍👦 Groom's Family", "", "", ""],
+				["👫 Friends", "", "", ""],
+				["🗓️ Save the Dates Sent", "", "", ""],
+				["📧 Invitations Sent", "", "", ""],
+				["✅ RSVPs Received", "", "", ""],
+				["📝 Seating Chart", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "Now for the Ceremony, the most magical moment where two lives become one."
+	},
+	{
+		"a": "spt",
+		"t": "We'll begin by scouting and selecting the perfect venue that truly reflects our vision and dreams. Then, it's time to find and book our officiant, the person who will guide us through this sacred union. A deeply personal and crucial part is taking the time for writing our personal vows, expressing our heartfelt promises. We'll also need to carefully select the music for the procession, recessional, and any interludes, setting the perfect mood. Let's not forget the beautiful floral decor and aisle runners that will adorn our ceremony space. And finally, we will choose who will do the special readings and speeches during the service, adding a personal touch to our day."
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			3,
+			-1,
+			[
+				["💒 Ceremony Venue Selection", "", "", ""],
+				["🙏 Officiant Booking", "", "", ""],
+				["📜 Vows (Writing & Practice)", "", "", ""],
+				["🎶 Music Selection", "", "", ""],
+				["🌸 Floral Decor", "", "", ""],
+				["📚 Readings & Speakers", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "After the 'I dos', it's party time! Our Reception plan covers all the joyous details, ensuring a seamless and unforgettable celebration for everyone."
+	},
+	{
+		"a": "spt",
+		"t": "We must first decide on the ideal reception venue layout and table plan, optimizing guest comfort. Then comes the delicious part: meticulously crafting the perfect menu and drinks selection that tantalizes every palate. After that, we will collaborate to design a stunning and equally tasty wedding cake, a sweet centerpiece for our celebration. We also need to create our comprehensive entertainment playlist for the DJ or band, ensuring the dance floor stays lively. And, of course, we must choose that unforgettable first dance song, marking our official debut as a married couple."
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			4,
+			-1,
+			[
+				["🥂 Reception Venue & Layout", "", "", ""],
+				["🍽️ Menu & Beverage Selection", "", "", ""],
+				["🍰 Wedding Cake Design", "", "", ""],
+				["🎶 Entertainment & Playlist", "", "", ""],
+				["💃 First Dance Song", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "A great wedding needs a fantastic team of dedicated professionals."
+	},
+	{
+		"a": "spt",
+		"t": "In our Vendors and Suppliers section, we'll meticulously list our photographer, crucial for capturing every precious moment of our day. Then, our videographer, who will create a beautiful cinematic film to cherish forever. We'll add our caterer, essential for the delicious food and impeccable service our guests will enjoy. We must not forget the florist, who will transform our venue with breathtaking beauty. Next comes the baker, for our amazing and delicious wedding cake. And finally, the indispensable DJ or band, who will keep the party going with fantastic music and energy all night long, ensuring everyone has a memorable time!"
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			5,
+			-1,
+			[
+				["📸 Photographer", "", "", ""],
+				["🎬 Videographer", "", "", ""],
+				["🍽️ Caterer", "", "", ""],
+				["💐 Florist", "", "", ""],
+				["🍰 Baker", "", "", ""],
+				["🎶 DJ / Band", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1000
+	},
+	{
+		"a": "spt",
+		"t": "And finally, what everyone will be wearing! This section ensures every detail of our look, from the dream dress and sharp suit to all the accessories and the all-important rings, is meticulously planned and perfectly ready for our grand entrance and lifelong commitment."
+	},
+	{
+		"a": "spt",
+		"t": "We'll track the wedding dress selection and all the intricate fittings to ensure perfection. We'll do the same for the groom's dapper suit, making sure he looks his absolute best. Then come the all-important wedding rings, including their purchase and personalized engraving, symbols of our eternal bond. And finally, we will select the perfect shoes and other exquisite accessories to complete both the bride's and groom's elegant ensembles."
+	},
+	{
+		"m": "newSimpleItems",
+		"p": [
+			false,
+			6,
+			-1,
+			[
+				["👰 Wedding Dress (Fittings)", "", "", ""],
+				["🤵 Groom's Suit", "", "", ""],
+				["💍 Wedding Rings (Engraving)", "", "", ""],
+				["👠 Shoes & Accessories", "", "", ""]
+			]
+		]
+	},
+	{
+		"wa": 1500
+	},
+	{
+		"a": "spt",
+		"t": "And there we have it! A clear, organized, and truly beautiful wedding plan, dynamically built and intelligently color-coded in minutes. Let's zoom out for the final, impressive overview of your entire dream wedding coming to life on screen!"
+	},
+	{
+		"a": "spt",
+		"t": "From here, you can effortlessly continue to add even more intricate details, attach documents, embed inspiring images, and link to essential resources for every single item. Planning your dream wedding has truly never been this intuitive, visual, and incredibly easy with the InfoRapid KnowledgeBase Builder. Thank you so much for watching, and happy planning!"
+	}
 ]
