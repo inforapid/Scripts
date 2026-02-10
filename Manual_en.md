@@ -100,6 +100,7 @@ The following table describes the atomic actions controlled by the `"a"` key.
 | `ort` | **Open Relation Toolbar**: Opens a relation's toolbar. | `if`, `it` / `bi`: Indices of the items or stack index of the relation. |
 | `pi` | **Present Item**: Zooms and centers the view on an item. | `in`: Name of the item. `hi`: (Optional) Hit index, if multiple items have the same name. `spt`: (Optional) `true` to speak the item text afterward. |
 | `si` | **Select Item**: Selects an item without clicking it. | `ii`/`bi`: Index/Stack index of the item. |
+| `siiv` | **Scroll Item Into View**: Scrolls the diagram to make a specific item visible and, if possible, centered. | `ii`: Index of the item. `bi`: Stack index of the item. |
 | `sit` | **Set Ignore Templates**: Determines whether templates should be ignored. | `it`: Boolean value. |
 | `spt` | **Speak Text**: Reads text aloud using speech output. | `t`: The text to be spoken. |
 | `st` | **Select Text**: Selects text in an input field. | `i`: Selector of the field. `iifs`: (Optional) iFrame selector. `t`: The text to be selected. |

@@ -100,6 +100,7 @@ Die folgende Tabelle beschreibt die atomaren Aktionen, die über den Schlüssel 
 | `ort` | **Open Relation Toolbar**: Öffnet die Toolbar einer Relation. | `if`, `it` / `bi`: Indizes der Items oder Stack-Index der Relation. |
 | `pi` | **Present Item**: Zoomt und zentriert die Ansicht auf ein Item. | `in`: Name des Items. `hi`: (Optional) Hit-Index, falls mehrere Items denselben Namen haben. `spt`: (Optional) `true`, um den Item-Text danach zu sprechen. |
 | `si` | **Select Item**: Selektiert ein Item, ohne es zu klicken. | `ii`/`bi`: Index (oder Array von Indizes) des Items. |
+| `siiv` | **Scroll Item Into View**: Scrollt das Diagramm so, dass ein bestimmtes Item sichtbar und, wenn möglich, zentriert wird. | `ii`: Index des Items. `bi`: Stack-Index des Items. |
 | `sit` | **Set Ignore Templates**: Legt fest, ob Templates ignoriert werden sollen. | `it`: Boolean-Wert. |
 | `spt` | **Speak Text**: Liest einen Text über die Sprachausgabe vor. | `t`: Der zu sprechende Text. |
 | `st` | **Select Text**: Markiert Text in einem Eingabefeld. | `i`: Selektor des Feldes. `iifs`: (Optional) iFrame-Selektor. `t`: Der zu markierende Text. |
