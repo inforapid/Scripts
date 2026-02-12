@@ -11,18 +11,26 @@
 	},
 	{
 		"a": "spt",
-		"t": "First, we establish our central node. This is the heart of our strategy and the anchor for every thought that follows."
+		"t": "First, we establish our central node."
+	},
+	{
+		"a": "spt",
+		"t": "This is the heart of our strategy and the anchor for every thought that follows."
 	},
 	{
 		"m": "newItemName",
 		"p": [false, 0, -1, "🧠 AI Introduction Strategy"]
 	},
 	{
-		"wa": 1500
+		"wa": 500
 	},
 	{
 		"a": "spt",
-		"t": "Now, for the most important part: the Brain Dump. At this stage, don't worry about hierarchy or 'where things belong.' We’re going to blast all our ideas—from big categories to tiny details—directly onto the root. Watch how fast the canvas populates. This unstructured collection ensures no idea is lost while we stay in the creative flow."
+		"t": "Now, for the most important part: the Brain Dump. At this stage, don't worry about hierarchy or 'where things belong.'"
+	},
+	{
+		"a": "spt",
+		"t": "We’re going to blast all our ideas—from big categories to tiny details—directly onto the root. Watch how fast the canvas populates. This unstructured collection ensures no idea is lost while we stay in the creative flow."
 	},
 	{
 		"m": "newSimpleItems",
@@ -72,15 +80,19 @@
 		]
 	},
 	{
-		"wa": 1500
+		"wa": 500
 	},
 	{
 		"a": "spt",
-		"t": "Now that we’ve captured all our ideas, it’s time for the structuring phase. To get a better overview and make re-organizing easier, I’ll first adjust the view: I’m zooming out, increasing the item distance, and switching to a radial mind map layout with straight connection lines."
+		"t": "Now that we’ve captured all our ideas, it’s time for the structuring phase. To get a better overview and make re-organizing easier, I’ll first adjust the view:"
+	},
+	{
+		"a": "spt",
+		"t": "I’m zooming out, increasing the item distance, and switching to a radial mind map layout with straight connection lines."
 	},
 	{
 		"m": "setZoom",
-		"p": [-30, true]
+		"p": [-40, true]
 	},
 	{
 		"m": "setDistance",
@@ -95,7 +107,11 @@
 	},
 	{
 		"a": "spt",
-		"t": "This clean layout makes it much easier to select and move the connection points. Instead of tedious cutting and pasting, we simply re-parent our sub-topics by dragging the start point of their relationship from the root to the correct category. Watch how 'Technical Implementation' takes shape."
+		"t": "This clean layout makes it much easier to select and move the connection points."
+	},
+	{
+		"a": "spt",
+		"t": "Instead of tedious cutting and pasting, we simply re-parent our sub-topics by dragging the start point of their relationship from the root to the correct category. Watch how 'Technical Implementation' takes shape."
 	},
 	{
 		"m": "editRelationEndPointByItemName",
@@ -363,10 +379,14 @@
 			""
 		]
 	},
-	{ "wa": 1500 },
+	{ "wa": 500 },
 	{
 		"a": "spt",
-		"t": "Now that our map is clearly organized, we can focus on the deeper connections. To make the map more concise for this analysis, I’ll switch back to the compact layout."
+		"t": "Now that our map is clearly organized, we can focus on the deeper connections."
+	},
+	{
+		"a": "spt",
+		"t": "To make the map more concise for this analysis, I’ll switch back to the compact layout."
 	},
 	{
 		"m": "setDistance",
@@ -378,7 +398,11 @@
 	},
 	{
 		"a": "spt",
-		"t": "In a real-world strategy, categories don't exist in isolation. We can now perform relational analysis by creating cross-connections. For instance, let’s link 'Ethical & Legal Considerations' to 'Business Goals & KPIs' to show that compliance is a prerequisite for our success."
+		"t": "In a real-world strategy, categories don't exist in isolation. We can now perform relational analysis by creating cross-connections."
+	},
+	{
+		"a": "spt",
+		"t": "For instance, let’s link 'Ethical & Legal Considerations' to 'Business Goals & KPIs' to show that compliance is a prerequisite for our success."
 	},
 	{ "m": "newRelationByItemNames", "p": [false, "⚖️ Ethical & Legal Considerations", "🎯 Business Goals & KPIs"] },
 	{
@@ -397,7 +421,11 @@
 	{ "wa": 1000 },
 	{
 		"a": "spt",
-		"t": "The same applies to our data strategy: 'Data Requirements' directly informs the 'Technical Implementation'. These cross-links transform a simple mind map into a sophisticated knowledge base."
+		"t": "The same applies to our data strategy: 'Data Requirements' directly informs the 'Technical Implementation'."
+	},
+	{
+		"a": "spt",
+		"t": "These cross-links transform a simple mind map into a sophisticated knowledge base."
 	},
 	{ "m": "newRelationByItemNames", "p": [false, "📊 Data Requirements & Sources", "⚙️ Technical Implementation"] },
 	{
@@ -416,14 +444,22 @@
 	{ "wa": 1000 },
 	{
 		"a": "spt",
-		"t": "With our main structure and key connections in place, we can identify patterns. Let's highlight 'Data Privacy & Security' to mark it as a critical point."
+		"t": "With our main structure and key connections in place, we can identify patterns."
+	},
+	{
+		"a": "spt",
+		"t": "Let's highlight 'Data Privacy & Security' to mark it as a critical point."
 	},
 	{ "a": "siiv", "in": "🔒 Data Privacy & Security" },
 	{ "m": "setItemColor", "p": [-1, -1, "🔒 Data Privacy & Security", 51] },
-	{ "wa": 1500 },
+	{ "wa": 500 },
 	{
 		"a": "spt",
-		"t": "Finally, we translate our strategy into action. Let’s add a section for Next Steps, where we can turn our strategic insights into concrete tasks."
+		"t": "Finally, we translate our strategy into action."
+	},
+	{
+		"a": "spt",
+		"t": "Let’s add a section for Next Steps, where we can turn our strategic insights into concrete tasks."
 	},
 	{ "m": "newItemName", "p": [false, 0, -1, "✅ Next Steps & Actions"] },
 	{ "wa": 500 },
@@ -459,7 +495,7 @@
 			""
 		]
 	},
-	{ "wa": 1500 },
+	{ "wa": 500 },
 	{
 		"a": "spt",
 		"t": "And there you have it! We’ve transformed a chaotic brain dump into a structured, actionable roadmap. This workflow—capturing ideas first and organizing them later—keeps your creative momentum alive without sacrificing clarity."
