@@ -427,11 +427,11 @@
         "a": "spt",
         "t": "Durch diese Vernetzung wird aus einer einfachen Mindmap eine intelligente Wissensdatenbank."
     },
-    { "m": "newRelationByItemNames", "p": [false, "📊 Datenanforderungen & Quellen", "⚙️ Technische Umsetzung"] },
+    { "m": "newRelationByItemNames", "p": [false, "📊 Datenquellen & Anforderungen", "⚙️ Technische Umsetzung"] },
     {
         "m": "editRelationByItemNames",
         "p": [
-            "📊 Datenanforderungen & Quellen",
+            "📊 Datenquellen & Anforderungen",
             "⚙️ Technische Umsetzung",
             "definiert Rahmen für",
             false,
@@ -448,7 +448,7 @@
     },
     {
         "a": "spt",
-        "t": "Ich markiere den Bereich 'Datenschutz & IT-Sicherheit' farblich, um dessen hohe Relevanz zu betonen."
+        "t": "Ich markiere den Bereich 'Datenschutz und IT-Sicherheit' farblich, um dessen hohe Relevanz zu betonen."
     },
     { "a": "siiv", "in": "🔒 Datenschutz & IT-Sicherheit" },
     { "m": "setItemColor", "p": [-1, -1, "🔒 Datenschutz & IT-Sicherheit", 51] },
