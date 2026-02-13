@@ -1,0 +1,520 @@
+[
+    {
+        "a": "fast"
+    },
+    {
+        "a": "spt",
+        "t": "¡Hola! Bienvenidos. Hoy vamos a ver un flujo de trabajo muy eficaz para sesiones de brainstorming. Vamos a estructurar una Estrategia de Implementación de IA paso a paso con InfoRapid KnowledgeBase Builder."
+    },
+    {
+        "wa": 1000
+    },
+    {
+        "a": "spt",
+        "t": "Lo primero es definir nuestro punto de partida: el nodo central."
+    },
+    {
+        "a": "spt",
+        "t": "Este será el núcleo de nuestra estrategia y el eje sobre el que pivotarán todas las demás ideas."
+    },
+    {
+        "m": "newItemName",
+        "p": [false, 0, -1, "🧠 Estrategia de Implantación de IA"]
+    },
+    {
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Ahora viene la fase clave: el volcado de ideas. En este momento, olvidaos de las jerarquías o de buscar el sitio 'correcto' para cada cosa."
+    },
+    {
+        "a": "spt",
+        "t": "Simplemente vamos a plasmar todo lo que se nos ocurra —desde grandes bloques hasta el más mínimo detalle— directamente en el nodo principal. Fijaos en qué rápido toma forma el lienzo. Al trabajar así, sin estructuras rígidas, damos rienda suelta a la creatividad sin que se nos escape nada."
+    },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            false,
+            0,
+            -1,
+            [
+                ["🎓 Programas de Capacitación", "", "", ""],
+                ["💡 Desarrollo de Productos y Servicios", "", "", ""],
+                ["⚖️ Aspectos Éticos y Legales", "", "", ""],
+                ["💰 Presupuesto y Recursos", "", "", ""],
+                ["🤝 Captación de Talento", "", "", ""],
+                ["📈 Escalabilidad y Visión Futura", "", "", ""],
+                ["🧹 Calidad y Limpieza de Datos", "", "", ""],
+                ["📊 Requisitos y Orígenes de Datos", "", "", ""],
+                ["⚙️ Selección de Plataforma", "", "", ""],
+                ["🔒 Privacidad y Seguridad", "", "", ""],
+                ["✨ Adaptación Tecnológica", "", "", ""],
+                ["💸 Inversión Inicial", "", "", ""],
+                ["🚫 Control de Sesgos y Equidad", "", "", ""],
+                ["🧑‍🏫 Detección de Brechas de Skilling", "", "", ""],
+                ["🏗️ Arquitectura de Modelos", "", "", ""],
+                ["🗺️ Hoja de Ruta (Roadmap)", "", "", ""],
+                ["🗣️ Transparencia y Explicabilidad", "", "", ""],
+                ["📥 Captura de Datos", "", "", ""],
+                ["🌍 Impacto Ético y Social", "", "", ""],
+                ["🏆 Ventaja Competitiva", "", "", ""],
+                ["⚙️ Implementación Técnica", "", "", ""],
+                ["🧑‍🤝‍🧑 Equipo y Formación", "", "", ""],
+                ["💾 Gestión de Datos", "", "", ""],
+                ["🎯 Objetivos y KPIs", "", "", ""],
+                ["🚀 Potencial de Crecimiento", "", "", ""],
+                ["🔄 Gestión del Cambio", "", "", ""],
+                ["🚀 Optimización de Procesos", "", "", ""],
+                ["🔗 Estrategia de Integración", "", "", ""],
+                ["💼 Oportunidades de Negocio", "", "", ""],
+                ["🚧 Riesgos Técnicos", "", "", ""],
+                ["🚪 Estrategia de Salida", "", "", ""],
+                ["⭐ Mejora de la Experiencia de Usuario", "", "", ""],
+                ["⚠️ Análisis de Riesgos", "", "", ""],
+                ["👨‍💼 Gestión del Capital Humano", "", "", ""],
+                ["📜 Cumplimiento Normativo", "", "", ""],
+                ["🏦 Vías de Financiación", "", "", ""],
+                ["💲 Costes Operativos", "", "", ""]
+            ]
+        ]
+    },
+    {
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Con todas las ideas sobre la mesa, entramos en la fase de organización. Para verlo todo con más claridad y mover las piezas fácilmente, voy a ajustar la visualización:"
+    },
+    {
+        "a": "spt",
+        "t": "Reduzco el zoom, amplio la distancia entre los elementos y cambio a un diseño de mapa mental radial con líneas rectas."
+    },
+    {
+        "m": "setZoom",
+        "p": [-40, true]
+    },
+    {
+        "m": "setDistance",
+        "p": [20, true]
+    },
+    {
+        "m": "setLayoutMode",
+        "p": [".id-mindmap-circular-straight"]
+    },
+    {
+        "wa": 1000
+    },
+    {
+        "a": "spt",
+        "t": "Esta disposición es mucho más limpia y nos permite gestionar los puntos de conexión sin esfuerzo."
+    },
+    {
+        "a": "spt",
+        "t": "Olvidaos de andar cortando y pegando. Aquí solo tenemos que arrastrar el origen de la relación desde el centro hacia su categoría correspondiente. Ved cómo organizamos rápidamente el bloque de 'Implementación Técnica'."
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "⚙️ Selección de Plataforma",
+            "⚙️ Implementación Técnica",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🏗️ Arquitectura de Modelos",
+            "⚙️ Implementación Técnica",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🔗 Estrategia de Integración",
+            "⚙️ Implementación Técnica",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Hacemos lo mismo con el resto de categorías. Es una forma visual y muy ágil de crear una jerarquía compleja manteniendo siempre el control sobre el conjunto."
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🗣️ Transparencia y Explicabilidad",
+            "⚖️ Aspectos Éticos y Legales",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🔒 Privacidad y Seguridad",
+            "⚖️ Aspectos Éticos y Legales",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🚫 Control de Sesgos y Equidad",
+            "⚖️ Aspectos Éticos y Legales",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "⭐ Mejora de la Experiencia de Usuario",
+            "🎯 Objetivos y KPIs",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🚀 Optimización de Procesos",
+            "🎯 Objetivos y KPIs",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "💡 Desarrollo de Productos y Servicios",
+            "🎯 Objetivos y KPIs",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🧑‍🏫 Detección de Brechas de Skilling",
+            "🧑‍🤝‍🧑 Equipo y Formación",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🎓 Programas de Capacitación",
+            "🧑‍🤝‍🧑 Equipo y Formación",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🤝 Captación de Talento",
+            "🧑‍🤝‍🧑 Equipo y Formación",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🔄 Gestión del Cambio",
+            "🧑‍🤝‍🧑 Equipo y Formación",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "📥 Captura de Datos",
+            "📊 Requisitos y Orígenes de Datos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "💾 Gestión de Datos",
+            "📊 Requisitos y Orígenes de Datos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🧹 Calidad y Limpieza de Datos",
+            "📊 Requisitos y Orígenes de Datos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "📜 Cumplimiento Normativo",
+            "📊 Requisitos y Orígenes de Datos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🚧 Riesgos Técnicos",
+            "⚠️ Análisis de Riesgos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🌍 Impacto Ético y Social",
+            "⚠️ Análisis de Riesgos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "💼 Oportunidades de Negocio",
+            "⚠️ Análisis de Riesgos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🏆 Ventaja Competitiva",
+            "⚠️ Análisis de Riesgos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "💸 Inversión Inicial",
+            "💰 Presupuesto y Recursos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "💲 Costes Operativos",
+            "💰 Presupuesto y Recursos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "👨‍💼 Gestión del Capital Humano",
+            "💰 Presupuesto y Recursos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🏦 Vías de Financiación",
+            "💰 Presupuesto y Recursos",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🚀 Potencial de Crecimiento",
+            "📈 Escalabilidad y Visión Futura",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "✨ Adaptación Tecnológica",
+            "📈 Escalabilidad y Visión Futura",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🗺️ Hoja de Ruta (Roadmap)",
+            "📈 Escalabilidad y Visión Futura",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 Estrategia de Implantación de IA",
+            "🚪 Estrategia de Salida",
+            "📈 Escalabilidad y Visión Futura",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Ahora que el mapa está ordenado, podemos profundizar en las dependencias."
+    },
+    {
+        "a": "spt",
+        "t": "Voy a volver al modo compacto para que el análisis visual sea más directo."
+    },
+    {
+        "m": "setDistance",
+        "p": [-10, true]
+    },
+    {
+        "m": "setLayoutMode",
+        "p": [".id-mindmap-compact-curved"]
+    },
+    {
+        "a": "spt",
+        "t": "En el mundo real, nada funciona de forma aislada. Podemos realizar un análisis relacional conectando diferentes áreas entre sí."
+    },
+    {
+        "a": "spt",
+        "t": "Por ejemplo, vamos a vincular los 'Aspectos Éticos' con nuestros 'Objetivos y KPIs', dejando claro que el cumplimiento normativo es fundamental para el éxito del proyecto."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "⚖️ Aspectos Éticos y Legales", "🎯 Objetivos y KPIs"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "⚖️ Aspectos Éticos y Legales",
+            "🎯 Objetivos y KPIs",
+            "condiciona",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 1000 },
+    {
+        "a": "spt",
+        "t": "Y lo mismo con los datos: los 'Requisitos de Datos' definen directamente cómo será la 'Implementación Técnica'."
+    },
+    {
+        "a": "spt",
+        "t": "Estas conexiones cruzadas son las que transforman un simple mapa en una base de conocimiento inteligente."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "📊 Requisitos y Orígenes de Datos", "⚙️ Implementación Técnica"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "📊 Requisitos y Orígenes de Datos",
+            "⚙️ Implementación Técnica",
+            "determina",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 1000 },
+    {
+        "a": "spt",
+        "t": "Con esta estructura, ya podemos detectar patrones críticos."
+    },
+    {
+        "a": "spt",
+        "t": "Resaltemos la 'Privacidad y Seguridad' para indicar que es un punto de atención prioritaria."
+    },
+    { "a": "siiv", "in": "🔒 Privacidad y Seguridad" },
+    { "m": "setItemColor", "p": [-1, -1, "🔒 Privacidad y Seguridad", 51] },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Por último, vamos a pasar de la estrategia a la acción."
+    },
+    {
+        "a": "spt",
+        "t": "Creamos una sección de 'Próximos Pasos' para convertir estas ideas en tareas reales y tangibles."
+    },
+    { "m": "newItemName", "p": [false, 0, -1, "✅ Próximos Pasos"] },
+    { "wa": 500 },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            false,
+            38,
+            -1,
+            [
+                ["📝 Redactar código ético de IA", "", "", ""],
+                ["🔎 Auditar soluciones de privacidad", "", "", ""],
+                ["💡 Crear prototipo de funciones IA", "", "", ""]
+            ]
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Si vinculamos la tarea de 'Redactar el código ético' con nuestras 'Consideraciones Éticas', garantizamos que cada paso que demos esté alineado con la estrategia original."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "📝 Redactar código ético de IA", "⚖️ Aspectos Éticos y Legales"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "📝 Redactar código ético de IA",
+            "⚖️ Aspectos Éticos y Legales",
+            "ejecuta",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "¡Y ya lo tenemos! Hemos pasado de una lluvia de ideas caótica a una hoja de ruta estructurada y lista para ejecutar. Trabajar así —soltando primero las ideas para organizarlas después— permite avanzar rápido sin perder el foco ni la claridad."
+    },
+    {
+        "a": "spt",
+        "t": "Para terminar, veamos nuestro trabajo desde otra perspectiva. En la vista 3D se aprecia de verdad la profundidad y el nivel de conexión de nuestra estrategia. ¡Gracias por acompañarme y a disfrutar mapeando!"
+    },
+    {
+        "m": "clickQuickAccessToolbar",
+        "p": [
+            ".id-show-3dview"
+        ]
+    },
+    {
+        "m": "clickQuickAccessToolbarDirect",
+        "p": [
+            ".id-rotate"
+        ],
+        "wa": 30000
+    }
+]

@@ -1,0 +1,520 @@
+[
+    {
+        "a": "fast"
+    },
+    {
+        "a": "spt",
+        "t": "Herzlich willkommen! Heute schauen wir uns einen effizienten Workflow für euer Brainstorming an. Wir planen gemeinsam eine KI-Einführungsstrategie und nutzen dafür den InfoRapid KnowledgeBase Builder."
+    },
+    {
+        "wa": 1000
+    },
+    {
+        "a": "spt",
+        "t": "Zuerst legen wir unseren zentralen Ankerpunkt fest."
+    },
+    {
+        "a": "spt",
+        "t": "Er bildet das Fundament unserer Strategie und ist der Ausgangspunkt für alle weiteren Überlegungen."
+    },
+    {
+        "m": "newItemName",
+        "p": [false, 0, -1, "🧠 KI-Strategie: Einführung"]
+    },
+    {
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Jetzt kommen wir zur kreativsten Phase: der Ideensammlung. Hierbei müssen wir uns noch keine Gedanken über die richtige Hierarchie oder Ordnung machen."
+    },
+    {
+        "a": "spt",
+        "t": "Wir erfassen einfach alle Gedanken – von groben Themenfeldern bis ins kleinste Detail – und ordnen sie direkt dem Hauptknoten zu. Seht selbst, wie schnell sich die Mindmap füllt. Durch dieses freie Sammeln geht garantiert keine Idee verloren, während wir voll im kreativen Flow bleiben."
+    },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            false,
+            0,
+            -1,
+            [
+                ["🎓 Trainingsprogramme", "", "", ""],
+                ["💡 Produkt- & Serviceinnovationen", "", "", ""],
+                ["⚖️ Ethik & Rechtliche Rahmenbedingungen", "", "", ""],
+                ["💰 Budget & Ressourcenplanung", "", "", ""],
+                ["🤝 Recruiting & Talente", "", "", ""],
+                ["📈 Skalierbarkeit & Vision", "", "", ""],
+                ["🧹 Datenqualität & Aufbereitung", "", "", ""],
+                ["📊 Datenquellen & Anforderungen", "", "", ""],
+                ["⚙️ Plattform-Auswahl", "", "", ""],
+                ["🔒 Datenschutz & IT-Sicherheit", "", "", ""],
+                ["✨ Technologische Adaption", "", "", ""],
+                ["💸 Investitionsbedarf", "", "", ""],
+                ["🚫 Fairness & Bias-Prävention", "", "", ""],
+                ["🧑‍🏫 Skill-Gap-Analyse", "", "", ""],
+                ["🏗️ Modell-Architektur", "", "", ""],
+                ["🗺️ Langfristige Roadmap", "", "", ""],
+                ["🗣️ Transparenz & Erklärbarkeit", "", "", ""],
+                ["📥 Datenerhebung", "", "", ""],
+                ["🌍 Ethische & Soziale Risiken", "", "", ""],
+                ["🏆 Wettbewerbsvorteile", "", "", ""],
+                ["⚙️ Technische Umsetzung", "", "", ""],
+                ["🧑‍🤝‍🧑 Team & Schulung", "", "", ""],
+                ["💾 Datenmanagement", "", "", ""],
+                ["🎯 Business-Ziele & KPIs", "", "", ""],
+                ["🚀 Wachstumspotenzial", "", "", ""],
+                ["🔄 Change Management", "", "", ""],
+                ["🚀 Operative Effizienz", "", "", ""],
+                ["🔗 Integrationsstrategie", "", "", ""],
+                ["💼 Marktchancen", "", "", ""],
+                ["🚧 Technische Risiken", "", "", ""],
+                ["🚪 Exit-Strategie", "", "", ""],
+                ["⭐ Customer Experience", "", "", ""],
+                ["⚠️ Chancen & Risiken", "", "", ""],
+                ["👨‍💼 Personalplanung", "", "", ""],
+                ["📜 Compliance & Governance", "", "", ""],
+                ["🏦 Finanzierung", "", "", ""],
+                ["💲 Betriebskosten", "", "", ""]
+            ]
+        ]
+    },
+    {
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Nachdem wir alle Ideen gesammelt haben, bringen wir Struktur in das Ganze. Um die Map besser organisieren zu können, optimiere ich kurz die Darstellung:"
+    },
+    {
+        "a": "spt",
+        "t": "Ich vergrößere den Zoom und die Abstände und wähle ein radiales Layout mit klaren Linien."
+    },
+    {
+        "m": "setZoom",
+        "p": [-40, true]
+    },
+    {
+        "m": "setDistance",
+        "p": [20, true]
+    },
+    {
+        "m": "setLayoutMode",
+        "p": [".id-mindmap-circular-straight"]
+    },
+    {
+        "wa": 1000
+    },
+    {
+        "a": "spt",
+        "t": "Dank dieses übersichtlichen Layouts lassen sich die Verbindungen nun viel leichter bearbeiten."
+    },
+    {
+        "a": "spt",
+        "t": "Statt die Punkte mühsam neu zu erstellen, ordnen wir sie einfach per Drag-and-Drop den passenden Kategorien zu. Beobachtet mal, wie unter 'Technische Umsetzung' ein richtiger Themenblock entsteht."
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "⚙️ Plattform-Auswahl",
+            "⚙️ Technische Umsetzung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🏗️ Modell-Architektur",
+            "⚙️ Technische Umsetzung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🔗 Integrationsstrategie",
+            "⚙️ Technische Umsetzung",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Dieses Prinzip wenden wir nun auf alle Bereiche an. Das ist der schnellste Weg, um eine komplexe Wissenshierarchie visuell aufzubauen, ohne den Überblick über das große Ganze zu verlieren."
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🗣️ Transparenz & Erklärbarkeit",
+            "⚖️ Ethik & Rechtliche Rahmenbedingungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🔒 Datenschutz & IT-Sicherheit",
+            "⚖️ Ethik & Rechtliche Rahmenbedingungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🚫 Fairness & Bias-Prävention",
+            "⚖️ Ethik & Rechtliche Rahmenbedingungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "⭐ Customer Experience",
+            "🎯 Business-Ziele & KPIs",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🚀 Operative Effizienz",
+            "🎯 Business-Ziele & KPIs",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "💡 Produkt- & Serviceinnovationen",
+            "🎯 Business-Ziele & KPIs",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🧑‍🏫 Skill-Gap-Analyse",
+            "🧑‍🤝‍🧑 Team & Schulung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🎓 Trainingsprogramme",
+            "🧑‍🤝‍🧑 Team & Schulung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🤝 Recruiting & Talente",
+            "🧑‍🤝‍🧑 Team & Schulung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🔄 Change Management",
+            "🧑‍🤝‍🧑 Team & Schulung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "📥 Datenerhebung",
+            "📊 Datenquellen & Anforderungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "💾 Datenmanagement",
+            "📊 Datenquellen & Anforderungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🧹 Datenqualität & Aufbereitung",
+            "📊 Datenquellen & Anforderungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "📜 Compliance & Governance",
+            "📊 Datenquellen & Anforderungen",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🚧 Technische Risiken",
+            "⚠️ Chancen & Risiken",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🌍 Ethische & Soziale Risiken",
+            "⚠️ Chancen & Risiken",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "💼 Marktchancen",
+            "⚠️ Chancen & Risiken",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🏆 Wettbewerbsvorteile",
+            "⚠️ Chancen & Risiken",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "💸 Investitionsbedarf",
+            "💰 Budget & Ressourcenplanung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "💲 Betriebskosten",
+            "💰 Budget & Ressourcenplanung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "👨‍💼 Personalplanung",
+            "💰 Budget & Ressourcenplanung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🏦 Finanzierung",
+            "💰 Budget & Ressourcenplanung",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🚀 Wachstumspotenzial",
+            "📈 Skalierbarkeit & Vision",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "✨ Technologische Adaption",
+            "📈 Skalierbarkeit & Vision",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🗺️ Langfristige Roadmap",
+            "📈 Skalierbarkeit & Vision",
+            ""
+        ]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": [
+            "🧠 KI-Strategie: Einführung",
+            "🚪 Exit-Strategie",
+            "📈 Skalierbarkeit & Vision",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Die Map ist nun klar strukturiert. Jetzt können wir uns auf die Abhängigkeiten konzentrieren."
+    },
+    {
+        "a": "spt",
+        "t": "Für die detaillierte Analyse schalte ich zurück in eine kompakte Ansicht."
+    },
+    {
+        "m": "setDistance",
+        "p": [-10, true]
+    },
+    {
+        "m": "setLayoutMode",
+        "p": [".id-mindmap-compact-curved"]
+    },
+    {
+        "a": "spt",
+        "t": "In einer echten Strategie stehen die Themen nie für sich allein. Über Querverbindungen bilden wir nun die wechselseitigen Beziehungen ab."
+    },
+    {
+        "a": "spt",
+        "t": "Verknüpfen wir zum Beispiel 'Ethik & Rechtliche Rahmenbedingungen' mit den 'Business-Zielen'. So machen wir deutlich, dass Compliance die Grundlage für unseren Markterfolg ist."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "⚖️ Ethik & Rechtliche Rahmenbedingungen", "🎯 Business-Ziele & KPIs"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "⚖️ Ethik & Rechtliche Rahmenbedingungen",
+            "🎯 Business-Ziele & KPIs",
+            "bildet Basis für",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 1000 },
+    {
+        "a": "spt",
+        "t": "Das Gleiche gilt für unsere Daten: Die 'Datenanforderungen' bestimmen direkt die 'Technische Umsetzung'."
+    },
+    {
+        "a": "spt",
+        "t": "Durch diese Vernetzung wird aus einer einfachen Mindmap eine intelligente Wissensdatenbank."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "📊 Datenanforderungen & Quellen", "⚙️ Technische Umsetzung"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "📊 Datenanforderungen & Quellen",
+            "⚙️ Technische Umsetzung",
+            "definiert Rahmen für",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 1000 },
+    {
+        "a": "spt",
+        "t": "In der fertigen Struktur lassen sich nun leicht Schwerpunkte setzen."
+    },
+    {
+        "a": "spt",
+        "t": "Ich markiere den Bereich 'Datenschutz & IT-Sicherheit' farblich, um dessen hohe Relevanz zu betonen."
+    },
+    { "a": "siiv", "in": "🔒 Datenschutz & IT-Sicherheit" },
+    { "m": "setItemColor", "p": [-1, -1, "🔒 Datenschutz & IT-Sicherheit", 51] },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Zum Schluss bringen wir die Strategie in die Umsetzung."
+    },
+    {
+        "a": "spt",
+        "t": "Wir ergänzen einen Bereich für konkrete Maßnahmen, um unsere strategischen Ziele direkt in Aufgaben zu übersetzen."
+    },
+    { "m": "newItemName", "p": [false, 0, -1, "✅ Maßnahmen & Nächste Schritte"] },
+    { "wa": 500 },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            false,
+            38,
+            -1,
+            [
+                ["📝 KI-Ethik-Leitfaden erstellen", "", "", ""],
+                ["🔎 Privacy-Tools evaluieren", "", "", ""],
+                ["💡 Prototyping der Kernfunktionen", "", "", ""]
+            ]
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Indem wir die Aufgabe 'KI-Ethik-Leitfaden erstellen' mit dem Oberbegriff 'Ethik' verknüpfen, stellen wir sicher, dass jede Handlung an unserer Strategie ausgerichtet bleibt."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "📝 KI-Ethik-Leitfaden erstellen", "⚖️ Ethik & Rechtliche Rahmenbedingungen"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "📝 KI-Ethik-Leitfaden erstellen",
+            "⚖️ Ethik & Rechtliche Rahmenbedingungen",
+            "zahlt ein auf",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Und das ist das Ergebnis! Wir haben eine lose Sammlung von Gedanken in eine strukturierte und umsetzbare Roadmap verwandelt. Dieser Workflow – erst Sammeln, dann Strukturieren – hilft euch dabei, produktiv zu bleiben, ohne den Fokus zu verlieren."
+    },
+    {
+        "a": "spt",
+        "t": "Werfen wir zum Abschluss noch einen Blick auf das Ganze aus einer anderen Perspektive. In der 3D-Ansicht wird die Komplexität und die starke Vernetzung eurer KI-Strategie besonders deutlich. Vielen Dank fürs Zuschauen und viel Erfolg beim Planen!"
+    },
+    {
+        "m": "clickQuickAccessToolbar",
+        "p": [
+            ".id-show-3dview"
+        ]
+    },
+    {
+        "m": "clickQuickAccessToolbarDirect",
+        "p": [
+            ".id-rotate"
+        ],
+        "wa": 30000
+    }
+]

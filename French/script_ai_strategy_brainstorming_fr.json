@@ -1,0 +1,297 @@
+[
+    {
+        "a": "fast"
+    },
+    {
+        "a": "spt",
+        "t": "Bonjour à tous ! Aujourd'hui, nous allons voir comment structurer efficacement vos idées. Nous allons modéliser ensemble une stratégie d'intégration de l'IA en utilisant la base de connaissances d'InfoRapid."
+    },
+    {
+        "wa": 1000
+    },
+    {
+        "a": "spt",
+        "t": "Tout commence par notre point central."
+    },
+    {
+        "a": "spt",
+        "t": "C'est le pivot de notre réflexion, l'ancrage de tous les concepts que nous allons développer."
+    },
+    {
+        "m": "newItemName",
+        "p": [false, 0, -1, "🧠 Stratégie d'Intégration de l'IA"]
+    },
+    {
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Passons maintenant à l'étape cruciale : la collecte d'idées, ou 'Brain Dump'. À ce stade, ne vous souciez ni de la hiérarchie, ni de l'ordre logique."
+    },
+    {
+        "a": "spt",
+        "t": "L'objectif est de libérer toutes nos pensées — des axes majeurs aux détails techniques — en les rattachant directement au centre. Regardez comme l'espace de travail s'anime rapidement. Cette méthode permet de ne perdre aucune idée tout en restant dans une dynamique créative."
+    },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            false,
+            0,
+            -1,
+            [
+                ["🎓 Programmes de formation", "", "", ""],
+                ["💡 Développement produits & services", "", "", ""],
+                ["⚖️ Enjeux éthiques & légaux", "", "", ""],
+                ["💰 Budget & Ressources", "", "", ""],
+                ["🤝 Recrutement de talents", "", "", ""],
+                ["📈 Évolutivité & Vision à long terme", "", "", ""],
+                ["🧹 Qualité & Préparation des données", "", "", ""],
+                ["📊 Sources & Besoins en données", "", "", ""],
+                ["⚙️ Choix des plateformes", "", "", ""],
+                ["🔒 Confidentialité & Sécurité", "", "", ""],
+                ["✨ Veille technologique", "", "", ""],
+                ["💸 Investissement initial", "", "", ""],
+                ["🚫 Équité & Prévention des biais", "", "", ""],
+                ["🧑‍🏫 Analyse des compétences", "", "", ""],
+                ["🏗️ Architecture des modèles", "", "", ""],
+                ["🗺️ Feuille de route stratégique", "", "", ""],
+                ["🗣️ Transparence & Explicabilité", "", "", ""],
+                ["📥 Méthodes de collecte", "", "", ""],
+                ["🌍 Impact social & risques", "", "", ""],
+                ["🏆 Avantages concurrentiels", "", "", ""],
+                ["⚙️ Mise en œuvre technique", "", "", ""],
+                ["🧑‍🤝‍🧑 Équipe & Besoins en formation", "", "", ""],
+                ["💾 Gestion du stockage", "", "", ""],
+                ["🎯 Objectifs & indicateurs clés (KPI)", "", "", ""],
+                ["🚀 Potentiel de croissance", "", "", ""],
+                ["🔄 Accompagnement au changement", "", "", ""],
+                ["🚀 Optimisation opérationnelle", "", "", ""],
+                ["🔗 Stratégie d'intégration", "", "", ""],
+                ["💼 Opportunités de marché", "", "", ""],
+                ["🚧 Risques techniques", "", "", ""],
+                ["🚪 Stratégie de sortie", "", "", ""],
+                ["⭐ Expérience client", "", "", ""],
+                ["⚠️ Risques & Opportunités", "", "", ""],
+                ["👨‍💼 Gestion du capital humain", "", "", ""],
+                ["📜 Gouvernance & Conformité", "", "", ""],
+                ["🏦 Sources de financement", "", "", ""],
+                ["💲 Coûts d'exploitation", "", "", ""]
+            ]
+        ]
+    },
+    {
+        "wa": 500
+    },
+    {
+        "a": "spt",
+        "t": "Une fois toutes les idées posées, nous allons les structurer. Pour y voir plus clair et réorganiser le tout facilement, je vais ajuster l'affichage."
+    },
+    {
+        "a": "spt",
+        "t": "Je dézoome légèrement, j'espace les éléments et je passe sur une disposition radiale avec des liaisons directes."
+    },
+    {
+        "m": "setZoom",
+        "p": [-40, true]
+    },
+    {
+        "m": "setDistance",
+        "p": [20, true]
+    },
+    {
+        "m": "setLayoutMode",
+        "p": [".id-mindmap-circular-straight"]
+    },
+    {
+        "wa": 1000
+    },
+    {
+        "a": "spt",
+        "t": "Ce mode de lecture permet de manipuler les points de connexion avec beaucoup plus de précision."
+    },
+    {
+        "a": "spt",
+        "t": "Oubliez le copier-coller : il suffit de faire glisser le point d'origine d'une relation vers sa nouvelle catégorie. Regardez comment nous organisons instantanément le pôle 'Mise en œuvre technique'."
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": ["🧠 Stratégie d'Intégration de l'IA", "⚙️ Choix des plateformes", "⚙️ Mise en œuvre technique", ""]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": ["🧠 Stratégie d'Intégration de l'IA", "🏗️ Architecture des modèles", "⚙️ Mise en œuvre technique", ""]
+    },
+    {
+        "m": "editRelationEndPointByItemName",
+        "p": ["🧠 Stratégie d'Intégration de l'IA", "🔗 Stratégie d'intégration", "⚙️ Mise en œuvre technique", ""]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Nous appliquons la même logique aux autres pôles. C'est une méthode visuelle et ultra-rapide pour construire une architecture complexe sans jamais perdre de vue l'essentiel."
+    },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🗣️ Transparence & Explicabilité", "⚖️ Enjeux éthiques & légaux", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🔒 Confidentialité & Sécurité", "⚖️ Enjeux éthiques & légaux", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🚫 Équité & Prévention des biais", "⚖️ Enjeux éthiques & légaux", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "⭐ Expérience client", "🎯 Objectifs & indicateurs clés (KPI)", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🚀 Optimisation opérationnelle", "🎯 Objectifs & indicateurs clés (KPI)", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "💡 Développement produits & services", "🎯 Objectifs & indicateurs clés (KPI)", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🧑‍🏫 Analyse des compétences", "🧑‍🤝‍🧑 Équipe & Besoins en formation", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🎓 Programmes de formation", "🧑‍🤝‍🧑 Équipe & Besoins en formation", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🤝 Recrutement de talents", "🧑‍🤝‍🧑 Équipe & Besoins en formation", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🔄 Accompagnement au changement", "🧑‍🤝‍🧑 Équipe & Besoins en formation", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "📥 Méthodes de collecte", "📊 Sources & Besoins en données", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "💾 Gestion du stockage", "📊 Sources & Besoins en données", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🧹 Qualité & Préparation des données", "📊 Sources & Besoins en données", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "📜 Gouvernance & Conformité", "📊 Sources & Besoins en données", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🚧 Risques techniques", "⚠️ Risques & Opportunités", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🌍 Impact social & risques", "⚠️ Risques & Opportunités", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "💼 Opportunités de marché", "⚠️ Risques & Opportunités", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🏆 Avantages concurrentiels", "⚠️ Risques & Opportunités", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "💸 Investissement initial", "💰 Budget & Ressources", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "💲 Coûts d'exploitation", "💰 Budget & Ressources", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "👨‍💼 Gestion du capital humain", "💰 Budget & Ressources", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🏦 Sources de financement", "💰 Budget & Ressources", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🚀 Potentiel de croissance", "📈 Évolutivité & Vision à long terme", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "✨ Veille technologique", "📈 Évolutivité & Vision à long terme", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🗺️ Feuille de route stratégique", "📈 Évolutivité & Vision à long terme", ""] },
+    { "m": "editRelationEndPointByItemName", "p": ["🧠 Stratégie d'Intégration de l'IA", "🚪 Stratégie de sortie", "📈 Évolutivité & Vision à long terme", ""] },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Maintenant que notre structure est claire, passons à l'analyse des interactions."
+    },
+    {
+        "a": "spt",
+        "t": "Pour une analyse plus fine, je repasse sur un mode d'affichage compact."
+    },
+    {
+        "m": "setDistance",
+        "p": [-10, true]
+    },
+    {
+        "m": "setLayoutMode",
+        "p": [".id-mindmap-compact-curved"]
+    },
+    {
+        "a": "spt",
+        "t": "Dans une stratégie réelle, les sujets s'entrecroisent. Nous allons maintenant créer des liens transversaux pour enrichir notre analyse."
+    },
+    {
+        "a": "spt",
+        "t": "Relions par exemple 'Enjeux éthiques & légaux' à nos 'Objectifs stratégiques' : cela souligne que la conformité est le socle indispensable de notre réussite."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "⚖️ Enjeux éthiques & légaux", "🎯 Objectifs & indicateurs clés (KPI)"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "⚖️ Enjeux éthiques & légaux",
+            "🎯 Objectifs & indicateurs clés (KPI)",
+            "conditionne",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 1000 },
+    {
+        "a": "spt",
+        "t": "De la même manière, notre gestion des données influence directement les choix techniques."
+    },
+    {
+        "a": "spt",
+        "t": "Ces connexions croisées transforment une simple carte mentale en une base de connaissances vivante et intelligente."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "📊 Sources & Besoins en données", "⚙️ Mise en œuvre technique"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "📊 Sources & Besoins en données",
+            "⚙️ Mise en œuvre technique",
+            "détermine",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 1000 },
+    {
+        "a": "spt",
+        "t": "Cette vue d'ensemble nous permet maintenant d'identifier les points de vigilance."
+    },
+    {
+        "a": "spt",
+        "t": "Mettons en relief la 'Confidentialité & Sécurité' pour signaler son importance critique."
+    },
+    { "a": "siiv", "in": "🔒 Confidentialité & Sécurité" },
+    { "m": "setItemColor", "p": [-1, -1, "🔒 Confidentialité & Sécurité", 51] },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Enfin, passons à l'action."
+    },
+    {
+        "a": "spt",
+        "t": "Créons une section 'Prochaines étapes' pour traduire notre vision stratégique en tâches opérationnelles."
+    },
+    { "m": "newItemName", "p": [false, 0, -1, "✅ Actions & Prochaines étapes"] },
+    { "wa": 500 },
+    {
+        "m": "newSimpleItems",
+        "p": [
+            false,
+            38,
+            -1,
+            [
+                ["📝 Rédiger la charte éthique IA", "", "", ""],
+                ["🔎 Auditer les solutions de cybersécurité", "", "", ""],
+                ["💡 Développer un prototype (POC)", "", "", ""]
+            ]
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "En reliant la rédaction de la charte éthique à nos enjeux légaux, nous garantissons que chaque action reste alignée sur notre stratégie initiale."
+    },
+    { "m": "newRelationByItemNames", "p": [false, "📝 Rédiger la charte éthique IA", "⚖️ Enjeux éthiques & légaux"] },
+    {
+        "m": "editRelationByItemNames",
+        "p": [
+            "📝 Rédiger la charte éthique IA",
+            "⚖️ Enjeux éthiques & légaux",
+            "répond à",
+            false,
+            "",
+            false,
+            "",
+            ""
+        ]
+    },
+    { "wa": 500 },
+    {
+        "a": "spt",
+        "t": "Et voilà ! Nous avons converti un flux d'idées brut en une feuille de route structurée et actionnable. Cette méthode — capturer d'abord, organiser ensuite — permet de garder tout votre élan créatif sans rien sacrifier à la rigueur."
+    },
+    {
+        "a": "spt",
+        "t": "Pour conclure, prenons un peu de recul. La vue 3D permet de visualiser concrètement la richesse et l'interconnexion de votre stratégie. Merci de nous avoir suivis, et à vous de jouer !"
+    },
+    {
+        "m": "clickQuickAccessToolbar",
+        "p": [
+            ".id-show-3dview"
+        ]
+    },
+    {
+        "m": "clickQuickAccessToolbarDirect",
+        "p": [
+            ".id-rotate"
+        ],
+        "wa": 30000
+    }
+]
