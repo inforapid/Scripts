@@ -81,11 +81,9 @@ The following table describes the atomic actions controlled by the `"a"` key.
 | `ci` | **Click Item**: Clicks a UI element. | `i`: CSS selector. `iifs`: (Optional) Selector for an iFrame containing the element. `et`: (Optional) Event type (e.g., "mousedown"). |
 | `cii` | **Click Item by Index**: Clicks an item in the diagram by its index. | `ii`: Index (or array of indices) of the item. |
 | `ciis` | **Click Item Selector by Index**: Clicks the *selector* of an item by its index. | `ii`: Index (or array of indices) of the item. |
-| `cri` | **Click Relation by Index**: Clicks a relation by the indices of start and end items. | `if`: Index of the start item. `it`: Index of the end item. |
 | `csg` | **Close Side Gallery**: Closes a specified side gallery. | `sg`: CSS selector of the side gallery. |
 | `csi` | **Click Stack Item**: Clicks an item from the stack. | `bi`: Index (or array of indices) from the end of the stack (0 = last). |
 | `csis` | **Click Stack Item Selector**: Clicks the selector of an item from the stack. | `bi`: Index (or array of indices) from the end of the stack. |
-| `csr` | **Click Stack Relation**: Clicks a relation from the stack. | `bi`: Index (or array of indices) from the end of the stack. |
 | `ctvc` | **Click Table View Cell**: Clicks a cell in the table view. | `col`: Column index. `row`: Row index. |
 | `dcii` | **Double Click Item by Index**: Double-clicks an item by its index. | `ii`: Index of the item. |
 | `dcsi` | **Double Click Stack Item**: Double-clicks an item from the stack. | `bi`: Index from the end of the stack. |
@@ -103,10 +101,11 @@ The following table describes the atomic actions controlled by the `"a"` key.
 | `kd` | **Key Down**: Simulates pressing a key. | `i`: Selector of the element that has focus. `kc`: The key code of the key. |
 | `mcte` | **Move Cursor to End**: Moves the cursor to the end in a text field. | `iifs`: Selector of the iFrame containing the text field. |
 | `oit` | **Open Item Toolbar**: Opens an item's toolbar (by clicking). | `ii`/`bi`: Index/Stack index of the item. |
-| `ort` | **Open Relation Toolbar**: Opens a relation's toolbar. | `if`, `it` / `bi`: Indices of the items or stack index of the relation.<br>`inf`, `int`: Names of the start and end items of the relation. |
+| `ort` | **Open Relation Toolbar**: Opens a relation's toolbar. Always selects the relation to ensure the relation toolbar is displayed. | `if`, `it` / `bi`: Indices of the items or stack index of the relation.<br>`inf`, `int`: Names of the start and end items of the relation. |
 | `pi` | **Present Item**: Zooms and centers the view on an item. | `in`: Name of the item. `hi`: (Optional) Hit index, if multiple items have the same name. `spt`: (Optional) `true` to speak the item text afterward. |
 | `si` | **Select Item**: Selects an item without clicking it. | `ii`/`bi`/`in`: Index (or array of indices), stack index (or array), or name (or array) of the item. Only one of these properties should be used for item identification. |
 | `siiv` | **Scroll Item Into View**: Scrolls the diagram to make a specific item visible and, if possible, centered. | `ii`/`bi`/`in`: Index, stack index, or name of the item. Only one of these properties should be used for item identification. |
+| `sr` | **Select Relation**: Selects relations only if they are not already selected. | `bi`: Stack index (or array of indices) of the relation from the end of the stack. <br>`if`, `it`: Indices of the relation's start and end items. <br>`inf`, `int`: Names of the relation's start and end items. |
 | `sit` | **Set Ignore Templates**: Determines whether templates should be ignored. | `it`: Boolean value. |
 | `sna` | **Skip Next Action**: Skips the next action if `true`. | `skip`: (Boolean) `true` to skip the next action. |
 | `spt` | **Speak Text**: Reads text aloud using speech output. | `t`: The text to be spoken. |

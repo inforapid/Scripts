@@ -81,11 +81,9 @@ Die folgende Tabelle beschreibt die atomaren Aktionen, die über den Schlüssel 
 | `ci` | **Click Item**: Klickt auf ein UI-Element. | `i`: CSS-Selektor. `iifs`: (Optional) Selektor für einen iFrame, in dem das Element liegt. `et`: (Optional) Event-Typ (z.B. "mousedown"). |
 | `cii` | **Click Item by Index**: Klickt auf ein Item im Diagramm anhand seines Index. | `ii`: Index (oder Array von Indizes) des Items. |
 | `ciis` | **Click Item Selector by Index**: Klickt auf den *Selektor* eines Items anhand seines Index. | `ii`: Index (oder Array von Indizes) des Items. |
-| `cri` | **Click Relation by Index**: Klickt auf eine Relation anhand der Indizes von Start- und End-Item. | `if`: Index des Start-Items. `it`: Index des End-Items. |
 | `csg` | **Close Side Gallery**: Schließt eine angegebene Side Gallery. | `sg`: CSS-Selektor der Side Gallery. |
 | `csi` | **Click Stack Item**: Klickt auf ein Item vom Stack. | `bi`: Index (oder Array von Indizes) vom Ende des Stacks (0 = letztes). |
 | `csis` | **Click Stack Item Selector**: Klickt auf den Selektor eines Items vom Stack. | `bi`: Index (oder Array von Indizes) vom Ende des Stacks. |
-| `csr` | **Click Stack Relation**: Klickt auf eine Relation vom Stack. | `bi`: Index (oder Array von Indizes) vom Ende des Stacks. |
 | `ctvc` | **Click Table View Cell**: Klickt auf eine Zelle in der Tabellenansicht. | `col`: Spaltenindex. `row`: Zeilenindex. |
 | `dcii` | **Double Click Item by Index**: Doppelklick auf ein Item anhand seines Index. | `ii`: Index des Items. |
 | `dcsi` | **Double Click Stack Item**: Doppelklick auf ein Item vom Stack. | `bi`: Index vom Ende des Stacks. |
@@ -103,10 +101,11 @@ Die folgende Tabelle beschreibt die atomaren Aktionen, die über den Schlüssel 
 | `kd` | **Key Down**: Simuliert das Drücken einer Taste. | `i`: Selektor des Elements, das den Fokus hat. `kc`: Der Key-Code der Taste. |
 | `mcte` | **Move Cursor to End**: Bewegt den Cursor in einem Textfeld ans Ende. | `iifs`: Selektor des iFrames, der das Textfeld enthält. |
 | `oit` | **Open Item Toolbar**: Öffnet die Toolbar eines Items (durch Klick). | `ii`/`bi`: Index/Stack-Index des Items. |
-| `ort` | **Open Relation Toolbar**: Öffnet die Toolbar einer Relation. | `if`, `it` / `bi`: Indizes der Items oder Stack-Index der Relation.<br>`inf`, `int`: Namen der Start- und End-Items der Relation. |
+| `ort` | **Open Relation Toolbar**: Öffnet die Toolbar einer Relation. Selektiert die Relation dabei immer, um die Relation Toolbar auf jeden Fall anzuzeigen. | `if`, `it` / `bi`: Indizes der Items oder Stack-Index der Relation.<br>`inf`, `int`: Namen der Start- und End-Items der Relation. |
 | `pi` | **Present Item**: Zoomt und zentriert die Ansicht auf ein Item. | `in`: Name des Items. `hi`: (Optional) Hit-Index, falls mehrere Items denselben Namen haben. `spt`: (Optional) `true`, um den Item-Text danach zu sprechen. |
 | `si` | **Select Item**: Selektiert ein Item, ohne es zu klicken. | `ii`/`bi`/`in`: Index (oder Array von Indizes), Stack-Index (oder Array von Indizes) oder Name (oder Array von Namen) des Items. Es sollte nur eine dieser Eigenschaften zur Item-Identifizierung verwendet werden. |
 | `siiv` | **Scroll Item Into View**: Scrollt das Diagramm so, dass ein bestimmtes Item sichtbar und, wenn möglich, zentriert wird. | `ii`/`bi`/`in`: Index, Stack-Index oder Name des Items. Es sollte nur eine dieser Eigenschaften zur Item-Identifizierung verwendet werden. |
+| `sr` | **Select Relation**: Selektiert Verbindungslinien nur dann, wenn sie nicht bereits selektiert sind. | `bi`: Stack-Index (oder Array von Indizes) der Relation vom Ende des Stacks. <br>`if`, `it`: Indizes von Start- und End-Items der Relation. <br>`inf`, `int`: Namen von Start- und End-Items der Relation. |
 | `sit` | **Set Ignore Templates**: Legt fest, ob Templates ignoriert werden sollen. | `it`: Boolean-Wert. |
 | `sna` | **Skip Next Action**: Überspringt die nächste Aktion, falls `true`. | `skip`: (Boolean) `true` zum Überspringen der nächsten Aktion. |
 | `spt` | **Speak Text**: Liest einen Text über die Sprachausgabe vor. | `t`: Der zu sprechende Text. |
