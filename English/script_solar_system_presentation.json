@@ -1,0 +1,257 @@
+[
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ]
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "a": "spt",
+    "t": "Welcome to our journey through the Solar System. Today, we will explore the majestic planets, their mysterious moons, and the daring space missions that have ventured into the great unknown."
+  },
+  {
+    "a": "pi",
+    "in": "Sun",
+    "hi": "0",
+    "wa": 500
+  },
+  {
+    "a": "spt",
+    "t": "The Sun is a nearly perfect sphere of hot plasma, holding 99.8% of the Solar System's total mass. Without its immense gravity and life-giving warmth, Earth would be nothing more than a dark, frozen rock drifting through the silent void of space."
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mercury",
+      0,
+      "As the closest planet to the Sun, Mercury faces extreme temperature swings that can scorch its surface or freeze it in shadow. It is a small, crater-covered world that looks remarkably like our Moon, holding secrets of the early Solar System's formation."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "MESSENGER",
+      0,
+      "The MESSENGER mission made the incredible discovery of water ice hidden in the permanently shadowed craters at Mercury's poles. After orbiting the planet for over four years, it concluded its historic journey by intentionally crashing into the surface it had mapped so thoroughly."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Venus",
+      0,
+      "Venus is often called Earth's 'evil twin' due to its thick, toxic atmosphere and crushing surface pressure. It is the hottest planet in our solar system, where temperatures are high enough to melt lead and the clouds rain sulfuric acid."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Venera 4",
+      0,
+      "This Soviet probe was the first to send back data from inside the atmosphere of another planet. It survived just long enough to prove that Venus was far hotter and its air much thicker than scientists had ever imagined."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Venera 7",
+      0,
+      "In 1970, Venera 7 became the first spacecraft to survive a landing on another planet and transmit data back to Earth. It endured the hellish conditions of Venus for about 23 minutes before the extreme environment finally silenced it."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Venera 9",
+      0,
+      "This mission achieved a historic milestone by capturing and transmitting the very first black-and-white photos from the surface of Venus. It revealed a landscape of sharp, volcanic rocks hidden beneath a hazy, alien sky."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Venera 13",
+      0,
+      "Defying the extreme heat, Venera 13 survived for over two hours and sent back the first color panoramas of the Venusian surface. It even used a mechanical arm to test the soil, finding it to be similar to volcanic basalt found on Earth."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Pioneer Venus Large Probe",
+      0,
+      "This probe plunged into the thick clouds of Venus to measure the atmosphere's composition and structure in incredible detail. It was part of a daring fleet designed to unlock the secrets of the planet's runaway greenhouse effect."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Earth",
+      0,
+      "Our home is the only known place in the universe where life thrives, protected by a perfect balance of air and water. From the vastness of space, it looks like a fragile blue marble suspended in the endless darkness."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Moon",
+      0,
+      "The Moon is Earth's constant companion, responsible for the tides that shape our oceans. It remains the only other world where humans have dared to land and leave their footprints in the ancient dust."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mars",
+      0,
+      "Known as the Red Planet, Mars is a dusty, cold world featuring giant volcanoes and canyons deeper than any on Earth. Scientists believe liquid water once flowed here, raising the tantalizing possibility that life might have once existed."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mars Pathfinder",
+      0,
+      "This mission landed in 1997 and deployed Sojourner, the first-ever rover to explore the surface of Mars. It captured the world's imagination with its high-resolution photos of a rocky landscape that looked surprisingly familiar."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Viking 1 Lander",
+      0,
+      "In 1976, Viking 1 became the first American spacecraft to land safely on Mars and perform biological experiments. Its cameras showed a desert-like world of red soil and salmon-colored skies, forever changing our view of the planet."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Curiosity",
+      0,
+      "Since 2012, this car-sized rover has been climbing mountains and drilling into rocks in Gale Crater. It has confirmed that ancient Mars once had the right chemistry to support microbial life in its distant past."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Perseverance",
+      0,
+      "The latest Martian explorer, Perseverance, is currently searching for signs of ancient life and even flying a tiny helicopter named Ingenuity. It is collecting rock samples that will eventually be brought back to Earth for study."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Jupiter",
+      0,
+      "Jupiter is a massive gas giant so large that all other planets in the Solar System could fit inside it twice. Its Great Red Spot is a colossal storm that has been raging for hundreds of years, larger than Earth itself."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Io",
+      2,
+      "Io is the most volcanically active world in the Solar System, with hundreds of volcanoes constantly erupting. Its surface is a colorful, chaotic landscape of sulfur and lava, constantly reshaped by tidal forces from Jupiter."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Europa",
+      0,
+      "Beneath its icy crust, Europa likely hides a vast, salty ocean that could contain twice as much water as all of Earth's oceans. It is considered one of the most promising places to search for life beyond our own planet."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Ganymede",
+      0,
+      "Ganymede is the largest moon in the Solar System, even bigger than the planet Mercury. It is unique because it is the only moon known to have its own magnetic field, protecting it from solar radiation."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Callisto",
+      0,
+      "Callisto is one of the most heavily cratered objects in the Solar System, with a surface that has remained unchanged for billions of years. Its dark, icy terrain preserves the ancient story of our cosmic neighborhood's violent history."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Jupiter Atmospheric Probe",
+      0,
+      "This probe made a daring one-way trip into Jupiter's atmosphere, enduring intense pressure and heat to measure the gas giant's composition. It survived for nearly an hour, providing a rare and precious glimpse beneath the thick clouds."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Saturn",
+      0,
+      "Saturn is famous for its spectacular ring system, made of billions of pieces of ice and rock. It is a light gas giant that is so buoyant it could theoretically float in a giant bathtub if one large enough existed."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Titan",
+      0,
+      "Saturn's largest moon, Titan, is a mysterious world with a thick atmosphere and lakes made of liquid methane. It is the only other place in the Solar System known to have stable liquid on its surface, albeit much colder than Earth."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Uranus",
+      0,
+      "Uranus is a tilted ice giant that rotates on its side, likely due to a massive collision in its distant past. Its pale blue color comes from methane in its atmosphere, which absorbs red light and reflects the cool hues we see."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Neptune",
+      0,
+      "Neptune is a dark, cold world whipped by the strongest winds in the Solar System, reaching speeds of over 2,000 kilometers per hour. It was the first planet to be predicted by mathematical calculations before it was ever actually seen through a telescope."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Triton",
+      0,
+      "Neptune's largest moon, Triton, is a strange world that orbits its planet in the opposite direction of everything else. It is geologically active, featuring icy geysers that spew nitrogen gas into its thin, cold atmosphere."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Pluto",
+      0,
+      "Once the ninth planet, Pluto is now classified as a dwarf planet in the distant Kuiper Belt. It surprised the world with its heart-shaped glacier and complex mountains made of frozen water ice."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Charon",
+      0,
+      "Charon is so large compared to Pluto that they actually orbit each other like a double planet system. Its dark red north pole, nicknamed 'Mordor Macula', remains one of the most mysterious features in the outer Solar System."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "In conclusion, our Solar System is a place of wonder, from the scorching plains of Mercury to the icy hearts of the outer dwarf planets. Each mission we send and each moon we discover brings us closer to understanding our place in the cosmos. Thank you for joining me on this stellar journey, and I hope you continue to look up at the stars with curiosity and awe.",
+    "wa": 50000
+  }
+]
