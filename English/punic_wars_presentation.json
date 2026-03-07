@@ -1,19 +1,27 @@
 [
+	{
+		"m": "clickQuickAccessToolbarDirect",
+		"p": [
+			".id-rotate"
+		],
+		"wa": 1000
+	},
+  {
+    "a": "spt",
+    "t": "Welcome to the ultimate clash of antiquity! Today, we witness the epic struggle between two giants for the mastery of the Mediterranean: Rome and Carthage. This is the story of the Punic Wars."
+  },
   {
     "m": "showSideGallery",
     "p": [
       ".id-diagramnavigation"
-    ]
+    ],
+    "wse": true
   },
   {
     "a": "ci",
     "i": ".id-start-presentation",
     "waudr": true,
     "wa": 500
-  },
-  {
-    "a": "spt",
-    "t": "Welcome to the ultimate clash of antiquity! Today, we witness the epic struggle between two giants for the mastery of the Mediterranean: Rome and Carthage. This is the story of the Punic Wars."
   },
   {
     "m": "presentItem",
@@ -290,6 +298,6 @@
   {
     "a": "spt",
     "t": "In the end, Carthage was erased from the map, and Rome emerged as the undisputed master of the Mediterranean. The world was forever changed. Thank you for joining me on this journey through one of history's most epic confrontations!",
-    "wa": 5000
+    "wa": 50000
   }
 ]
