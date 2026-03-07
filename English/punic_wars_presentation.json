@@ -1,0 +1,295 @@
+[
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ]
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "a": "spt",
+    "t": "Welcome to the ultimate clash of antiquity! Today, we witness the epic struggle between two giants for the mastery of the Mediterranean: Rome and Carthage. This is the story of the Punic Wars."
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Punic Wars",
+      0,
+      "Let's dive into the Punic Wars. For over a century, these two superpowers fought a series of three brutal wars. It wasn't just about land; it was about who would define the future of Western civilization. At the time, these were likely the largest and most destructive wars the world had ever seen."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "First Punic War",
+      0,
+      "The First Punic War began in 264 BC. It was a struggle for the island of Sicily, turning Rome from a land-based power into a naval powerhouse. It was the longest continuous conflict in antiquity."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Messana",
+      0,
+      "The Battle of Messana was the spark that ignited the flame. A small dispute over this city forced Rome and Carthage into a conflict that neither could have imagined would last for decades."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Hamilcar",
+      0,
+      "Meet Hamilcar Barca, known as 'The Thunderbolt'. He was the Carthaginian lion who waged a brilliant guerrilla war in Sicily. Though he never lost a battle there, the political winds in Carthage eventually forced a peace treaty."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Mylae",
+      0,
+      "At the Battle of Mylae, Rome achieved its first major naval victory. They realized they couldn't beat Carthage at sea, so they invented the 'Corvus'—a boarding bridge that allowed their superior infantry to storm and capture Carthaginian ships."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Tyndaris",
+      0,
+      "Then came the Battle of Tyndaris, another naval clash where Rome proved that their new fleet was no fluke. The Mediterranean was no longer a Carthaginian lake."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Cape Ecnomus",
+      0,
+      "The Battle of Cape Ecnomus was a gigantic clash involving over 700 ships and nearly 300,000 men. It remains one of the largest naval battles in human history, securing Rome's dominance at sea."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Panormus",
+      0,
+      "The Battle of Panormus was a decisive land battle in Sicily. The Romans defeated a Carthaginian army and captured their war elephants, effectively ending Carthage's hope of holding the island's interior."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Drepana",
+      0,
+      "The Battle of Drepana was a rare Carthaginian naval victory. The Roman commander allegedly threw sacred chickens into the sea when they refused to eat—a bad omen that preceded a crushing defeat."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of the Aegates Islands",
+      0,
+      "Finally, the Battle of the Aegates Islands was the final blow. Rome built one last fleet and caught the Carthaginian supply ships off guard. With no more resources, Carthage was forced to surrender Sicily."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Second Punic War",
+      0,
+      "Moving on to the Second Punic War. This is the legendary conflict that brought Rome to the very edge of extinction. It is a saga of tactical genius, frozen mountains, and relentless determination."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Hannibal",
+      0,
+      "Enter the legend: Hannibal Barca. Having sworn eternal enmity to Rome, he performed the impossible by leading an army, including war elephants, across the frozen Alps to strike Italy from the north."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Rhone Crossing",
+      0,
+      "During the Battle of Rhone Crossing, Hannibal had to cross the mighty river while under attack. His clever use of rafts and diversions showed the Romans exactly what kind of genius they were facing."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Ticinus",
+      0,
+      "The Battle of Ticinus was Hannibal's first victory on Italian soil. His superior Numidian cavalry routed the Roman forces and wounded the consul, sending a shockwave through the Republic."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of the Trebia",
+      0,
+      "The Battle of the Trebia was a masterclass in deception. Hannibal lured the Romans across a freezing river into a hidden ambush. By lunchtime, half the Roman army was gone."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Lake Trasimene",
+      0,
+      "The Battle of Lake Trasimene was the greatest ambush of the ancient world. In the morning mist, Hannibal's entire army fell upon the Romans from the hills, killing the consul and destroying his army."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Quintus Fabius Maximus Verrucosus",
+      0,
+      "In desperation, Rome appointed Quintus Fabius Maximus Verrucosus as Dictator. Known as 'The Delayer', he refused to fight Hannibal in a pitched battle, wearing him down through scorched-earth tactics."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Gaius Terentius Varro",
+      0,
+      "But Rome grew impatient, and Gaius Terentius Varro demanded a decisive battle. He got his wish at Cannae, leading the largest army Rome had ever assembled into a deathtrap."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Lucius Aemilius Paullus",
+      0,
+      "Varro's colleague, Lucius Aemilius Paullus, was more cautious but was forced into the fight. He died heroically at Cannae, refusing to flee while his legions were slaughtered around him."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Cannae",
+      0,
+      "The Battle of Cannae was Hannibal's masterpiece. Despite being outnumbered, he used a 'double envelopment' to surround and destroy the Roman army. Over 50,000 Romans died in a single day."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Marcus Claudius Marcellus",
+      0,
+      "Marcus Claudius Marcellus, known as 'The Sword of Rome', proved that Hannibal was not invincible. He defended Nola and eventually turned the tide by capturing the rebellious city of Syracuse."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Syracuse",
+      0,
+      "The siege of Syracuse was a conflict for the ages. The genius Archimedes used mirrors to set ships on fire, but after two years, Roman persistence finally broke through."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Hasdrubal",
+      0,
+      "Hannibal's brother, Hasdrubal, attempted to repeat the Alpine crossing to bring reinforcements. He was the last hope for a Carthaginian victory in Italy."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of the Metaurus",
+      0,
+      "The Carthaginian dream died at the Battle of the Metaurus. The Romans intercepted Hasdrubal and defeated him, sending a grim message to Hannibal that no help was coming."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mago",
+      0,
+      "The youngest brother, Mago, fought bravely in Spain and later attempted a landing in northern Italy, but the tide of the war had already turned against the house of Barca."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Scipio Africanus",
+      0,
+      "Rome finally found its savior in Scipio Africanus. A young and bold general, he realized that to win, Rome had to take the fight directly to the enemy's heartland."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of New Carthage",
+      0,
+      "At the Battle of New Carthage, Scipio performed a brilliant lightning strike, capturing the main Carthaginian base in Spain by wading through a lagoon to surprise the defenders."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Baecula",
+      0,
+      "The Battle of Baecula was Scipio's first major field victory in Spain. He used superior maneuvering to defeat Hasdrubal, clearing the path for the total conquest of the peninsula."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Ilipa",
+      0,
+      "The Battle of Ilipa was Scipio's most brilliant victory. By changing his formation at the last minute, he completely outfoxed the enemy and drove them out of Spain for good."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Kingdom of Numidia",
+      0,
+      "The Kingdom of Numidia became Rome's secret weapon. Scipio won over the Numidian prince Masinissa, bringing the legendary cavalry to the Roman side."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of the Great Plains",
+      0,
+      "At the Battle of the Great Plains, Scipio crushed the combined Carthaginian forces in Africa, forcing the desperate city to recall Hannibal from Italy."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Battle of Zama",
+      0,
+      "The Battle of Zama was the final showdown. Scipio neutralized Hannibal's elephants and used the Numidian cavalry to seal a decisive victory that ended the Second Punic War."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Third Punic War",
+      0,
+      "The Third Punic War was the final chapter. Although Carthage was broken, Roman fear led them to find a pretext to finish the city off once and for all."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Siege of Carthage",
+      0,
+      "The Siege of Carthage was a tragic end. For three years, the people resisted with desperate courage, but in 146 BC, the city was razed and its legacy buried in the sand."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "In the end, Carthage was erased from the map, and Rome emerged as the undisputed master of the Mediterranean. The world was forever changed. Thank you for joining me on this journey through one of history's most epic confrontations!",
+    "wa": 5000
+  }
+]
