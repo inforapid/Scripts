@@ -8,7 +8,7 @@
   },
   {
     "a": "spt",
-    "t": "Welcome to a journey through the most explosive period in American history! Today, we follow the trail of smoke and thunder through the American Civil War—a conflict that tore a nation apart and redefined freedom forever."
+    "t": "Welcome. Today we explore the American Civil War—not just a series of battles, but a transformation of a nation. We will look at the grand strategies, the technological shifts, and the human stories that defined this era."
   },
   {
     "m": "showSideGallery",
@@ -28,71 +28,31 @@
     "p": [
       "American Civil War",
       0,
-      "The American Civil War was a titanic struggle from 1861 to 1865. It wasn't just a political disagreement; it was a total war that pitted the industrial North against the agrarian South in a fight for the very survival of the United States."
+      "The war began in 1861 because the United States was two different worlds. The North was industrializing, while the South’s economy relied on 'King Cotton' and the labor of four million enslaved people. When Abraham Lincoln was elected, the South feared their way of life was over, and the nation fractured."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "slavery in the United States",
+      "United States",
       0,
-      "The fuse was lit by the deep-seated conflict over slavery. This brutal institution was the engine of the Southern economy and the moral line in the sand that neither side could cross without conflict."
+      "The Union’s grand strategy was the 'Anaconda Plan'. Like a giant snake, they intended to squeeze the South by blockading its ports and seizing the Mississippi River, cutting off the Confederacy from the world and from its own western resources."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "1860 United States presidential election",
+      "Peninsula Campaign",
       0,
-      "The tipping point was the election of 1860. When Abraham Lincoln took the White House, the South saw a direct threat to their way of life, sparking a political wildfire that no compromise could extinguish."
+      "In the early years, the North tried to end the war quickly. The Peninsula Campaign was a massive strategic move to capture Richmond by sea. But the war of 1861 was still fighting with 18th-century tactics against 19th-century weapons, leading to unexpected stalemates."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "secession of the Southern United States",
+      "Siege of Yorktown",
       0,
-      "In a desperate move, Southern states began their secession. They walked away from the Union to form their own government, setting the stage for a military confrontation of unprecedented scale."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "Confederate States of America",
-      0,
-      "The newly formed Confederate States of America faced the impossible task of defending thousands of miles of coastline and border while building a nation under the pressure of imminent invasion."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "Jefferson Davis",
-      0,
-      "Leading this rebellion was Jefferson Davis. As President of the Confederacy, he had to navigate internal politics and military strategy, trying to hold together a fragile coalition against a much more powerful enemy."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "Union",
-      0,
-      "The North, or the Union, held the advantage in men and machines. Their mission was clear but daunting: they had to invade, conquer, and reintegrate the South to preserve the nation as a whole."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "Battle of Fort Sumter",
-      0,
-      "The war began with a bang at the Battle of Fort Sumter. Confederate cannons opened fire on the federal fort in Charleston Harbor, forcing a surrender and signaling to the world that the time for talking was over."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "First Battle of Bull Run",
-      0,
-      "The first major clash came at Bull Run. Expecting an easy victory, Union troops were shocked by a fierce Confederate counterattack that sent them retreating back to Washington in total chaos."
+      "Strategy is also about deception. At Yorktown, the Confederates were outnumbered but used 'Quaker Guns'—logs painted black—to fool Union General McClellan into thinking they had a massive artillery line. He hesitated for a month, allowing the South to strengthen their defenses."
     ]
   },
   {
@@ -100,167 +60,151 @@
     "p": [
       "Stonewall Jackson",
       0,
-      "This battle gave birth to a legend: Stonewall Jackson. His steady leadership under fire became a symbol of Confederate defiance and changed the course of early battles in the East."
+      "While the North had more men, the South had brilliant, if eccentric, tactical leaders. 'Stonewall' Jackson was a master of rapid movement. He was also a man of odd habits—he refused to eat pepper because he thought it made his left leg weak, and he often rode into battle with one arm raised to 'balance his humors'."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Eastern Theater of the American Civil War",
+      "Northern Virginia Campaign",
       0,
-      "The Eastern Theater became a bloody stalemate. For years, the rival capitals of Washington and Richmond were the prizes in a high-stakes game of maneuver and massive frontal assaults."
+      "The Northern Virginia Campaign showed the power of morale and mobility. Jackson’s men were called 'foot cavalry' because they marched so fast they could surprise Union forces twice their size, feasting on captured Union delicacies like lobster and fine wine while the North scrambled to react."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Second Battle of Bull Run",
+      "Ambrose Burnside",
       0,
-      "At the Second Battle of Bull Run, the Confederates struck again with a brilliant flanking maneuver, crushing the Union army and clearing the path for an audacious invasion of the North."
+      "Not all leaders were geniuses. Ambrose Burnside is a reminder that fashion often outlasts fame. His legendary facial hair gave us the word 'sideburns', but his military decisions often left his men in the lurch."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Western Theater of the American Civil War",
+      "Mud March",
       0,
-      "Meanwhile, in the Western Theater, the war was won on the rivers and railroads. This vast expanse saw some of the most innovative and brutal campaigns of the entire conflict."
+      "The 'Mud March' was a strategic disaster that showed the limits of technology. Burnside tried a winter flanking move, but the Virginia clay turned to liquid. The army didn't lose a battle; they simply sank. It took 20 horses to pull a single cannon out of the mire."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of Shiloh",
+      "Maryland Campaign",
       0,
-      "The Battle of Shiloh was a terrifying slaughter. Over two days of chaotic woods-fighting, both sides suffered casualties that exceeded anything seen in American history up to that point."
+      "In 1862, the war's purpose began to shift. Lee invaded the North in the Maryland Campaign, hoping to win European support. A Union soldier found Lee's secret plans—Special Order 191—wrapped around three cigars, changing the course of the invasion."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Confederate Heartland Offensive",
+      "Battle of Antietam",
       0,
-      "The Confederates tried to turn the tide with the Heartland Offensive, a bold attempt to seize Kentucky and force the Union back across the Ohio River."
+      "Antietam was the result. It was the bloodiest single day in American history. More importantly, this narrow Union victory gave Lincoln the political 'victory' he needed to issue the Emancipation Proclamation, turning the war from a struggle for territory into a crusade against slavery."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of Barbourville",
+      "Gettysburg campaign",
       0,
-      "The Battle of Barbourville was an early attempt to secure vital mountain passes, showing how every bridge and crossroads became a focal point for desperate combat."
+      "1863 was the year the tide turned. The Gettysburg campaign was Lee's final attempt to win the war in the North. It was a clash of 160,000 men at a crossroads town that neither side had originally planned to fight in."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "First Battle of Collierville",
+      "Alfred Iverson, Jr.",
       0,
-      "In the First Battle of Collierville, a daring Confederate raid targeted a Union headquarters, nearly capturing a high-ranking general in a lightning strike on the railroad lines."
+      "The human cost of bad strategy was seen at Gettysburg when Alfred Iverson, Jr. sent his men into a meadow without scouting. They were mowed down so precisely that they were buried in the very line they fell in. To this day, the area is known as 'Iverson’s Pits'."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Mississippi River Campaign",
+      "Little Round Top",
       0,
-      "The Mississippi River Campaign was the Union's strategic masterstroke. By taking control of the 'Father of Waters,' they effectively cut the Confederacy in half, strangling their supply lines."
+      "The battle was won on the flanks. At Little Round Top, a college professor named Joshua Chamberlain ordered a bayonet charge because his men were out of ammo. This desperate move held the Union line and likely saved the North from defeat that day."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of St. Charles",
+      "Devil's Den",
       0,
-      "The Battle of St. Charles saw a lucky shot pierce a Union ironclad's boiler, creating a horrific disaster that reminded everyone of the technological terrors of this first modern war."
+      "Below the hills lay 'Devil's Den', a nightmare of boulders. This was a new kind of war—sharpshooters with long-range rifles picking off officers. It was a terrifying glimpse into the future of modern, impersonal warfare."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of Belmont",
+      "Vicksburg campaign",
       0,
-      "The Battle of Belmont was a fierce struggle for control of the river bluffs, where a young Ulysses S. Grant first showed his tenacity by leading his men through heavy fire to clear the Confederate camp."
+      "While Gettysburg was the famous victory, the Vicksburg campaign was the strategic masterpiece. Ulysses S. Grant finally completed the Anaconda Plan by capturing the last Confederate stronghold on the Mississippi, effectively cutting the Confederacy in half."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Trans-Mississippi theater of the American Civil War",
+      "Ivan Turchaninov",
       0,
-      "The Trans-Mississippi theater was the wild frontier of the war. Far from the main capitals, it was a brutal landscape of guerrilla warfare and ethnic tensions."
+      "The Union army was a melting pot. Ivan Turchaninov, the 'Russian Thunderbolt', was a former officer of the Russian Czar. He brought a European 'total war' mindset to the Union, believing that the only way to win was to destroy the South’s ability to support the war."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of Wilson's Creek",
+      "Army of the Cumberland",
       0,
-      "The Battle of Wilson's Creek was a savage encounter in the Missouri hills. It was a bloody draw that proved the war in the West would be just as hard-fought as in the East."
+      "The war moved into the heart of the South. The Army of the Cumberland became the hammer of the Union in the West, pushing through Tennessee and Georgia. This was a war of logistics, dependent on the railroads that both sides fought desperately to control."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Engagement near Carthage",
+      "Tullahoma Campaign",
       0,
-      "The Engagement near Carthage saw local militias clash in a running battle across the prairies, showing that no corner of the country was safe from the spreading fire of war."
+      "Sometimes the best strategy involves no fighting. In the Tullahoma Campaign, William Rosecrans outmaneuvered the Confederates so brilliantly that he captured a massive region with almost no loss of life. It was a 'bloodless' masterpiece in a very bloody war."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Siege of Lexington",
+      "Chattanooga campaign",
       0,
-      "At the Siege of Lexington, Confederates used a clever tactic of rolling hemp bales as mobile breastworks to approach and capture the Union garrison in what became known as the 'Battle of the Hemp Bales.'"
+      "But blood was always near. During the Chattanooga campaign, the Union was besieged until they fought their way out in the 'Battle Above the Clouds'. This victory opened the 'Gateway to the Lower South' and paved the way for the march on Atlanta."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Action at Blue Mills Landing",
+      "Overland Campaign",
       0,
-      "The Action at Blue Mills Landing was a sharp, localized fight where ambush and terrain played a critical role in the struggle for control of the Missouri river crossings."
+      "In 1864, Grant took command of all Union armies. His strategy was 'Simultaneous Movement'—attacking on all fronts at once so Lee could not move his troops. The Overland Campaign was a relentless, 24/7 struggle that never let the South breathe."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Skirmish at Island Mound",
+      "William Tecumseh Sherman",
       0,
-      "A historic milestone occurred at the Skirmish at Island Mound. It was the first time African American soldiers saw combat in the war, proving their courage and resolve to fight for their own freedom."
+      "Grant’s partner in this was William Tecumseh Sherman. He realized that the South's strength wasn't just its army, but its economy and its will. He famously said he would 'make Georgia howl' to prove the Confederacy could not protect its people."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of Devil's Backbone",
+      "Atlanta campaign",
       0,
-      "In the mountains of Arkansas, the Battle of Devil's Backbone was a desperate defense of a high ridge, where the terrain itself was as much an enemy as the opposing soldiers."
+      "The Atlanta campaign was the key to the 1864 election. If Sherman didn't take Atlanta, Lincoln might have lost his re-election to a candidate who wanted to make peace. Sherman’s victory in September ensured the war would be fought to the finish."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Battle of Byram's Ford",
+      "Sherman's March to the Sea",
       0,
-      "The Battle of Byram's Ford was a crucial part of the largest cavalry raid of the war, as thousands of horsemen clashed over a vital river crossing to decide the fate of Kansas City."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "Second Battle of Cabin Creek",
-      0,
-      "Even in Indian Territory, the war raged. The Second Battle of Cabin Creek saw a massive Confederate raid capture a vital Union supply train, showcasing the wide reach of the conflict."
-    ]
-  },
-  {
-    "m": "presentItem",
-    "p": [
-      "Emancipation Proclamation",
-      0,
-      "The war's soul changed with the Emancipation Proclamation. It was no longer just about geography; it was a crusade to end slavery, giving the Union a powerful moral weapon that resonated across the globe."
+      "Then came the 'March to the Sea'. Sherman cut his supply lines and marched 60,000 men through the heart of Georgia, destroying everything of military value. They left behind 'Sherman's Neckties'—railroad rails heated over fires and twisted around trees so they could never be used again."
     ]
   },
   {
@@ -268,44 +212,68 @@
     "p": [
       "Philip Sheridan",
       0,
-      "General Philip Sheridan became the Union's finishing blow. His aggressive 'scorched earth' tactics in the final year broke the back of Confederate resistance and crippled their logistics."
+      "In Virginia, Philip Sheridan was doing the same in the Shenandoah Valley. His strategy was to turn the 'Breadbasket of the Confederacy' into a wasteland. By 1865, the South was starving, its currency was worthless, and its railroads were gone."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Appomattox campaign",
+      "Valley Campaigns of 1864",
       0,
-      "The final act was the Appomattox campaign. Exhausted and surrounded, the great Army of Northern Virginia was forced to surrender, effectively ending the most violent chapter in American history."
+      "Sheridan’s 1864 campaign showed the transition to 'Hard War'. It wasn't about capturing cities, but about destroying the infrastructure. This was the blueprint for the wars of the 20th century."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Thirteenth Amendment to the United States Constitution",
+      "Franklin–Nashville Campaign",
       0,
-      "The war's legacy was written into law with the Thirteenth Amendment. It permanently ended slavery, ensuring that the sacrifices made on the battlefield resulted in a more just nation."
+      "In a desperate final gamble, the Confederates tried to draw Sherman back north with the Franklin–Nashville Campaign. It was a suicide mission led by John Bell Hood, who was so badly wounded he had to be strapped into his saddle every morning."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Reconstruction Era",
+      "Battle of Franklin",
       0,
-      "But the healing was just beginning. The Reconstruction Era was a turbulent time of trying to rebuild a shattered society and fulfill the promise of equality for millions of new citizens."
+      "At the Battle of Franklin, the South’s bravery could not overcome the North’s technology. They charged into repeating rifles and heavy artillery. Six Confederate generals died in the carnage, and the Southern army in the West effectively ceased to exist."
     ]
   },
   {
     "m": "presentItem",
     "p": [
-      "Ten percent plan",
+      "Price’s Missouri Expedition",
       0,
-      "Lincoln's Ten Percent Plan offered a glimpse of a compassionate peace, aiming to bring the South back quickly. Though his death changed the path, the dream of a reunited country remained."
+      "Even in the far West, the war was ending. Price’s Missouri Expedition was a final, failed raid to reclaim Missouri. It ended in the largest cavalry battle of the war, proving that the Union's control of the continent was absolute."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Carolinas campaign",
+      0,
+      "By 1865, Sherman was marching north through the Carolinas. The war was coming full circle. The South was exhausted. Their strategy of 'defense through attrition' had failed because the North’s industrial and human resources were simply too vast to exhaust."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Stoneman's 1865 Raid",
+      0,
+      "The final blow was Stoneman’s 1865 Raid—the longest cavalry raid in history. It destroyed the last remnants of the Southern telegraph and rail network, leaving the Confederate government in the dark as their capital finally fell."
     ]
   },
   {
     "a": "spt",
-    "t": "The American Civil War was a fire that forged a new nation. From the first shot at Sumter to the final surrender at Appomattox, the cost was high, but the result was a United States that finally began to live up to its founding ideals. Thank you for joining me on this journey!",
+    "t": "The war ended at Appomattox. The most incredible irony is the story of Wilmer McLean. The war's first major battle in 1861 happened on his farm. He moved his family 200 miles away to find peace, only for the war to end in 1865 right in his new parlor. He could truly say the war started in his backyard and ended in his front room."
+  },
+  {
+    "a": "spt",
+    "t": "The American Civil War didn't just end slavery; it redefined the United States from a collection of states into a single, unified nation. It was a tragedy that forged a new future. Thank you for following this journey with me!"
+  },
+  {
+    "a": "spt",
+    "t": "Goodbye, and I hope you found this history as fascinating as I do.",
     "wa": 50000
   }
 ]
