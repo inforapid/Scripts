@@ -1,0 +1,303 @@
+[
+  {
+    "m": "clickQuickAccessToolbarDirect",
+    "p": [
+      ".id-rotate"
+    ],
+    "wa": 1000
+  },
+  {
+    "a": "spt",
+    "t": "Welcome to the electric revolution! Today, we explore the silent, high-speed journey of electric vehicles—from forgotten prototypes to the digital powerhouses of today. This is the story of how we electrified the world."
+  },
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ],
+    "wse": true
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "automotive industry",
+      0,
+      "The automotive industry is undergoing its most radical transformation since the assembly line. We're moving from internal combustion to clean, quiet, and incredibly fast electric motors. But this change isn't as new as you might think."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Bugatti Type 52",
+      0,
+      "Did you know Bugatti made an electric car in 1927? The Type 52, also known as 'Baby Bugatti,' was a half-scale electric racer. It was originally built for Ettore Bugatti's youngest son, but it was so popular that around 500 were produced for the world's luckiest children!"
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "General Motors EV1",
+      0,
+      "Fast forward to the 1990s and the General Motors EV1. It was a technological marvel, but in a controversial move, GM reclaimed and crushed almost every single unit, inspiring the famous documentary 'Who Killed the Electric Car?'. It became a cult symbol of what could have been."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Tesla, Inc.",
+      0,
+      "Then came Tesla. Founded in 2003, they didn't just want to build electric cars; they wanted to prove that electric cars could be better than gasoline ones. They turned the industry's skepticism into a desperate race to catch up."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Tesla Roadster",
+      0,
+      "The Tesla Roadster was the spark. Based on a Lotus chassis, it was the first production EV to use lithium-ion battery cells. It proved that an electric car could be sexy, fast, and have a range of over 200 miles."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Tesla Model S",
+      0,
+      "But the Model S was the true game changer. It was a luxury sedan that could outperform supercars in a straight line while offering a massive touchscreen and over-the-air updates, forcing every luxury manufacturer to rethink their strategy."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Tesla Model 3",
+      0,
+      "The Model 3 brought this tech to the masses. It became the best-selling electric car in history for a time, proving that high-volume production of advanced EVs was possible and profitable."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Tesla Cybercab",
+      0,
+      "Looking forward, the Tesla Cybercab represents the next frontier: full autonomy. A world where cars don't just drive themselves, but operate as a fleet of robotaxis without steering wheels or pedals."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Nissan Leaf",
+      0,
+      "While Tesla focused on luxury, Nissan gave us the Leaf in 2010. It was the first truly affordable, mass-produced electric hatchback. Millions of people got their first taste of electric driving in a Leaf."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Renault Zoe",
+      0,
+      "In Europe, the Renault Zoe reigned supreme for years. It was the perfect urban companion, showing that small, efficient EVs were the ideal solution for crowded European cities."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Volkswagen Group",
+      0,
+      "The Volkswagen Group, after a massive scandal, pivoted entirely to electric. They invested billions into their MEB platform, aiming to become the world's largest EV producer through sheer scale."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Volkswagen ID. Buzz",
+      0,
+      "The ID. Buzz is the emotional heart of this shift. It brings back the iconic 'Microbus' in a fully electric form, proving that EVs can have soul and retro-futuristic charm."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Volkswagen I.D. R",
+      0,
+      "To show they weren't just about commuters, VW built the I.D. R. This electric beast shattered the all-time record at Pikes Peak and the Nürburgring, proving that electric power is the ultimate performance tool."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Audi e-tron",
+      0,
+      "Audi entered the fray with the e-tron, focusing on a seamless transition for luxury SUV buyers. It offered legendary Quattro performance with a silent, premium experience."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Porsche Taycan",
+      0,
+      "Porsche proved that an EV could handle like a true sports car. The Taycan uses an 800-volt system for ultra-fast charging, ensuring you spend more time on the track and less at the plug."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "BMW i3",
+      0,
+      "BMW took a different path with the i3. With its carbon-fiber body and sustainable interior materials, it was a futuristic experiment in urban mobility that was years ahead of its time."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "BMW i7",
+      0,
+      "Today, BMW offers the i7—the pinnacle of electric luxury. It features a massive 31-inch 'Theater Screen' in the back, turning the car into a private cinema on wheels."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mercedes-Benz EQC",
+      0,
+      "Mercedes-Benz launched the EQ brand with the EQC, emphasizing comfort and safety. It was the first step in Mercedes' promise to go all-electric wherever market conditions allow."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Ford F-150 Lightning",
+      0,
+      "In America, nothing is bigger than the F-150. The Lightning version can power your entire house during a blackout, proving that electric trucks are the ultimate power tools for work and play."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Chevrolet Bolt",
+      0,
+      "Chevrolet offered a practical alternative with the Bolt. It was one of the first EVs to offer over 200 miles of range at a price point that regular families could actually afford."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Rivian R1T",
+      0,
+      "Rivian redefined the 'Electric Adventure.' The R1T truck features a 'Tank Turn' capability and a built-in camp kitchen, designed for people who want to explore nature without polluting it."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "BYD Auto",
+      0,
+      "The global giant you might not know is BYD. This Chinese powerhouse started as a battery manufacturer and now rivals Tesla in global sales, controlling its entire supply chain from the mine to the motor."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Nio Inc.",
+      0,
+      "Nio offers a unique solution to 'range anxiety': Battery Swapping. Instead of waiting for a charge, you can swap your depleted battery for a full one in just three minutes at an automated station."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "XPeng",
+      0,
+      "XPeng is pushing the boundaries of software and smart driving. They are often called the 'Tesla of China,' focusing heavily on AI-driven navigation and even flying car concepts."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Rimac Automobili",
+      0,
+      "Rimac is the ultimate underdog story. Founded in a garage in Croatia by Mate Rimac, they now provide electric technology to legends like Porsche and Bugatti."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Rimac Concept One",
+      0,
+      "The Concept One put Rimac on the map. It was famously crashed by Richard Hammond on 'The Grand Tour,' an accident so spectacular it paradoxically gave the small company global fame."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Rimac Nevera",
+      0,
+      "The Nevera is their masterpiece. It is currently the fastest-accelerating production car in the world, doing 0 to 60 in under two seconds. It is proof that the future of speed is electric."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Hyundai Ioniq 6",
+      0,
+      "Hyundai is winning design awards with the Ioniq 6. Its 'Streamliner' shape isn't just for looks; it makes it one of the most aerodynamic and efficient cars on the road today."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Kia EV9",
+      0,
+      "The Kia EV9 is bringing the electric revolution to large families. It's a three-row SUV that proves you don't have to sacrifice space or style to go green."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Honda e",
+      0,
+      "The Honda e is a love letter to city driving. With its side-view cameras instead of mirrors and a dashboard made entirely of screens, it's a tech-lover's dream in a cute, compact package."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Dacia Spring",
+      0,
+      "At the other end of the spectrum is the Dacia Spring. It's the most affordable EV in Europe, stripping away the luxury to make electric mobility accessible to everyone."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Rolls-Royce Spectre",
+      0,
+      "Even Rolls-Royce has gone electric with the Spectre. It turns out that electric motors are the perfect fit for Rolls-Royce: they are naturally silent, smooth, and offer effortless torque."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Citroën Berlingo électrique",
+      0,
+      "Lest we forget the workers, Citroën was selling the Berlingo électrique as far back as 1998! It reminds us that the quest for clean commercial transport has been a long time coming."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "City Transformer CT1",
+      0,
+      "Finally, the City Transformer CT1. This Israeli micro-car can literally shrink its width at the touch of a button to fit into motorcycle parking spots, then widen its wheels for stability at high speeds."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "From the 'Baby Bugatti' to transforming micro-cars and record-breaking hypercars, the story of electric vehicles is just beginning. We are witnessing the end of the oil age and the dawn of a cleaner, faster, and more innovative future. Thank you for joining me on this high-voltage journey!",
+    "wa": 50000
+  }
+]

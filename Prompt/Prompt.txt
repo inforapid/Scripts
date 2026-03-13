@@ -1,3 +1,10 @@
+ähnlich wie bei script @English/punic_wars_presentation.json möchte ich ein script für die englischsprachige präsentation amerikanischen bürgerkriegs in der datei american_civil_war_presentation.json erstellen. die anleitung für die skriptsprache findest du unter @Manual_en.md .das diagramm enthält folgende items, die aber nicht alle präsentiert werden sollen, dafür reichen die 10 minuten nicht aus. schreibe eine unterhaltsame, spannende präsentation zu amerikanischen Bürgerkrieg, so dass man einen überblick erlangt, aber auch durch spannende, nicht offensichtlich bekannte geschichten fesselnd unterhalten wird. Es sollten ungefähr gleich viel elemente wie im skript zu den punischen kriegen präsentiert werden, da hat die Präsentation genau 10 minuten lang gedauert.
+
+
+
+
+
+
 ich habe durch automatischen import von daten aus wikidata zu dem amerikanischen Bürgerkrieg mit dem InfoRapid KnowledgeBase Builder eine 3D-MindMap Präsentation erstellt und als Video aufgenommen, die ich auf YouTube veröffentlichen möchte.
 Bitte erstelle mir dazu einen Titel und eine Beschreibung auf Englisch.
 
