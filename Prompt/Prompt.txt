@@ -2,60 +2,13 @@
 
 
 
-ich habe durch automatischen import von daten aus wikidata zu dem amerikanischen Bürgerkrieg mit dem InfoRapid KnowledgeBase Builder eine 3D-MindMap Präsentation erstellt und als Video aufgenommen, die ich auf YouTube veröffentlichen möchte.
+ich habe mit dem InfoRapid KnowledgeBase Builder eine 3D-MindMap Präsentation über Cryptocurrencies erstellt und als Video aufgenommen, die ich auf YouTube veröffentlichen möchte.
 Bitte erstelle mir dazu einen Titel und eine Beschreibung auf Englisch.
 
-Ich habe ähnnliches bereits für das Sonnensystem gemacht, hier sind Titel und Beschreibung, die dort verwendet habe. Dort habe ich allerdings eine 2D-MindMap für die Präsentation verwendet, jetzt verwende ich eine 3D-MindMap. 
-
-Visualizing WikiData: Solar System Presentation via InfoRapid KnowledgeBase Builder
-
-
-Welcome to a majestic journey through our Solar System!
-
-In this video, we explore the planets, mysterious moons, and the daring space missions that have ventured into the great unknown. This entire presentation was built using dynamic data from WikiData and visualized through the InfoRapid KnowledgeBase Builder.
-
-🚀 What’s in this video:
-
-The Inner Planets: From the Sun’s immense gravity to the scorching surface of Mercury and the hellish atmosphere of Venus (featuring the historic Venera missions).
-
-Earth & Mars: A look at our "blue marble," the Moon, and the robotic explorers on the Red Planet, including Curiosity and Perseverance.
-
-The Gas Giants & Beyond: Jupiter’s Great Red Spot, Saturn’s iconic rings, and the icy, wind-swept worlds of Uranus and Neptune.
-
-The Outer Reaches: Exploring the "double planet" system of Pluto and its massive moon, Charon.
-
-🛠️ The Tech Behind the Visualization:
-
-This video demonstrates the power of automated knowledge management and data visualization:
-
-Software: InfoRapid KnowledgeBase Builder (https://www.inforapid.org)
-
-Data Source: Imported directly from WikiData using a custom SPARQL query.
-
-Automation: The camera movement and narration are controlled by a JSON presentation script.
-
-Project Resources:
-
-SPARQL Query (GitHub): https://github.com/inforapid/SPARQL/blob/main/Astronomy/SolarSystem.sparql
-
-Presentation Script (GitHub): https://github.com/inforapid/Scripts/blob/main/English/script_solar_system_presentation.json
-
-🌌 About the Project:
-
-The InfoRapid KnowledgeBase Builder allows users to transform structured data into interactive, visual maps. From the volcanic geysers of Triton to the methane lakes of Titan, this video shows how complex cosmic relationships can be visualized with ease.
-
-If you enjoyed this stellar journey, please like, subscribe, and hit the notification bell for more data-driven space explorations!
-
-#Astronomy #SolarSystem #WikiData #SPARQL #KnowledgeBase #SpaceExploration #DataVisualization #InfoRapid #Planets
+Link zu dem Programm InfoRapid KnowledgeBase Builder im Internet: https://inforapid.org
+Link zu der Präsentation im Internet: https://inforapid.org/webapp/webapp.php?shareddb=sL09uJYCmRsKy5GYEAqIz98JXH7FODOcPsUb72tZqAdEH6imNjoxyyTi4q0I9POhfGMHi7CgOSo6RGYwSwSNo1LrrUXgKCDU&lang=en
 
 Das Skript für die Präsentation ist folgendes:
-
-
-
-Link zur Sparql Query: https://github.com/inforapid/SPARQL/blob/main/History/AmericanCivilWar.sparql
-Link zum Präsentationsskript: https://github.com/inforapid/Scripts/blob/main/English/american_civil_war_presentation.json
-
-
 
 
 
