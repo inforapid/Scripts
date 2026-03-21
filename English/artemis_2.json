@@ -1,0 +1,303 @@
+[
+  {
+    "m": "clickQuickAccessToolbarDirect",
+    "p": [
+      ".id-rotate"
+    ],
+    "wa": 1000
+  },
+  {
+    "a": "spt",
+    "t": "Welcome to the next giant leap for humanity! We are standing on the threshold of a new era of exploration. Today, we're not just looking at the Moon—we're going back. This is the story of the Artemis Program and the historic Artemis 2 mission."
+  },
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ],
+    "wse": true
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis Program",
+      0,
+      "The Artemis Program is NASA's bold mission to return humans to the Moon and eventually reach Mars. Unlike Apollo, which was about 'getting there first,' Artemis is about 'staying there.' It's named after the Greek goddess of the Moon and the twin sister of Apollo."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo Program",
+      0,
+      "To understand where we're going, we must look back. The Apollo Program proved we could leave our home planet. Between 1969 and 1972, 12 men walked on the lunar surface. But for over 50 years, no human has been back. Artemis aims to break that silence."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Gemini Program",
+      0,
+      "Before Apollo, there was Gemini. It was the essential bridge, teaching NASA how to dock spacecraft and perform spacewalks. Artemis has its own 'Gemini phase'—the testing of new commercial systems and orbital maneuvers that will make deep space sustainable."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 1",
+      0,
+      "Exploration comes with risks. The tragedy of Apollo 1, where three astronauts lost their lives in a cabin fire during a test, taught NASA that safety must be built into every bolt and wire. That legacy lives on in the rigorous testing of the Artemis hardware."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 7",
+      0,
+      "Apollo 7 was the critical 'return to flight' mission that proved the new Command Module was safe. Similarly, Artemis 1 and 2 serve as the foundational tests to ensure that the next generation of explorers can fly with confidence."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 10",
+      0,
+      "Apollo 10 was the ultimate dress rehearsal. The Lunar Module, nicknamed 'Snoopy,' descended to just 15 kilometers above the surface. The crew famously joked that if they had tried to land, NASA hadn't given them enough fuel to get back! Artemis 2 follows this tradition—going as close as possible without the actual landing."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 11",
+      0,
+      "We all know the 'one small step.' But did you know the Lunar Module's computer had less processing power than a modern toaster? Today, the Artemis systems are millions of times more powerful, yet the challenge remains just as daunting."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Neil Armstrong",
+      0,
+      "Neil Armstrong wasn't just an astronaut; he was a master test pilot. During the landing, he had to manually pilot the Eagle to avoid a boulder field with only seconds of fuel left. Artemis 2 commander Reid Wiseman and his crew bring that same level of elite piloting skill to the cockpit."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 12",
+      0,
+      "Apollo 12 proved pinpoint precision by landing right next to the Surveyor 3 probe. This accuracy is vital for Artemis, as we plan to land at the lunar South Pole—a region of jagged shadows and extreme terrain."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 13",
+      0,
+      "The 'successful failure' of Apollo 13 showed that the Lunar Module could serve as a lifeboat. Artemis 2 is specifically designed with multiple layers of redundancy, including a 'free-return trajectory' that uses the Moon's gravity to sling the crew back to Earth even if their engines fail."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 14",
+      0,
+      "Alan Shepard famously hit two golf balls on the Moon during Apollo 14. In the low gravity, they traveled 'miles and miles.' While Artemis astronauts might not bring golf clubs, they will be performing serious science to understand the Moon's resources."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Apollo 17",
+      0,
+      "When Eugene Cernan left the Moon in 1972, he said we would return 'with peace and hope for all mankind.' Artemis 2 is the fulfillment of that promise, carrying a diverse, international crew back to the lunar frontier."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Moon",
+      0,
+      "The Moon isn't just a dead rock. Its South Pole contains water ice hidden in permanently shadowed craters. This ice is 'lunar gold'—it can be turned into oxygen to breathe and hydrogen for rocket fuel, making the Moon a gas station for the rest of the solar system."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Space Launch System",
+      0,
+      "Behold the SLS—the most powerful rocket ever built. It generates 8.8 million pounds of thrust at liftoff. Fun fact: its RS-25 engines are actually refurbished engines from the Space Shuttle program, upgraded to push us further than the Shuttle ever could."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Orion (Spacecraft)",
+      0,
+      "The Orion spacecraft is the crew's home in deep space. It features a European-built Service Module that provides power and air. When it returns, it will hit the atmosphere at 40,000 kilometers per hour, creating a fireball twice as hot as molten lava."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis 1",
+      0,
+      "Artemis 1 was the uncrewed test that proved the system worked. It carried three mannequins, including 'Commander Moonikin Campos,' and a stuffed Snoopy as a zero-G indicator. The mission lasted 25 days and confirmed that Orion can handle the deep space radiation environment."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis 2",
+      0,
+      "Artemis 2 is the big one—the first time humans will fly on SLS and Orion. The crew will travel 10,000 kilometers beyond the far side of the Moon. This will be the furthest any human has ever traveled from Earth, breaking a record held since 1970."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Reid Wiseman",
+      0,
+      "The mission is led by Commander Reid Wiseman. A former Chief of the Astronaut Office, he's known for his leadership and his viral photography from the ISS. He'll be responsible for the safety of the crew on this historic 10-day journey."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Victor Glover",
+      0,
+      "Pilot Victor Glover will make history as the first person of color to leave Earth orbit. He previously piloted the first operational SpaceX Crew Dragon mission. On Artemis 2, he'll be the one steering our path through the deep space void."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Christina Koch",
+      0,
+      "Mission Specialist Christina Koch holds the record for the longest single spaceflight by a woman. An electrical engineer who once worked at the South Pole station in Antarctica, she's no stranger to extreme environments. She'll be the first woman to ever visit the Moon."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Jeremy Hansen",
+      0,
+      "Jeremy Hansen is the first non-American to fly to the Moon. Representing Canada, his inclusion highlights the international partnership at the heart of Artemis. He's a former fighter pilot who has spent years preparing for this single, monumental flight."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Lunar Orbital Platform-Gateway",
+      0,
+      "Think of the Gateway as a mini-ISS in lunar orbit. It will serve as a hub where astronauts can dock their Orion spacecraft before descending to the surface. It will be the first permanent outpost in deep space."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Starship",
+      0,
+      "For the actual landing, NASA is partnering with SpaceX. Their massive Starship HLS will meet the Orion in lunar orbit and carry the astronauts down to the surface. It's the most ambitious landing system ever conceived, designed to be fully reusable."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis 3",
+      0,
+      "Artemis 3 will be the main event: the first human landing on the Moon since 1972. It will land the first woman and the first person of color on the surface. They'll spend a week exploring the South Pole, hunting for that precious lunar ice."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis 4",
+      0,
+      "Artemis 4 will focus on building out the Gateway, delivering the I-HAB module where astronauts can live for longer periods. This is the shift from 'visiting' to 'inhabiting' the lunar environment."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis 5",
+      0,
+      "During Artemis 5, we'll see the arrival of the Lunar Terrain Vehicle—the ultimate lunar rover. It's an unpressurized 'buggy' that will allow astronauts to drive across the rugged South Pole landscape, even when no humans are present."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Artemis 6",
+      0,
+      "Artemis 6 will continue to expand our presence. By this point, missions will be frequent, and the infrastructure for a sustainable lunar base will be taking shape. The Moon will truly become our eighth continent."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "CubeSat",
+      0,
+      "Even tiny satellites play a role. Artemis 1 carried 10 CubeSats, including 'BioSentinel,' which used yeast to study how deep space radiation affects living DNA. These little explorers provide critical data for keeping our human crews safe."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Dragon 2",
+      0,
+      "SpaceX's Dragon 2 has already revolutionized access to the ISS. Its touchscreens and automated systems represent the modern design philosophy that is now being applied to the Orion and the Lunar Gateway."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "SpaceX Crew-1",
+      0,
+      "Victor Glover's experience on Crew-1 was vital. It was the first time a private company launched a full crew on an operational mission. That success paved the way for the public-private partnership that makes Artemis possible."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "ISS-Expedition 64",
+      0,
+      "During Expedition 64, Victor Glover and his crewmates performed complex science that helps us understand how the human body changes in space. This knowledge is the foundation for the multi-week Artemis missions."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Alexander Gerst",
+      0,
+      "European astronauts like Germany's Alexander Gerst are also training for the future. ESA's contribution of the Service Module guarantees that European explorers will eventually have their own seats on the journey to the Moon."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Chang’e 7",
+      0,
+      "The Moon is getting crowded. China's Chang'e 7 mission is also targeting the South Pole to search for water. This international competition is driving a new 'Space Race,' but this time, the goal is discovery and resource utilization."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "IM-1",
+      0,
+      "Commercial missions like IM-1, with the 'Odysseus' lander, have already returned America to the Moon. Even though Odysseus tipped over on landing, it still transmitted data, proving that robotic scouts can pave the way for the Artemis crews."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "From the early days of Apollo to the cutting-edge technology of today, our journey to the Moon is a testament to human curiosity and courage. Artemis 2 is just the beginning. The stars are calling, and this time, we are going to stay. Thank you for being part of this historic mission!",
+    "wa": 50000
+  }
+]
