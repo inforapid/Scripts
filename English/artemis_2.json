@@ -51,7 +51,7 @@
     "m": "presentItem",
     "p": [
       "Apollo 1",
-      0,
+      3,
       "Exploration comes with risks. The tragedy of Apollo 1, where three astronauts lost their lives in a cabin fire during a test, taught NASA that safety must be built into every bolt and wire. That legacy lives on in the rigorous testing of the Artemis hardware."
     ]
   },
@@ -123,7 +123,7 @@
     "m": "presentItem",
     "p": [
       "Moon",
-      0,
+      1,
       "The Moon isn't just a dead rock. Its South Pole contains water ice hidden in permanently shadowed craters. This ice is 'lunar gold'—it can be turned into oxygen to breathe and hydrogen for rocket fuel, making the Moon a gas station for the rest of the solar system."
     ]
   },
