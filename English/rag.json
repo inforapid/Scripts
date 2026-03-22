@@ -1,0 +1,278 @@
+[
+  {
+    "m": "clickQuickAccessToolbarDirect",
+    "p": [
+      ".id-rotate"
+    ],
+    "wa": 1000
+  },
+  {
+    "a": "spt",
+    "t": "Welcome to the frontier of intelligence! Today, we’re moving beyond simple chatbots to explore the 'Open Book' era of artificial intelligence. This is the story of how Retrieval-Augmented Generation and the Model Context Protocol are breaking the silicon ceiling."
+  },
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ],
+    "wse": true
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Generative artificial intelligence",
+      0,
+      "Generative artificial intelligence is our digital artist. But without Retrieval-Augmented Generation, this artist is painting purely from memory. To move from beautiful fiction to reliable fact, we must bridge the gap between creation and information."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Large language model",
+      0,
+      "The large language model is the engine of this revolution. However, it's a closed system. Retrieval-Augmented Generation is the peripheral that finally allows this massive brain to look outside itself and see the real, current world."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Knowledge cutoff",
+      0,
+      "This is the enemy: The Knowledge Cutoff. It's a digital amnesia that makes the smartest models useless for today's news. Retrieval-Augmented Generation is the cure, turning a frozen snapshot of the past into a live stream of the present."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Retrieval-augmented generation",
+      0,
+      "Here is our protagonist: Retrieval-Augmented Generation. It transforms the model from a know-it-all into a find-it-all. Before answering, it searches a trusted library, ensuring every word is anchored in evidence rather than hallucination."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Transformer (deep learning)",
+      0,
+      "The Transformer architecture is what makes Retrieval-Augmented Generation possible. Its ability to handle long-range context allows the model to read the information it retrieves and weave it seamlessly into a human-like response."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Attention (machine learning)",
+      0,
+      "Within that Transformer, the Attention mechanism is the spotlight. When Retrieval-Augmented Generation brings back a 50-page document, Attention is what allows the model to zero in on the single sentence that actually answers your question."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Embedding (machine learning)",
+      0,
+      "To retrieve data, we need Embeddings. They translate human language into a mathematical GPS. Without these coordinates, Retrieval-Augmented Generation wouldn't know how to find the needle of truth in the haystack of big data."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Word embedding",
+      0,
+      "Word Embeddings are the individual stars in this mathematical galaxy. They ensure that Retrieval-Augmented Generation understands that when you search for revenue, it should also look for income and earnings."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Latent space",
+      0,
+      "This map lives in Latent Space—a multi-dimensional universe where meaning is distance. Retrieval-Augmented Generation navigates this space to find facts that are conceptually near to your query, even if they use different words."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Vector database",
+      0,
+      "The Vector Database is the home for these embeddings. It’s the specialized library where Retrieval-Augmented Generation does its research, built to find similarities in milliseconds across billions of data points."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Hierarchical navigable small world",
+      0,
+      "To keep Retrieval-Augmented Generation fast, we use the Hierarchical Navigable Small World algorithm. It’s the high-speed rail of data retrieval, allowing the model to skip irrelevant clusters and reach the perfect piece of context instantly."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Knowledge graph",
+      0,
+      "But sometimes 'vibes' aren't everything. Knowledge Graphs add logic to Retrieval-Augmented Generation. They map facts as relationships, ensuring the model knows not just that two things are related, but exactly how they are connected."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Graph database",
+      0,
+      "Graph Databases power this logical version of Retrieval-Augmented Generation. They allow the model to follow a trail of relationships—like a digital detective—to answer complex questions that simple keyword searches would miss."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Information retrieval",
+      0,
+      "This entire science is the evolution of Information Retrieval. We’ve moved from finding a document to extracting an answer, with Retrieval-Augmented Generation acting as the bridge between raw data and fluent wisdom."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Prompt engineering",
+      0,
+      "Prompt Engineering is the key to Retrieval-Augmented Generation. A well-crafted prompt tells the model exactly how to use the retrieved context—whether to summarize it, critique it, or use it to perform a specific task."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Model Context Protocol",
+      0,
+      "Now, meet the second protagonist: The Model Context Protocol. If Retrieval-Augmented Generation is the library, the Model Context Protocol is the universal adapter. It allows the model to plug into any data source with a single, unified language."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Anthropic",
+      0,
+      "Anthropic pioneered the Model Context Protocol to break down data silos. They realized that artificial intelligence shouldn't just be a brain in a jar; it needs a safe, standardized way to reach out and touch the tools we use every day."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "AI agent",
+      0,
+      "This leads to the AI Agent. An agent is Retrieval-Augmented Generation and the Model Context Protocol in action. It doesn't just talk; it uses retrieval to learn and the protocol to act, transforming from a simple chatbot into a digital employee."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Intelligent agent",
+      0,
+      "An Intelligent Agent uses these tools to pursue goals. With the Model Context Protocol, it can check your emails; with Retrieval-Augmented Generation, it can understand your company's history. Together, they create a system that truly understands its job."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "OpenAI Codex (AI agent)",
+      0,
+      "OpenAI Codex was an early pioneer. It used a specialized form of Retrieval-Augmented Generation to lookup coding libraries and then used its agency to write software. It showed us that artificial intelligence could be a doer, not just a talker."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "LangChain",
+      0,
+      "LangChain was the first framework to chain these together. It allowed developers to connect a large language model to a retrieval source and then to a tool through a protocol, creating the first complex automated workflows."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Perplexity AI",
+      0,
+      "Perplexity AI is the poster child for live retrieval. It researches the web in real-time for every query, showing us that the future of search isn't a list of links, but a cited, factual report based on the latest data."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Contextual AI",
+      0,
+      "Contextual AI is taking this to the enterprise. They use retrieval and the Model Context Protocol to build corporate brains that know everything about your business without ever leaking that private data to the public."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "FuseBase",
+      0,
+      "FuseBase is already using the Model Context Protocol to build business-to-business agents. They show how these protocols allow different software tools to talk to each other through the medium of an automated assistant."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Agent2Agent",
+      0,
+      "The Model Context Protocol also enables agent-to-agent communication. Imagine your personal agent using the protocol to retrieve options from a travel agent's database, negotiating and booking without you saying a word."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Agentic commerce",
+      0,
+      "This leads to Agentic Commerce. In this world, retrieval helps your agent understand your preferences, while the Model Context Protocol allows it to execute purchases across the web autonomously and safely."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Prompt injection",
+      0,
+      "But there is a dark side: Prompt Injection. When retrieval pulls data from the web, that data might contain hidden orders designed to hijack the model. Retrieval makes the model more powerful, but also more vulnerable."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "AI safety",
+      0,
+      "This is why AI Safety is critical for retrieval-based systems. We need digital firewalls that scan the context being retrieved to ensure no malicious instructions are sneaking into the model's brain."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "AI alignment",
+      0,
+      "AI Alignment is the final guardrail. It ensures that as agents become more autonomous through protocols, they remain aligned with human values, using their access to our data for our benefit, not our harm."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Reasoning model",
+      0,
+      "The newest Reasoning Models are the perfect partners for Retrieval-Augmented Generation. They don't just spit out what they retrieve; they think through the context, verifying facts before they speak."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Explainable artificial intelligence",
+      0,
+      "Finally, Explainable artificial intelligence is the citations page of the digital age. Retrieval-Augmented Generation makes this possible by showing us exactly which document and which sentence the model used to form its answer."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "From the depth of a retrieval library to the breadth of the Model Context Protocol's connections, we are building an intelligence that is grounded, connected, and transparent. Thank you for joining me on this journey into the future of context!"
+  }
+]
