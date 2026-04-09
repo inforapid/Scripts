@@ -1,0 +1,295 @@
+[
+  {
+    "m": "clickQuickAccessToolbarDirect",
+    "p": [
+      ".id-rotate"
+    ],
+    "wa": 1000
+  },
+  {
+    "a": "spt",
+    "t": "Welcome to a journey through the very fabric of our existence! Today, we dive into Einstein's General Theory of Relativity. Forget the dry equations; we are here for the cosmic drama, the hidden paradoxes, and the mind-bending reality of space and time."
+  },
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ],
+    "wse": true
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Spacetime shapes matter",
+      0,
+      "Let's start with the big picture: Spacetime shapes matter. Einstein didn't just add a dimension; he revealed that space and time are an indivisible, plastic fabric. Imagine it like a trampoline, where massive objects create dents that tell everything else how to move. Gravity isn't a pull; it's a curve."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Newton's model fails at the speed of light",
+      0,
+      "But why did we need this? Because Newton's model fails at the speed of light. Newton thought gravity was an instant 'tug'. Einstein realized this was impossible—if the Sun vanished, the Earth couldn't know instantly because nothing, not even gravity, can outrun light."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Instantaneous action at a distance violates the speed limit",
+      0,
+      "This concept of 'instantaneous action at a distance' violates the cosmic speed limit. To save causality, Einstein had to redesign reality itself, replacing invisible bands of force with waves that travel at the speed of light through the geometry of space."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The invisible ether proves to be an illusion",
+      0,
+      "Physicists once clung to a 'Ether'—an invisible wind carrying light. But experiments proved this invisible ether is an illusion. There is no absolute background; everything is relative to the observer, which led to the most radical fusion in science."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Spacetime exists as an inseparable continuum",
+      0,
+      "Space and time are no longer separate stages. Spacetime exists as an inseparable continuum. Your position, your speed, and even the time you experience depend entirely on your path through this four-dimensional substance. There is no 'universal now'."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Geometry dictates motion",
+      0,
+      "The result? Geometry dictates motion. Mass doesn't reach out and 'grab' a planet; it simply curves the space around it. The planet isn't 'falling' in a circle; it is following the straightest possible path in a world that has been warped out of shape."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The universe as a deformable rubber sheet",
+      0,
+      "Visualizing this requires moving beyond dry math. Think of the universe as a deformable rubber sheet. Every star, every planet, and every person creates a tiny stretch or a massive dip in the fabric, making the cosmos a dynamic, vibrating landscape."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The trampoline illustrates mass curvature",
+      0,
+      "The trampoline illustrates mass curvature perfectly. Roll a marble on a flat sheet and it goes straight. Place a bowling ball—the Sun—and the sheet dips. The marble—the Earth—now circles not because of a force, but because the floor is sloped."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Equivalence principle unites falling and floating",
+      0,
+      "Einstein's 'happiest thought' was that the equivalence principle unites falling and floating. A person falling from a roof feels no weight. This proves that gravity is just inertial motion in a curved space. Falling is actually the most natural way to move."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Acceleration and gravity are not twins",
+      0,
+      "Most people think they are different, but acceleration and gravity are not twins—they are the same thing. When you stand on the ground, you aren't 'sitting' still; you are constantly being accelerated upward by the Earth against the curved space you're in."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Time dilation slows the beat",
+      0,
+      "Gravity even controls time. Time dilation slows the beat of every clock near a massive object. This isn't theoretical; your GPS satellites are high enough that their clocks tick faster. Without Einstein's corrections, your phone would misguide you by kilometers every day."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Time does not pass identically on mountains as in valleys",
+      0,
+      "This leads to a weird truth: time does not pass identically on mountains as in valleys. A hiker on Mount Everest actually ages slightly faster than someone at sea level. The higher you go, the 'thinner' the gravity and the faster your biological clock ticks."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Light rays bend to topology",
+      0,
+      "Mass even bends light. Light rays bend to topology, acting like a cosmic magnifying glass. This 'gravitational lens' allows us to see distant galaxies that would otherwise be hidden behind massive clusters, revealing the true depth of the universe."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The ant experiences a two-dimensional illusion",
+      0,
+      "Think of it like an ant on an apple. The ant experiences a two-dimensional illusion of a straight path, but we see it following the curve of the fruit. Starlight near the Sun does the same—it travels 'straight', but through a space that is fundamentally bent."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mercury shatters the classical prediction",
+      0,
+      "The first proof came from our closest neighbor. Mercury shatters the classical prediction of its orbit. Newton couldn't explain its tiny shift, but Einstein's math, accounting for the Sun's massive curvature, predicted the path of the planet with absolute precision."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Inertial and gravitational mass merge",
+      0,
+      "Einstein saw beauty where others saw coincidence. He realized inertial and gravitational mass merge into one concept. Why does a heavy stone fall at the same speed as a light one? Because they are both just following the same curved geometry of space."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Energy also dictates space curvature",
+      0,
+      "And it's not just solid mass. Energy also dictates space curvature. Since E=mc2, pure light and energy create gravity too. This means the very heat of a star helps warp the space around it, creating a unified foundation for all radiation and matter."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Black holes mark the collapse of space",
+      0,
+      "What happens when a star dies? Black holes mark the collapse of space. When mass becomes too dense, it tears the fabric of spacetime into an infinite hole. Here, gravity is so strong that the curvature becomes vertical, and nothing—not even light—can climb out."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Flowing water describes the suction",
+      0,
+      "The event horizon is like a waterfall. Flowing water describes the suction where space itself is falling inward. If you paddle slower than the current, you are swept over the edge. At a black hole, space falls faster than the speed of light."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Singularities expose mathematical limits",
+      0,
+      "At the very center, singularities expose mathematical limits. Our equations predict infinite density, which in physics is a polite way of saying 'we don't know what's happening'. Here, Einstein's masterpiece meets its greatest challenge."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Loss of information threatens the foundations",
+      0,
+      "Stephen Hawking added another layer of mystery: the loss of information threatens the foundations of physics. If black holes evaporate and take their secrets with them, it violates the laws of the quantum world. This paradox is the frontline of modern research."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Are gravitational waves the fabric of reality?",
+      0,
+      "Can space itself vibrate? Yes. Are gravitational waves the fabric of reality? When massive objects collide, they send ripples through the vacuum. These aren't waves 'in' space; they are rhythmic stretches and squeezes of space itself."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "A spider web transports cosmic quakes",
+      0,
+      "Imagine a cosmic spider web. A spider web transports cosmic quakes from one end of the universe to the other. We have now detected these tiny 'shivers' from merging black holes billions of light-years away, confirming Einstein's final major prediction."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Space does not expand into an outer void",
+      0,
+      "The expansion of the universe is often misunderstood. Space does not expand into an outer void. There is no 'outside'. The metric of space itself is growing, creating more distance between galaxies without needing a surrounding darkness to fill."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Dark matter corrects rotating galaxies",
+      0,
+      "But there's a missing ingredient. Dark matter corrects rotating galaxies that should otherwise fly apart. To keep Einstein's equations working, we must assume there is an invisible, heavy cement holding the stars in their place."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Dark energy accelerates expansion",
+      0,
+      "Even weirder, the expansion is speeding up. Dark energy accelerates expansion, acting as a mysterious property of empty space that pushes galaxies apart. It turns out 70 percent of the universe is made of something we don't yet understand."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Gap between macrocosm and quantum world",
+      0,
+      "Despite its success, there is a gap between the macrocosm and the quantum world. Einstein's smooth geometry and the erratic, chaotic world of atoms don't speak the same language. This is the great divorce of modern physics."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Continuous spacetime collides with quanta",
+      0,
+      "Continuous spacetime collides with quanta at the smallest scales. Einstein's 'smooth' universe becomes a trembling, unpredictable foam when you look closely enough. This conflict is the holy grail of physics—the search for quantum gravity."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Is time travel a geometric design flaw?",
+      0,
+      "Could we go back? Is time travel a geometric design flaw? The math allows for 'closed timelike curves'—loops in space that lead to the past. While mathematically possible, nature seems to have hidden rules to prevent the paradoxes they create."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Is three-dimensionality a mandatory limit?",
+      0,
+      "Are we seeing the whole picture? Is three-dimensionality a mandatory limit? The math works in higher dimensions too. We might be living in a limited 3D shadow of a much richer, multi-dimensional reality that we can only glimpse through physics."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Gravity is not an attractive force",
+      0,
+      "To truly understand, we must admit: gravity is not an attractive force. There are no magnets or invisible strings. There is only the curvature of the world around us. We aren't being 'pulled' to the Earth; we are simply following the slope of existence."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Masses do not attract each other through invisible bands",
+      0,
+      "The old idea that masses do not attract each other through invisible bands was Newton's dream. Einstein's reality is far more elegant: mass bends space, and space tells mass how to move. It is a perfect, cosmic conversation."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Does time exist without objects in space?",
+      0,
+      "Finally, the ultimate question: does time exist without objects in space? If we removed everything, would 'when' still matter? Relativity suggests time is not an empty box, but a relationship between things. Without matter, the clock of the universe might simply vanish."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "We have traveled from the surface of the Earth to the edge of black holes and the very limits of our math. The General Theory of Relativity isn't just a theory; it is the poetry of the universe written in the language of geometry. Thank you for exploring the mind of Einstein with me!",
+    "wa": 50000
+  }
+]
