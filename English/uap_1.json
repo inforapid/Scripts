@@ -1,0 +1,427 @@
+[
+  {
+    "m": "clickQuickAccessToolbarDirect",
+    "p": [
+      ".id-rotate"
+    ],
+    "wa": 1000
+  },
+  {
+    "a": "spt",
+    "t": "Welcome. On May 8, 2026, the United States government opened a digital vault containing one hundred and sixty two unredacted files on Unidentified Anomalous Phenomena. Today, we are not discussing science fiction. We are diving into the ten oldest records to examine hard, physical sensor data that challenges the very foundation of our scientific understanding."
+  },
+  {
+    "m": "showSideGallery",
+    "p": [
+      ".id-diagramnavigation"
+    ],
+    "wse": true
+  },
+  {
+    "a": "ci",
+    "i": ".id-start-presentation",
+    "waudr": true,
+    "wa": 500
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "UAP File Discrepancies",
+      0,
+      "The core paradox lies in the official records. Publicly, authorities dismissed these sightings as mere weather anomalies. Privately, classified documents reveal a state of profound alarm, detailing highly coordinated tracking of structured craft that fundamentally defy known aerodynamics."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The Rainier Sighting",
+      0,
+      "The modern era of this mystery began near Mount Rainier. Pilot Kenneth Arnold did not just see a flash of light. He observed a formation of nine circular craft flying at immense speeds, initiating a puzzle that remains unsolved to this day."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Missing Tail Assembly",
+      0,
+      "These objects defied the basic anatomy of conventional flight. They completely lacked tail assemblies. In standard aerodynamics, flying at high speeds without a tail results in an immediate fatal crash, yet these craft maintained perfect, stable trajectory."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Sun Glint Reflection",
+      0,
+      "As the formation banked, they caught the bright rays of the sun. Official explanations suggested random reflections from civilian airplane windows, completely ignoring the synchronized, rhythmic nature of the flashes that point to solid, highly polished hulls."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Velocity Calculation",
+      0,
+      "Arnold was an experienced pilot utilizing standard navigational timing. He calculated their velocity by timing their transit between two mountain peaks. The math revealed a staggering speed of thousands of miles per hour, long before human aircraft ever broke the sound barrier."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Skipping Stone Motion",
+      0,
+      "Their movement was highly erratic, skipping across the sky like saucers thrown across a body of water. The sheer structural stress of such violent, bouncing maneuvers at supersonic speeds would instantly tear any conventional airframe apart."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Military Dismissal",
+      0,
+      "Air Force intelligence quickly labeled the event a product of pilot fatigue to prevent mass panic. Behind closed doors, however, they launched a massive inquiry, exposing a severe credibility gap in their public data management."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Maury Island Fragments",
+      0,
+      "The mystery soon shifted from visual sightings to physical evidence. Informants claimed heavy debris fell from a struggling craft over Maury Island, turning a bizarre story into a profound and tangible tragedy."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Slag Material Recovered",
+      0,
+      "Witnesses gathered heavy, lava-like metallic fragments. Laboratories were officially instructed to identify the material as ordinary industrial slag, but the extreme heat damage described by the witnesses failed to match standard industrial waste."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Bomber Transport Crash",
+      0,
+      "The investigation took a lethal turn when two military intelligence officers died in a plane crash while transporting the recovered fragments. The convenient destruction of this exact physical evidence leaves a permanent gap in the forensic chain."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Anonymous Tacoma Calls",
+      0,
+      "Shortly after, local newspapers received anonymous phone calls detailing the secret movement of the debris. This precise knowledge of classified military flight plans suggested a severe intelligence leak from deep within the military itself."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Degraded Photographic Film",
+      0,
+      "Original photographs of the hovering discs reportedly suffered from severe white spotting. While analysts blamed poor handling, independent experts noted that exposure to intense radiation produces identical fogging on sensitive film."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Witness Retraction",
+      0,
+      "Facing intense military pressure, the primary witness suddenly retracted his statements, claiming it was an elaborate joke. Colleagues suggested intimidation tactics were used, burying the truth under fear and leaving a distorted official record."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Atomic Site Incursions",
+      0,
+      "This was not just a localized anomaly. Highly restricted nuclear installations experienced repeated overflights. These were not random weather events, but silent luminous objects deliberately loitering over our most sensitive military zones."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Project Twinkle",
+      0,
+      "The military established Project Twinkle to track what they called green fireballs near atomic bases. Unlike meteors, which follow predictable downward trajectories, these objects flew in perfectly horizontal paths and altered their courses deliberately."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Los Alamos Sightings",
+      0,
+      "At Los Alamos, top tier physicists repeatedly observed blinking objects hovering near the secret facility. The highly restricted airspace and impeccably trained observer pool make simple misidentification of civilian aircraft highly improbable."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Oak Ridge Monitors",
+      0,
+      "Advanced radar stations at the Oak Ridge nuclear plant detected unauthorized aerial intruders. The high command blamed temperature inversions creating false radar returns, entirely ignoring the simultaneous visual confirmation by ground personnel."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Radar Track Speeds",
+      0,
+      "Military tracking systems locked onto targets moving at phenomenal rates, routinely outrunning manual tracking capabilities. The radar data implies a technology that somehow negates inertia and surpasses all limits of modern material science."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Northern Flight Paths",
+      0,
+      "Analysts noted a distinct pattern of craft approaching from northern polar trajectories. The sheer endurance required for such a global operational range forced analysts to consider origins far outside any single nation."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Soviet Weapon Hypothesis",
+      0,
+      "During the tense standoff of the late nineteen forties, the immediate assumption was a secret Soviet project. Planners feared Russia had perfected radical new guided missiles using captured German aerospace scientists."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Captured German Tech",
+      0,
+      "Some theorized the discs were an evolution of the German V weapon program powered by atomic propulsion. However, a nuclear engine of that era would leave a massive radioactive trail across the sky, completely contradicting the clean flight observed."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Ubalsty Disc Blueprints",
+      0,
+      "Desperation led to bizarre theories. Smuggled schematics depicted Russian discs using internal revolving weights. The sheer detail of the drawings indicates a highly sophisticated human attempt to reverse engineer a non human reality."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Centrifugal Force Drive",
+      0,
+      "These blueprints relied on a centrifugal propulsion mechanism, a concept academic physicists state unequivocally violates the fundamental laws of action and reaction. A closed system simply cannot generate the massive external thrust needed for flight."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Arctic Base Suspicions",
+      0,
+      "To explain the northern trajectories, military planners theorized a hidden Soviet launch facility deep within Siberia. Yet the extreme range required stretches all logistical credibility, and no reconnaissance mission ever found such a base."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Anonymous German Letter",
+      0,
+      "An anonymous letter from Europe claimed the saucers were a secret weapon tested since nineteen forty four. However, the complete lack of global military deployment by any nation renders this earthly origin highly questionable."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Failed Official Explanations",
+      0,
+      "To maintain civil order, the Air Force systematically attributed the vast majority of sightings to optical mirages or conventional balloons. This blanket approach represents a massive failure of objective analytical procedure."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The Balloon Theory",
+      0,
+      "High altitude research balloons were the most frequent scapegoat. But a passive bag of gas cannot perform sharp right angle turns moving directly against strong winds, nor can it outmaneuver a military interceptor jet in a controlled chase."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Temperature Inversions",
+      0,
+      "Radar anomalies were written off as weather inversions bending signal waves. The fatal flaw in this theory is that a bent radar wave cannot produce a glowing metallic disc seen physically and simultaneously by an airborne interceptor pilot."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Lenticular Cloud Formations",
+      0,
+      "Smooth saucer shaped clouds were cited as a primary cause of confusion. Meteorologists accurately point out that clouds remain relatively stationary, completely failing to address the dynamic vertical ascent and metallic sheen of the observed craft."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Meteor Misidentification",
+      0,
+      "Brilliant flashes were cataloged as bright meteors. But a meteor burning up in the atmosphere cannot stop in mid air, hover silently, and then alter course. The deliberate navigation proves they were intelligently guided."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mass Suggestibility",
+      0,
+      "Psychologists argued that Cold War anxiety caused the public to hallucinate space ships. This mass suggestibility theory collapses when confronted with precise radar recordings and hard physical data that are immune to human psychological flaws."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Theoretical Propulsion Physics",
+      0,
+      "The sheer physical impossibility of these maneuvers forces us to look beyond chemical combustion. The craft operated at hypersonic speeds without producing a sonic boom, suggesting a manipulation of the local space time metric itself."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Gravity Push Pull",
+      0,
+      "Independent researchers proposed a technology mastering both attractive and repelling gravitational forces. By pushing against the gravity of the earth, the disc could remain stationary and accelerate instantly without crushing the occupants."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Magnetic Polarity Drive",
+      0,
+      "Other models suggested manipulating the natural magnetic fields of the earth for propulsion. This theory is heavily supported by multiple reports of extreme electrical interference, such as car engines dying when a disc hovered nearby."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Atomic Ionization Lift",
+      0,
+      "Engineers hypothesized a highly advanced nuclear energy core ionizing the surrounding air to create a powerful pressure differential. However, the complete lack of radioactive fallout proves the craft were using a completely clean power source."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Absence of Sound",
+      0,
+      "Perhaps the most terrifying detail is the absolute acoustic stealth. Any physical object displacing air at supersonic speeds must generate a massive sonic boom. The silence dictates the craft is operating entirely outside our dimensional understanding."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Gyroscopic Stabilization",
+      0,
+      "Witnesses frequently reported a rapidly spinning outer rim. The extreme g forces of a supersonic right angle turn would instantly shatter any mechanical gyroscope, suggesting the spinning is a side effect of the propulsion field rather than a mechanical stabilizer."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Silencing Civilian Probes",
+      0,
+      "When independent civilian organizations attempted to pool sighting data, they faced intense pressure. The official stance maintained these groups dissolved due to lack of funding, but the abrupt closures point to a highly coordinated suppression campaign."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "The Bender Affair",
+      0,
+      "Prominent researcher Albert K Bender claimed he was on the verge of solving the mystery, then abruptly shuttered his global network. The alleged intimidation by unidentified agents served as a stark warning, sending a massive chill through the civilian community."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Keyhoe and Censorship",
+      0,
+      "Major Donald Keyhoe fought a relentless public battle against this censorship, accusing the Pentagon of a massive cover up. The internal files reveal that routine sighting reports were indeed being heavily classified under severe espionage acts."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Withholding Original Photographs",
+      0,
+      "Honest citizens willingly submitted their clear original photographs to authorities expecting scientific analysis. Instead, the military claimed they were useless film defects and refused to return the negatives, removing compelling visual evidence from the public domain."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Jurisdictional Disputes",
+      0,
+      "Constant jurisdictional disputes between the FBI, the Air Force, and naval intelligence created a chaotic administrative structure. This bureaucratic shuffle perfectly prevented the public from seeing the true, terrifying scope of the incursions."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Classified Analytical Conclusions",
+      0,
+      "Early top military analysts reportedly concluded the objects were of interplanetary origin. Superiors allegedly ordered this estimate destroyed and replaced with a mundane summary, demonstrating a strict mandate to avoid the extraterrestrial hypothesis at all costs."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Global Sighting Patterns",
+      0,
+      "This was never just an American phenomenon. Skeptics frame the flying saucer craze as a purely American cultural delusion, but the classified files document identical craft operating across multiple continents simultaneously."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Swedish Ghost Rockets",
+      0,
+      "Shortly after the war, hundreds of fast moving cylindrical objects dubbed ghost rockets flooded the skies over Scandinavia. They routinely changed course and vanished without impacting the ground, fundamentally contradicting the theory of crude Soviet missile testing."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Chilean Prison Blackout",
+      0,
+      "In South America, an escaping prisoner witnessed a hovering metallic disc coinciding with a complete, localized electrical failure. This physical effect strongly corroborates the presence of a massive, unshielded electromagnetic energy source draining the power grid."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "African Meteor Explosions",
+      0,
+      "Intelligence committees reviewed reports of a massive explosion in central Africa linked to saucer activity. The specific classified military focus on this event suggests a frantic race to recover non human technology rather than a standard meteorite impact."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "Mexican Laser Rays",
+      0,
+      "Informants in Mexico provided terrifying descriptions of craft utilizing concentrated beams of light capable of disabling human machinery. While sounding like science fiction, the documented electromagnetic interference cases provide a disturbing factual baseline."
+    ]
+  },
+  {
+    "m": "presentItem",
+    "p": [
+      "British Radar Tracks",
+      0,
+      "Finally, allied British radar operators frequently tracked identical objects matching the exact speeds recorded in America. This independent verification by a trusted ally using completely different technology eliminates any possibility of a localized American radar glitch."
+    ]
+  },
+  {
+    "a": "spt",
+    "t": "The files released on May 8th force us to confront an uncomfortable truth. Decades of official records document a technology that treats our atmosphere as an open playground. The true mystery is no longer whether these objects exist, but how long it will take our science to catch up. Thank you for joining me."
+  },
+  {
+    "a": "spt",
+    "t": "Goodbye, and keep looking up.",
+    "wa": 50000
+  }
+]
